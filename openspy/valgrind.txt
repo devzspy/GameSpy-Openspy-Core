@@ -1,0 +1,756 @@
+==20150== Memcheck, a memory error detector
+==20150== Copyright (C) 2002-2010, and GNU GPL'd, by Julian Seward et al.
+==20150== Using Valgrind-3.6.0.SVN-Debian and LibVEX; rerun with -h for copyright info
+==20150== Command: ./openspy
+==20150== 
+==20150== Invalid read of size 4
+==20150==    at 0x804AB20: Config::getRootInteger(char*) (config.cpp:286)
+==20150==    by 0x804BC40: startModule(_configVar*) (main.cpp:154)
+==20150==    by 0x804BB56: main (main.cpp:137)
+==20150==  Address 0x4525c04 is 12 bytes before a block of size 36 alloc'd
+==20150==    at 0x402471C: operator new(unsigned int) (vg_replace_malloc.c:255)
+==20150==    by 0x804B627: main (main.cpp:88)
+==20150== 
+==20150== Invalid read of size 4
+==20150==    at 0x804AB2A: Config::getRootInteger(char*) (config.cpp:287)
+==20150==    by 0x804BC40: startModule(_configVar*) (main.cpp:154)
+==20150==    by 0x804BB56: main (main.cpp:137)
+==20150==  Address 0x4525c0c is 4 bytes before a block of size 36 alloc'd
+==20150==    at 0x402471C: operator new(unsigned int) (vg_replace_malloc.c:255)
+==20150==    by 0x804B627: main (main.cpp:88)
+==20150== 
+==20150== Thread 3:
+==20150== Syscall param socketcall.recvfrom(fromlen_in) points to uninitialised byte(s)
+==20150==    at 0x4041F1E: recvfrom (socket.S:100)
+==20150==    by 0x403A7AF: start_thread (pthread_create.c:300)
+==20150==    by 0x444ACDD: clone (clone.S:130)
+==20150==  Address 0x5abd354 is on thread 3's stack
+==20150== 
+==20150== Thread 2:
+==20150== Invalid read of size 1
+==20150==    at 0x43F3583: strtok (strtok.S:307)
+==20150==    by 0x49580B9: Client::mainLoop(fd_set*) (client.cpp:1900)
+==20150==    by 0x4959C5F: processClients(fd_set*) (main.cpp:31)
+==20150==    by 0x495AC7F: openspy_mod_run (main.cpp:312)
+==20150==    by 0x403A7AF: start_thread (pthread_create.c:300)
+==20150==    by 0x444ACDD: clone (clone.S:130)
+==20150==  Address 0x52bca25 is just below the stack ptr.  To suppress, use: --workaround-gcc296-bugs=yes
+==20150== 
+==20150== Invalid read of size 1
+==20150==    at 0x43F35AB: strtok (strtok.S:333)
+==20150==    by 0x49580B9: Client::mainLoop(fd_set*) (client.cpp:1900)
+==20150==    by 0x4959C5F: processClients(fd_set*) (main.cpp:31)
+==20150==    by 0x495AC7F: openspy_mod_run (main.cpp:312)
+==20150==    by 0x403A7AF: start_thread (pthread_create.c:300)
+==20150==    by 0x444ACDD: clone (clone.S:130)
+==20150==  Address 0x52bca25 is just below the stack ptr.  To suppress, use: --workaround-gcc296-bugs=yes
+==20150== 
+==20150== Syscall param socketcall.recvfrom(fromlen_in) points to uninitialised byte(s)
+==20150==    at 0x4041F1E: recvfrom (socket.S:100)
+==20150==    by 0x495AC6C: openspy_mod_run (main.cpp:309)
+==20150==    by 0x403A7AF: start_thread (pthread_create.c:300)
+==20150==    by 0x444ACDD: clone (clone.S:130)
+==20150==  Address 0x52bd234 is on thread 2's stack
+==20150== 
+==20150== Syscall param socketcall.recvfrom(fromlen_out) points to uninitialised byte(s)
+==20150==    at 0x4041F1E: recvfrom (socket.S:100)
+==20150==    by 0x495AC6C: openspy_mod_run (main.cpp:309)
+==20150==    by 0x403A7AF: start_thread (pthread_create.c:300)
+==20150==    by 0x444ACDD: clone (clone.S:130)
+==20150==  Address 0x52bd234 is on thread 2's stack
+==20150== 
+==20150== Thread 5:
+==20150== Conditional jump or move depends on uninitialised value(s)
+==20150==    at 0x49A87CB: Client::handleLogin(char*, int) (Client.cpp:163)
+==20150==    by 0x49AC13A: Client::parseIncoming(char*, int) (Client.cpp:887)
+==20150==    by 0x49AC05B: Client::parseIncoming() (Client.cpp:872)
+==20150==    by 0x49A7F9F: Client::mainLoop(fd_set*) (Client.cpp:37)
+==20150==    by 0x49AD115: processClients(fd_set*) (main.cpp:30)
+==20150==    by 0x49AD5C0: openspy_mod_run (main.cpp:104)
+==20150==    by 0x403A7AF: start_thread (pthread_create.c:300)
+==20150==    by 0x444ACDD: clone (clone.S:130)
+==20150== 
+==20150== Conditional jump or move depends on uninitialised value(s)
+==20150==    at 0x49A8A9A: Client::sendBuddies() (Client.cpp:200)
+==20150==    by 0x49A934E: Client::handleStatus(char*, int) (Client.cpp:325)
+==20150==    by 0x49AC274: Client::parseIncoming(char*, int) (Client.cpp:906)
+==20150==    by 0x49AC05B: Client::parseIncoming() (Client.cpp:872)
+==20150==    by 0x49A7F9F: Client::mainLoop(fd_set*) (Client.cpp:37)
+==20150==    by 0x49AD115: processClients(fd_set*) (main.cpp:30)
+==20150==    by 0x49AD5C0: openspy_mod_run (main.cpp:104)
+==20150==    by 0x403A7AF: start_thread (pthread_create.c:300)
+==20150==    by 0x444ACDD: clone (clone.S:130)
+==20150== 
+==20150== Thread 6:
+==20150== Conditional jump or move depends on uninitialised value(s)
+==20150==    at 0x49D084B: find_param(char*, char*, char*, int) (helpers.cpp:188)
+==20150==    by 0x49C711F: Client::addGroupBuff(char**, int*, char*, char**) (Client.cpp:312)
+==20150==    by 0x49C6CA9: Client::sendGroups() (Client.cpp:259)
+==20150==    by 0x49C6822: Client::handleListRequest(unsigned char*, unsigned int) (Client.cpp:179)
+==20150==    by 0x49C64EE: Client::handleData(unsigned char*, unsigned int) (Client.cpp:101)
+==20150==    by 0x49C6336: Client::processConnection(fd_set*) (Client.cpp:65)
+==20150==    by 0x49CBEBD: processClients(fd_set*) (main.cpp:32)
+==20150==    by 0x49CC22E: openspy_mod_run (main.cpp:79)
+==20150==    by 0x403A7AF: start_thread (pthread_create.c:300)
+==20150==    by 0x444ACDD: clone (clone.S:130)
+==20150== 
+==20150== Thread 5:
+==20150== Invalid read of size 1
+==20150==    at 0x43F30E7: strstr (strstr.c:63)
+==20150==    by 0x49AC015: Client::parseIncoming() (Client.cpp:868)
+==20150==    by 0x49A7F9F: Client::mainLoop(fd_set*) (Client.cpp:37)
+==20150==    by 0x49AD115: processClients(fd_set*) (main.cpp:30)
+==20150==    by 0x49AD5C0: openspy_mod_run (main.cpp:104)
+==20150==    by 0x403A7AF: start_thread (pthread_create.c:300)
+==20150==    by 0x444ACDD: clone (clone.S:130)
+==20150==  Address 0x487ab7f is 135 bytes inside a block of size 1,676 free'd
+==20150==    at 0x4023881: operator delete(void*) (vg_replace_malloc.c:387)
+==20150==    by 0x49ADF00: deleteClient(Client*) (server.cpp:9)
+==20150==    by 0x49AC5A8: Client::parseIncoming(char*, int) (Client.cpp:936)
+==20150==    by 0x49AC05B: Client::parseIncoming() (Client.cpp:872)
+==20150==    by 0x49A7F9F: Client::mainLoop(fd_set*) (Client.cpp:37)
+==20150==    by 0x49AD115: processClients(fd_set*) (main.cpp:30)
+==20150==    by 0x49AD5C0: openspy_mod_run (main.cpp:104)
+==20150==    by 0x403A7AF: start_thread (pthread_create.c:300)
+==20150==    by 0x444ACDD: clone (clone.S:130)
+==20150== 
+==20150== Invalid read of size 1
+==20150==    at 0x40250B8: strlen (mc_replace_strmem.c:282)
+==20150==    by 0x49AC029: Client::parseIncoming() (Client.cpp:874)
+==20150==    by 0x49A7F9F: Client::mainLoop(fd_set*) (Client.cpp:37)
+==20150==    by 0x49AD115: processClients(fd_set*) (main.cpp:30)
+==20150==    by 0x49AD5C0: openspy_mod_run (main.cpp:104)
+==20150==    by 0x403A7AF: start_thread (pthread_create.c:300)
+==20150==    by 0x444ACDD: clone (clone.S:130)
+==20150==  Address 0x487ab7f is 135 bytes inside a block of size 1,676 free'd
+==20150==    at 0x4023881: operator delete(void*) (vg_replace_malloc.c:387)
+==20150==    by 0x49ADF00: deleteClient(Client*) (server.cpp:9)
+==20150==    by 0x49AC5A8: Client::parseIncoming(char*, int) (Client.cpp:936)
+==20150==    by 0x49AC05B: Client::parseIncoming() (Client.cpp:872)
+==20150==    by 0x49A7F9F: Client::mainLoop(fd_set*) (Client.cpp:37)
+==20150==    by 0x49AD115: processClients(fd_set*) (main.cpp:30)
+==20150==    by 0x49AD5C0: openspy_mod_run (main.cpp:104)
+==20150==    by 0x403A7AF: start_thread (pthread_create.c:300)
+==20150==    by 0x444ACDD: clone (clone.S:130)
+==20150== 
+==20150== Thread 6:
+==20150== Conditional jump or move depends on uninitialised value(s)
+==20150==    at 0x49C8200: Client::sendServerRules(std::list<customKey*, std::allocator<customKey*> >, unsigned int, unsigned short) (Client.cpp:539)
+==20150==    by 0x49C7F6D: Client::handleInfoRequest(unsigned char*, unsigned int) (Client.cpp:505)
+==20150==    by 0x49C651C: Client::handleData(unsigned char*, unsigned int) (Client.cpp:103)
+==20150==    by 0x49C6336: Client::processConnection(fd_set*) (Client.cpp:65)
+==20150==    by 0x49CBEBD: processClients(fd_set*) (main.cpp:32)
+==20150==    by 0x49CC22E: openspy_mod_run (main.cpp:79)
+==20150==    by 0x403A7AF: start_thread (pthread_create.c:300)
+==20150==    by 0x444ACDD: clone (clone.S:130)
+==20150== 
+Starting module: Peerchat
+Starting module: keyserver
+Starting module: playersearch
+Starting module: playerspy
+Starting module: serverbrowsing
+Starting module: qr
+Starting module: natneg
+Starting module: legacyms
+Starting module: legacystats
+Starting module: legacystatsprocessor
+sending: \lc\1\challenge\POYzJ1usFM\id\1\final\
+sending: \lc\2\sesskey\2000003432\proof\af92e20bb6889bb3ce0920060f4e694e\userid\10173\profileid\10178\uniquenick\\lt\zvuddHnTteQRUSJSoRLnhj__\id\1\final\
+sending: \bm\100\f\11275\msg\|s|0|ss|Offline\final\
+sending: \lc\1\challenge\tbZN6BSHX0\id\1\final\
+sending: \lc\2\sesskey\362549274\proof\d1463590dd085f25a5befd54fa50ff61\userid\10173\profileid\10178\uniquenick\\lt\Bs4TghuJdChqCq9LDMJOgA__\id\1\final\
+sending: \bm\100\f\11275\msg\|s|0|ss|Offline\final\
+sending: \lc\1\challenge\TnvP5rLWdK\id\1\final\
+sending: \lc\2\sesskey\1677070616\proof\f063f324c69932c83d9fb1419582d836\userid\10173\profileid\10178\uniquenick\\lt\Ch4fK9MLp5uNfD0cHfJ8UF__\id\1\final\
+sending: \bm\100\f\11275\msg\|s|0|ss==20150== Thread 8:
+==20150== Syscall param socketcall.sendto(msg) points to uninitialised byte(s)
+==20150==    at 0x40420DE: sendto (socket.S:100)
+==20150==    by 0x4A426C3: Client::trySendConnect(bool) (Client.cpp:70)
+==20150==    by 0x4A4264D: Client::handleInitPacket(_NatNegPacket*) (Client.cpp:63)
+==20150==    by 0x4A42516: Client::handleIncoming(char*, int) (Client.cpp:29)
+==20150==    by 0x4A42BFF: handleConnection(int, sockaddr_in*, int, char*, int) (main.cpp:17)
+==20150==    by 0x4A4328D: openspy_mod_run (main.cpp:111)
+==20150==    by 0x403A7AF: start_thread (pthread_create.c:300)
+==20150==    by 0x444ACDD: clone (clone.S:130)
+==20150==  Address 0x9057c6d is on thread 8's stack
+==20150== 
+==20150== Syscall param socketcall.sendto(msg) points to uninitialised byte(s)
+==20150==    at 0x40420DE: sendto (socket.S:100)
+==20150==    by 0x4A426C3: Client::trySendConnect(bool) (Client.cpp:70)
+==20150==    by 0x4A42D5A: checkTimeouts() (main.cpp:37)
+==20150==    by 0x4A432A7: openspy_mod_run (main.cpp:114)
+==20150==    by 0x403A7AF: start_thread (pthread_create.c:300)
+==20150==    by 0x444ACDD: clone (clone.S:130)
+==20150==  Address 0x9057dbd is on thread 8's stack
+==20150== 
+==20150== Conditional jump or move depends on uninitialised value(s)
+==20150==    at 0x4A42D46: checkTimeouts() (main.cpp:36)
+==20150==    by 0x4A432A7: openspy_mod_run (main.cpp:114)
+==20150==    by 0x403A7AF: start_thread (pthread_create.c:300)
+==20150==    by 0x444ACDD: clone (clone.S:130)
+==20150== 
+|Offline\final\
+sending: \lc\1\challenge\HE61KqUs8f\id\1\final\
+sending: \lc\2\sesskey\154999974\proof\9679de97e8cf307802323f32dae0b68e\userid\10173\profileid\10178\uniquenick\\lt\zgOUT0pcaCprvTzbnXiSiz__\id\1\final\
+sending: \bm\100\f\11275\msg\|s|0|ss|Offline\final\
+sending: \lc\1\challenge\QIxBYNquoI\id\1\final\
+sending: \lc\2\sesskey\1797806646\proof\497142337b77846974903ac618076445\userid\10021\profileid\10023\uniquenick\\lt\4bD5nw7TYlhE2sJvwA8XKW__\id\1\final\
+sending: \lc\1\challenge\HhLeVFQnK1\id\1\final\
+sending: \lc\2\sesskey\390834329\proof\0\id\1\final\
+sending: \getpdr\1\lid\0\pid\10023\mod\1327500547\length\12\data\\Rating\3000\final\
+sending: \getpdr\1\lid\0\pid\10023\length\0\data\\final\
+sending: \getpdr\1\lid\0\pid\10023\mod\1327500547\length\37\data\\HighScore\10228542\HighCombo\4695942\final\
+sending: \getpdr\1\lid\0\pid\10023\mod\1350158158\length\36\data\\HighScore\3510212\HighCombo\3444903\final\
+sending: \getpdr\1\lid\0\pid\10023\length\0\data\\final\
+sending: \getpdr\1\lid\0\pid\10023\mod\1350155714\length\32\data\\HighScore\25850\HighCombo\16356\final\
+sending: \getpdr\1\lid\0\pid\10023\length\0\data\\final\
+sending: \getpdr\1\lid\0\pid\10023\length\0\data\\final\
+sending: \getpdr\1\lid\0\pid\10023\mod\1350159418\length\36\data\\HighScore\2050382\HighCombo\2397040\final\
+sending: \getpdr\1\lid\0\pid\10023\length\0\data\\final\
+sending: \getpdr\1\lid\0\pid\10023\length\0\data\\final\
+sending: \getpdr\1\lid\0\pid\10023\length\0\data\\final\
+sending: \getpdr\1\lid\0\pid\10023\length\0\data\\final\
+sending: \lc\1\challenge\V1wHTacOTW\id\1\final\
+sending: \error\\err\260\fatal\\errmsg\The password provided is incorrect.\id\1\final\
+sending: \lc\1\challenge\MsHgewJx6o\id\1\final\
+sending: \error\\err\260\fatal\\errmsg\The password provided is incorrect.\id\1\final\
+sending: \lc\1\challenge\HfUYJf241U\id\1\final\
+sending: \error\\err\260\fatal\\errmsg\The password provided is incorrect.\id\1\final\
+sending: \lc\1\challenge\VyVvllU0gX\id\1\final\
+sending: \error\\err\260\fatal\\errmsg\The password provided is incorrect.\id\1\final\
+found unknown packet 31(49) packet len: 27, 9 remaining, exiting
+found unknown packet 31(49) packet len: 27, 9 remaining, exiting
+found unknown packet 31(49) packet len: 27, 9 remaining, exiting
+found unknown packet 31(49) packet len: 27, 9 remaining, exiting
+found unknown packet 46(70) packet len: 27, 9 remaining, exiting
+found unknown packet 46(70) packet len: 27, 9 remaining, exiting
+found unknown packet 2C(44) packet len: 27, 9 remaining, exiting
+found unknown packet 2C(44) packet len: 27, 9 remaining, exiting
+found unknown packet 2C(44) packet len: 27, 9 remaining, exiting
+found unknown packet 3B(59) packet len: 27, 9 remaining, exiting
+found unknown packet 3B(59) packet len: 27, 9 remaining, exiting
+sending: \lc\1\challenge\tr4IvD8rLB\id\1\final\
+sending: \lc\2\sesskey\851662548\proof\4f655704a9d14ca3e7cca3af29805fe4\userid\11274\profileid\11279\uniquenick\\lt\CoqdiCZxzQmm7yjzuaM1OG__\id\1\final\
+sending: \lc\1\challenge\dwecevTnGy\id\1\final\
+sending: \error\\err\2==20150== Thread 6:
+==20150== Conditional jump or move depends on uninitialised value(s)
+==20150==    at 0x4024C2F: index (mc_replace_strmem.c:142)
+==20150==    by 0x49D076D: find_param(char*, char*, char*, int) (helpers.cpp:189)
+==20150==    by 0x49C711F: Client::addGroupBuff(char**, int*, char*, char**) (Client.cpp:312)
+==20150==    by 0x49C6CA9: Client::sendGroups() (Client.cpp:259)
+==20150==    by 0x49C6822: Client::handleListRequest(unsigned char*, unsigned int) (Client.cpp:179)
+==20150==    by 0x49C64EE: Client::handleData(unsigned char*, unsigned int) (Client.cpp:101)
+==20150==    by 0x49C6336: Client::processConnection(fd_set*) (Client.cpp:65)
+==20150==    by 0x49CBEBD: processClients(fd_set*) (main.cpp:32)
+==20150==    by 0x49CC22E: openspy_mod_run (main.cpp:79)
+==20150==    by 0x403A7AF: start_thread (pthread_create.c:300)
+==20150==    by 0x444ACDD: clone (clone.S:130)
+==20150== 
+==20150== Conditional jump or move depends on uninitialised value(s)
+==20150==    at 0x4024C44: index (mc_replace_strmem.c:142)
+==20150==    by 0x49D076D: find_param(char*, char*, char*, int) (helpers.cpp:189)
+==20150==    by 0x49C711F: Client::addGroupBuff(char**, int*, char*, char**) (Client.cpp:312)
+==20150==    by 0x49C6CA9: Client::sendGroups() (Client.cpp:259)
+==20150==    by 0x49C6822: Client::handleListRequest(unsigned char*, unsigned int) (Client.cpp:179)
+==20150==    by 0x49C64EE: Client::handleData(unsigned char*, unsigned int) (Client.cpp:101)
+==20150==    by 0x49C6336: Client::processConnection(fd_set*) (Client.cpp:65)
+==20150==    by 0x49CBEBD: processClients(fd_set*) (main.cpp:32)
+==20150==    by 0x49CC22E: openspy_mod_run (main.cpp:79)
+==20150==    by 0x403A7AF: start_thread (pthread_create.c:300)
+==20150==    by 0x444ACDD: clone (clone.S:130)
+==20150== 
+==20150== Conditional jump or move depends on uninitialised value(s)
+==20150==    at 0x4024C40: index (mc_replace_strmem.c:142)
+==20150==    by 0x49D076D: find_param(char*, char*, char*, int) (helpers.cpp:189)
+==20150==    by 0x49C711F: Client::addGroupBuff(char**, int*, char*, char**) (Client.cpp:312)
+==20150==    by 0x49C6CA9: Client::sendGroups() (Client.cpp:259)
+==20150==    by 0x49C6822: Client::handleListRequest(unsigned char*, unsigned int) (Client.cpp:179)
+==20150==    by 0x49C64EE: Client::handleData(unsigned char*, unsigned int) (Client.cpp:101)
+==20150==    by 0x49C6336: Client::processConnection(fd_set*) (Client.cpp:65)
+==20150==    by 0x49CBEBD: processClients(fd_set*) (main.cpp:32)
+==20150==    by 0x49CC22E: openspy_mod_run (main.cpp:79)
+==20150==    by 0x403A7AF: start_thread (pthread_create.c:300)
+==20150==    by 0x444ACDD: clone (clone.S:130)
+==20150== 
+==20150== Use of uninitialised value of size 4
+==20150==    at 0x43F3D7E: strncasecmp (strncase.c:68)
+==20150==    by 0x49D07A2: find_param(char*, char*, char*, int) (helpers.cpp:192)
+==20150==    by 0x49C711F: Client::addGroupBuff(char**, int*, char*, char**) (Client.cpp:312)
+==20150==    by 0x49C6CA9: Client::sendGroups() (Client.cpp:259)
+==20150==    by 0x49C6822: Client::handleListRequest(unsigned char*, unsigned int) (Client.cpp:179)
+==20150==    by 0x49C64EE: Client::handleData(unsigned char*, unsigned int) (Client.cpp:101)
+==20150==    by 0x49C6336: Client::processConnection(fd_set*) (Client.cpp:65)
+==20150==    by 0x49CBEBD: processClients(fd_set*) (main.cpp:32)
+==20150==    by 0x49CC22E: openspy_mod_run (main.cpp:79)
+==20150==    by 0x403A7AF: start_thread (pthread_create.c:300)
+==20150==    by 0x444ACDD: clone (clone.S:130)
+==20150== 
+==20150== Conditional jump or move depends on uninitialised value(s)
+==20150==    at 0x43F3D93: strncasecmp (strncase.c:69)
+==20150==    by 0x49D07A2: find_param(char*, char*, char*, int) (helpers.cpp:192)
+==20150==    by 0x49C711F: Client::addGroupBuff(char**, int*, char*, char**) (Client.cpp:312)
+==20150==    by 0x49C6CA9: Client::sendGroups() (Client.cpp:259)
+==20150==    by 0x49C6822: Client::handleListRequest(unsigned char*, unsigned int) (Client.cpp:179)
+==20150==    by 0x49C64EE: Client::handleData(unsigned char*, unsigned int) (Client.cpp:101)
+==20150==    by 0x49C6336: Client::processConnection(fd_set*) (Client.cpp:65)
+==20150==    by 0x49CBEBD: processClients(fd_set*) (main.cpp:32)
+==20150==    by 0x49CC22E: openspy_mod_run (main.cpp:79)
+==20150==    by 0x403A7AF: start_thread (pthread_create.c:300)
+==20150==    by 0x444ACDD: clone (clone.S:130)
+==20150== 
+60\fatal\\errmsg\The password provided is incorrect.\id\1\final\
+sending: \lc\1\challenge\9WoSuazDfE\id\1\final\
+sending: \error\\err\260\fatal\\errmsg\The password provided is incorrect.\id\1\final\
+sending: \lc\1\challenge\IVCbi9wVX4\id\1\final\
+sending: \error\\err\260\fatal\\errmsg\The password provided is incorrect.\id\1\final\
+found unknown packet 54(84) packet len: 27, 9 remaining, exiting
+sending: \lc\1\challenge\PW6s7MTTwp\id\1\final\
+sending: \error\\err\260\fatal\\errmsg\The password provided is incorrect.\id\1\final\
+found unknown packet 32(50) packet len: 27, 9 remaining, exiting
+found unknown packet 32(50) packet len: 27, 9 remaining, exiting
+sending: \lc\1\challenge\fnDu224IuP\id\1\final\
+sending: \error\\err\260\fatal\\errmsg\The password provided is incorrect.\id\1\final\
+sending: \lc\1\challenge\usa0MgznqZ\id\1\final\
+sending: \error\\err\260\fatal\\errmsg\The password provided is incorrect.\id\1\final\
+sending: \lc\1\challenge\CxefhF3yfT\id\1\final\
+sending: \lc\2\sesskey\1072816706\proof\e224c46a2ab040e6187cb14cc377ea83\userid\11274\profileid\11279\uniquenick\\lt\ntOOD8WWCJJrQl5O9l3WED__\id\1\final\
+sending: \lc\1\challenge\vyBDLMIIh2\id\1\final\
+sending: \error\\err\260\fatal\\errmsg\The password provided is incorrect.\id\1\final\
+sending: \lc\1\challenge\sabCHfhHMY\id\1\final\
+sending: \lc\2\sesskey\793889612\proof\cbf5de4962f91c7968ccb1b99f30d59e\userid\10021\profileid\10023\uniquenick\\lt\rXFrLx6hoHTKRJ2ndWNHRE__\id\1\final\
+sending: \lc\1\challenge\3Q7g5O0dDV\id\1\final\
+sending: \lc\2\sesskey\1209674917\proof\0\id\1\final\
+sending: \getpdr\1\lid\0\pid\10023\mod\1327500547\length\12\data\\Rating\3000\final\
+sending: \getpdr\1\lid\0\pid\10023\length\0\data\\final\
+sending: \getpdr\1\lid\0\pid\10023\mod\1327500547\length\37\data\\HighScore\10228542\HighCombo\4695942\final\
+sending: \getpdr\1\lid\0\pid\10023\mod\1350158158\length\36\data\\HighScore\3510212\HighCombo\3444903\final\
+sending: \getpdr\1\lid\0\pid\10023\length\0\data\\final\
+sending: \getpdr\1\lid\0\pid\10023\mod\1350155714\lengt==20150== Thread 10:
+==20150== Invalid read of size 1
+==20150==    at 0x4A8CE15: find_param(char*, char*, char*, int) (helpers.cpp:188)
+==20150==    by 0x4A8CC7C: find_paramint(char*, char*) (helpers.cpp:171)
+==20150==    by 0x4A883DC: GetSSInt (cfuncs.cpp:19)
+==20150==    by 0x4AA21B6: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AAD4F7: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA2777: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A9D6D0: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA1D42: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA1DA7: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A9D4E7: lua_pcall (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A88B9B: processScripts(lua_State*, LSPSnapshotMsg*) (handler.cpp:62)
+==20150==    by 0x4A88D7E: handleSnapshot (handler.cpp:90)
+==20150==  Address 0xaffec91 is 0 bytes after a block of size 345 alloc'd
+==20150==    at 0x4023F50: malloc (vg_replace_malloc.c:236)
+==20150==    by 0x4023FDA: realloc (vg_replace_malloc.c:525)
+==20150==    by 0x4AAE157: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA59DF: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA9DE3: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A9D1CA: lua_pushlstring (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A9D968: lua_pushstring (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A88B58: processScripts(lua_State*, LSPSnapshotMsg*) (handler.cpp:60)
+==20150==    by 0x4A88D7E: handleSnapshot (handler.cpp:90)
+==20150==    by 0x4A88EDE: openspy_mod_query (main.cpp:36)
+==20150==    by 0x804C551: CModule::sendModuleMessage(char*, void*, int) (module.cpp:74)
+==20150==    by 0x804B23C: sendModuleMessage(char*, char*, void*, int) (main.cpp:20)
+==20150== 
+==20150== Invalid read of size 1
+==20150==    at 0x4A8CE15: find_param(char*, char*, char*, int) (helpers.cpp:188)
+==20150==    by 0x4A89048: mergeKeys(char*, int, persisttype_t, int, int) (statsmanage.cpp:32)
+==20150==    by 0x4A89544: setKeyString(int, persisttype_t, int, int, char*, char*) (statsmanage.cpp:112)
+==20150==    by 0x4A8896C: SetPlayerStringValue (cfuncs.cpp:72)
+==20150==    by 0x4AA21B6: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AAD4F7: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA2777: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A9D6D0: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA1D42: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA1DA7: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A9D4E7: lua_pcall (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A88B9B: processScripts(lua_State*, LSPSnapshotMsg*) (handler.cpp:62)
+==20150==  Address 0xad228a7 is 5 bytes after a block of size 18 alloc'd
+==20150==    at 0x4023F50: malloc (vg_replace_malloc.c:236)
+==20150==    by 0x4A894F1: setKeyString(int, persisttype_t, int, int, char*, char*) (statsmanage.cpp:110)
+==20150==    by 0x4A8896C: SetPlayerStringValue (cfuncs.cpp:72)
+==20150==    by 0x4AA21B6: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AAD4F7: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA2777: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A9D6D0: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA1D42: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA1DA7: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A9D4E7: lua_pcall (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A88B9B: processScripts(lua_State*, LSPSnapshotMsg*) (handler.cpp:62)
+==20150==    by 0x4A88D7E: handleSnapshot (handler.cpp:90)
+==20150== 
+==20150== Invalid read of size 1
+==20150==    at 0x4A8CE15: find_param(char*, char*, char*, int) (helpers.cpp:188)
+==20150==    by 0x4A88474: GetSSString (cfuncs.cpp:28)
+==20150==    by 0x4AA21B6: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AAD4F7: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA2777: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A9D6D0: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA1D42: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA1DA7: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A9D4E7: lua_pcall (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A88B9B: processScripts(lua_State*, LSPSnapshotMsg*) (handler.cpp:62)
+==20150==    by 0x4A88D7E: handleSnapshot (handler.cpp:90)
+==20150==    by 0x4A88EDE: openspy_mod_query (main.cpp:36)
+==20150==  Address 0xaffec91 is 0 bytes after a block of size 345 alloc'd
+==20150==    at 0x4023F50: malloc (vg_replace_malloc.c:236)
+==20150==    by 0x4023FDA: realloc (vg_replace_malloc.c:525)
+==20150==    by 0x4AAE157: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA59DF: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA9DE3: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A9D1CA: lua_pushlstring (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A9D968: lua_pushstring (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A88B58: processScripts(lua_State*, LSPSnapshotMsg*) (handler.cpp:60)
+==20150==    by 0x4A88D7E: handleSnapshot (handler.cpp:90)
+==20150==    by 0x4A88EDE: openspy_mod_query (main.cpp:36)
+==20150==    by 0x804C551: CModule::sendModuleMessage(char*, void*, int) (module.cpp:74)
+==20150==    by 0x804B23C: sendModuleMessage(char*, char*, void*, int) (main.cpp:20)
+==20150== 
+h\32\data\\HighScore\25850\HighCombo\16356\final\
+sending: \getpdr\1\lid\0\pid\10023\length\0\data\\final\
+sending: \getpdr\1\lid\0\pid\10023\length\0\data\\final\
+sending: \getpdr\1\lid\0\pid\10023\mod\1350159418\length\36\data\\HighScore\2050382\HighCombo\2397040\final\
+sending: \getpdr\1\lid\0\pid\10023\length\0\data\\final\
+sending: \getpdr\1\lid\0\pid\10023\length\0\data\\final\
+sending: \getpdr\1\lid\0\pid\10023\length\0\data\\final\
+sending: \getpdr\1\lid\0\pid\10023\length\0\data\\final\
+sending: \lc\1\challenge\C8jzi0Vu10\id\1\final\
+sending: \lc\2\sesskey\1983889359\proof\2907e0851cdd8ba9fe02bcb3f5a92144\userid\10409\profileid\10414\uniquenick\\lt\ugRAAc1WLUHGMTg31KsOd3__\id\1\final\
+sending: \lc\1\challenge\PdeHYXbc2h\id\1\final\
+sending: \lc\2\sesskey\1506511908\proof\496c237c019ad4b24cc4c7d6b8cb5e39\userid\10173\profileid\10178\uniquenick\\lt\K7avpxb6pCnUAPzU0ESdbp__\id\1\final\
+sending: \bm\100\f\11275\msg\|s|0|ss|Offline\final\
+sending: \lc\1\challenge\v8xrAOiMi4\id\1\final\
+sending: \error\\err\265\fatal\\errmsg\The uniquenick provided is incorrect.\id\1\final\
+sending: \lc\1\challenge\wwCkkR67HM\id\1\final\
+sending: \error\\err\265\fatal\\errmsg\The uniquenick provided is incorrect.\id\1\final\
+sending: \lc\1\challenge\Qj1sd92MAp\id\1\final\
+sending: \error\\err\1\fatal\\errmsg\There was an error parsing a request.\id\1\final\
+sending: \lc\1\challenge\fzfncYuCzo\id\1\final\
+sending: \error\\err\1\fatal\\errmsg\There was an error parsing a request.\id\1\final\
+sending: \lc\1\challenge\BWracyry8H\id\1\final\
+sending: \error\\err\265\fatal\\errmsg\The uniquenick provided is incorrect.\id\1\final\
+sending: \lc\1\challenge\dmkOTGSZxU\id\1\final\
+sending: \error\\err\265\fatal\\errmsg\The uniquenick provided is incorrect.\id\1\final\
+sending: \lc\1\challenge\3v4Dzp6KVw\id\1\final\
+sending: \error\\err\265\fatal\\errmsg\The uniquenick provided is incorrect.\id\1\final\
+sending: \lc\1\challenge\VC4VJxy13c\id\1\final\
+sending: \error\\err\265\fatal\\errmsg\The uniquenick provided is incorrect.\id\1\final\==20150== Invalid read of size 1
+==20150==    at 0x4024C2A: index (mc_replace_strmem.c:142)
+==20150==    by 0x4A8CD41: find_param(char*, char*, char*, int) (helpers.cpp:189)
+==20150==    by 0x4A8CC7C: find_paramint(char*, char*) (helpers.cpp:171)
+==20150==    by 0x4A883DC: GetSSInt (cfuncs.cpp:19)
+==20150==    by 0x4AA21B6: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AAD4F7: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA2777: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A9D6D0: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA1D42: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA1DA7: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A9D4E7: lua_pcall (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A88B9B: processScripts(lua_State*, LSPSnapshotMsg*) (handler.cpp:62)
+==20150==  Address 0xbb50324 is 3 bytes after a block of size 329 alloc'd
+==20150==    at 0x4023F50: malloc (vg_replace_malloc.c:236)
+==20150==    by 0x4023FDA: realloc (vg_replace_malloc.c:525)
+==20150==    by 0x4AAE157: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA59DF: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA9DE3: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A9D1CA: lua_pushlstring (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A9D968: lua_pushstring (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A88B58: processScripts(lua_State*, LSPSnapshotMsg*) (handler.cpp:60)
+==20150==    by 0x4A88D7E: handleSnapshot (handler.cpp:90)
+==20150==    by 0x4A88EDE: openspy_mod_query (main.cpp:36)
+==20150==    by 0x804C551: CModule::sendModuleMessage(char*, void*, int) (module.cpp:74)
+==20150==    by 0x804B23C: sendModuleMessage(char*, char*, void*, int) (main.cpp:20)
+==20150== 
+==20150== Invalid read of size 1
+==20150==    at 0x4024C3B: index (mc_replace_strmem.c:142)
+==20150==    by 0x4A8CD41: find_param(char*, char*, char*, int) (helpers.cpp:189)
+==20150==    by 0x4A8CC7C: find_paramint(char*, char*) (helpers.cpp:171)
+==20150==    by 0x4A883DC: GetSSInt (cfuncs.cpp:19)
+==20150==    by 0x4AA21B6: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AAD4F7: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA2777: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A9D6D0: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA1D42: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA1DA7: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A9D4E7: lua_pcall (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A88B9B: processScripts(lua_State*, LSPSnapshotMsg*) (handler.cpp:62)
+==20150==  Address 0xbb50325 is 4 bytes after a block of size 329 alloc'd
+==20150==    at 0x4023F50: malloc (vg_replace_malloc.c:236)
+==20150==    by 0x4023FDA: realloc (vg_replace_malloc.c:525)
+==20150==    by 0x4AAE157: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA59DF: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA9DE3: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A9D1CA: lua_pushlstring (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A9D968: lua_pushstring (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A88B58: processScripts(lua_State*, LSPSnapshotMsg*) (handler.cpp:60)
+==20150==    by 0x4A88D7E: handleSnapshot (handler.cpp:90)
+==20150==    by 0x4A88EDE: openspy_mod_query (main.cpp:36)
+==20150==    by 0x804C551: CModule::sendModuleMessage(char*, void*, int) (module.cpp:74)
+==20150==    by 0x804B23C: sendModuleMessage(char*, char*, void*, int) (main.cpp:20)
+==20150== 
+==20150== Invalid read of size 1
+==20150==    at 0x4024C2A: index (mc_replace_strmem.c:142)
+==20150==    by 0x4A8CD41: find_param(char*, char*, char*, int) (helpers.cpp:189)
+==20150==    by 0x4A88474: GetSSString (cfuncs.cpp:28)
+==20150==    by 0x4AA21B6: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AAD4F7: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA2777: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A9D6D0: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA1D42: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA1DA7: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A9D4E7: lua_pcall (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A88B9B: processScripts(lua_State*, LSPSnapshotMsg*) (handler.cpp:62)
+==20150==    by 0x4A88D7E: handleSnapshot (handler.cpp:90)
+==20150==  Address 0xbb50324 is 3 bytes after a block of size 329 alloc'd
+==20150==    at 0x4023F50: malloc (vg_replace_malloc.c:236)
+==20150==    by 0x4023FDA: realloc (vg_replace_malloc.c:525)
+==20150==    by 0x4AAE157: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA59DF: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA9DE3: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A9D1CA: lua_pushlstring (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A9D968: lua_pushstring (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A88B58: processScripts(lua_State*, LSPSnapshotMsg*) (handler.cpp:60)
+==20150==    by 0x4A88D7E: handleSnapshot (handler.cpp:90)
+==20150==    by 0x4A88EDE: openspy_mod_query (main.cpp:36)
+==20150==    by 0x804C551: CModule::sendModuleMessage(char*, void*, int) (module.cpp:74)
+==20150==    by 0x804B23C: sendModuleMessage(char*, char*, void*, int) (main.cpp:20)
+==20150== 
+==20150== Invalid read of size 1
+==20150==    at 0x4024C3B: index (mc_replace_strmem.c:142)
+==20150==    by 0x4A8CD41: find_param(char*, char*, char*, int) (helpers.cpp:189)
+==20150==    by 0x4A88474: GetSSString (cfuncs.cpp:28)
+==20150==    by 0x4AA21B6: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AAD4F7: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA2777: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A9D6D0: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA1D42: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA1DA7: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A9D4E7: lua_pcall (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A88B9B: processScripts(lua_State*, LSPSnapshotMsg*) (handler.cpp:62)
+==20150==    by 0x4A88D7E: handleSnapshot (handler.cpp:90)
+==20150==  Address 0xbb50325 is 4 bytes after a block of size 329 alloc'd
+==20150==    at 0x4023F50: malloc (vg_replace_malloc.c:236)
+==20150==    by 0x4023FDA: realloc (vg_replace_malloc.c:525)
+==20150==    by 0x4AAE157: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA59DF: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4AA9DE3: ??? (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A9D1CA: lua_pushlstring (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A9D968: lua_pushstring (in /usr/lib/liblua5.1.so.0.0.0)
+==20150==    by 0x4A88B58: processScripts(lua_State*, LSPSnapshotMsg*) (handler.cpp:60)
+==20150==    by 0x4A88D7E: handleSnapshot (handler.cpp:90)
+==20150==    by 0x4A88EDE: openspy_mod_query (main.cpp:36)
+==20150==    by 0x804C551: CModule::sendModuleMessage(char*, void*, int) (module.cpp:74)
+==20150==    by 0x804B23C: sendModuleMessage(char*, char*, void*, int) (main.cpp:20)
+==20150== 
+
+sending: \lc\1\challenge\0ZZzaniVxc\id\1\final\
+sending: \error\\err\265\fatal\\errmsg\The uniquenick provided is incorrect.\id\1\final\
+sending: \lc\1\challenge\5mvZ66NyBw\id\1\final\
+sending: \error\\err\260\fatal\\errmsg\The password provided is incorrect.\id\1\final\
+sending: \lc\1\challenge\KBnej6Hx7L\id\1\final\
+sending: \lc\2\sesskey\1445998940\proof\c265df81357db396e690c4b9ca792af8\userid\11049\profileid\11054\uniquenick\\lt\glC9xRUofOnSYgcXdb3QLM__\id\1\final\
+sending: \lc\1\challenge\70LDFIKaz3\id\1\final\
+sending: \lc\2\sesskey\1579398676\proof\0\id\1\final\
+sending: \getpdr\1\lid\0\pid\11054\mod\1346496894\length\16\data\\THUG2Rating\200\final\
+sending: \getpdr\1\lid\0\pid\11054\length\0\data\\final\
+sending: \getpdr\1\lid\0\pid\11054\length\0\data\\final\
+sending: \getpdr\1\lid\0\pid\11054\length\0\data\\final\
+sending: \getpdr\1\lid\0\pid\11054\length\0\data\\final\
+sending: \getpdr\1\lid\0\pid\11054\length\0\data\\final\
+sending: \getpdr\1\lid\0\pid\11054\mod\1346611243\length\48\data\\THUG2Hi==20150== Conditional jump or move depends on uninitialised value(s)
+==20150==    at 0x4A7780F: find_param(char*, char*, char*, int) (helpers.cpp:188)
+==20150==    by 0x4A72281: Client::handleGetPD(char*, int) (Client.cpp:390)
+==20150==    by 0x4A713F8: Client::parseIncoming(char*, int) (Client.cpp:116)
+==20150==    by 0x4A711B0: Client::parseIncoming() (Client.cpp:79)
+==20150==    by 0x4A71016: Client::mainLoop(fd_set*) (Client.cpp:41)
+==20150==    by 0x4A73271: processClients(fd_set*) (main.cpp:29)
+==20150==    by 0x4A736F5: openspy_mod_run (main.cpp:100)
+==20150==    by 0x403A7AF: start_thread (pthread_create.c:300)
+==20150==    by 0x444ACDD: clone (clone.S:130)
+==20150== 
+==20150== Thread 5:
+==20150== Conditional jump or move depends on uninitialised value(s)
+==20150==    at 0x49A8A9A: Client::sendBuddies() (Client.cpp:200)
+==20150==    by 0x49A87D7: Client::handleLogin(char*, int) (Client.cpp:164)
+==20150==    by 0x49AC13A: Client::parseIncoming(char*, int) (Client.cpp:887)
+==20150==    by 0x49AC05B: Client::parseIncoming() (Client.cpp:872)
+==20150==    by 0x49A7F9F: Client::mainLoop(fd_set*) (Client.cpp:37)
+==20150==    by 0x49AD115: processClients(fd_set*) (main.cpp:30)
+==20150==    by 0x49AD5C0: openspy_mod_run (main.cpp:104)
+==20150==    by 0x403A7AF: start_thread (pthread_create.c:300)
+==20150==    by 0x444ACDD: clone (clone.S:130)
+==20150== 
+==20150== Thread 9:
+==20150== Invalid read of size 1
+==20150==    at 0x4A58F90: Client::handleData(unsigned char*, unsigned int) (Client.cpp:82)
+==20150==    by 0x4A58F11: Client::processConnection(fd_set*) (Client.cpp:71)
+==20150==    by 0x4A5ADA5: processClients(fd_set*) (main.cpp:29)
+==20150==    by 0x4A5B105: openspy_mod_run (main.cpp:75)
+==20150==    by 0x403A7AF: start_thread (pthread_create.c:300)
+==20150==    by 0x444ACDD: clone (clone.S:130)
+==20150==  Address 0x7c4a858 is 40 bytes inside a block of size 1,368 free'd
+==20150==    at 0x4023881: operator delete(void*) (vg_replace_malloc.c:387)
+==20150==    by 0x4A5B980: deleteClient(Client*) (server.cpp:10)
+==20150==    by 0x4A5937E: Client::handleList(unsigned char*, unsigned int) (Client.cpp:173)
+==20150==    by 0x4A58FC7: Client::handleData(unsigned char*, unsigned int) (Client.cpp:84)
+==20150==    by 0x4A58EE8: Client::processConnection(fd_set*) (Client.cpp:68)
+==20150==    by 0x4A5ADA5: processClients(fd_set*) (main.cpp:29)
+==20150==    by 0x4A5B105: openspy_mod_run (main.cpp:75)
+==20150==    by 0x403A7AF: start_thread (pthread_create.c:300)
+==20150==    by 0x444ACDD: clone (clone.S:130)
+==20150== 
+ghScore\11839751\THUG2HighCombo\11839751\final\
+sending: \getpdr\1\lid\0\pid\11054\length\0\data\\final\
+sending: \getpdr\1\lid\0\pid\11054\length\0\data\\final\
+sending: \getpdr\1\lid\0\pid\11054\length\0\data\\final\
+sending: \getpdr\1\lid\0\pid\11054\length\0\data\\final\
+sending: \getpdr\1\lid\0\pid\11054\length\0\data\\final\
+sending: \getpdr\1\lid\0\pid\11054\length\0\data\\final\
+sending: \getpdr\1\lid\0\pid\11054\length\0\data\\final\
+sending: \getpdr\1\lid\0\pid\11054\length\0\data\\final\
+sending: \getpdr\1\lid\0\pid\11054\mod\1349372580\length\0\data\\final\
+sending: \lc\1\challenge\kp5bz7WtSP\id\1\final\
+sending: \lc\2\sesskey\1331411712\proof\35f5a3cd304702e1aa9eef0bf38c352e\userid\10931\profileid\10936\uniquenick\\lt\EOwj3BM4gxuZRQVV5YmPIZ__\id\1\final\
+sending: \lc\1\challenge\sYXMQxmSAA\id\1\final\
+sending: \lc\2\sesskey\708140960\proof\05a2bc7f9212266bbf15c23368fc6584\userid\10931\profileid\10936\uniquenick\\lt\OtBXFFEB7naXH5cnqz4NRu__\id\1\final\
+sending: \bdy\0\list\\final\
+sending: \lc\1\challenge\LUvKNtrZAy\id\1\final\
+sending: \lc\2\sesskey\1271849000\proof\4095fc73ccdd9851000d9e9edb5a58a4\userid\10886\profileid\10891\uniquenick\\lt\V6I4f70nTaD4fbOnuQCNgV__\id\1\final\
+found unknown packet 6D(109) packet len: 45, 18 remaining, exiting
+found unknown packet 6D(109) packet len: 36, 9 remaining, exiting
+sending: \lc\1\challenge\91O8eCqUfp\id\1\final\
+sending: \error\\err\260\fatal\\errmsg\The password provided is incorrect.\id\1\final\
+found unknown packet 2A(42) packet len: 27, 9 remaining, exiting
+found unknown packet 42(66) packet len: 27, 9 remaining, exiting
+found unknown packet 2D(45) packet len: 27, 9 remaining, exiting
+found unknown packet 67(103) packet len: 36, 9 remaining, exiting
+sending: \lc\1\challenge\JxudgE8m2e\id\1\final\
+sending: \lc\2\sesskey\186488547\proof\4540828b5230ef134d57fce203d8cc36\userid\10931\profileid\10936\uniquenick\\lt\mzrrceC08JjvxfMALNf34w__\id\1\final\
+sending: \lc\1\challenge\kovB6w31H2\id\1\final\
+sending: \lc\2\sesskey\1700772311\proof\90129c1dc6aaf30d508e980db9717efb\userid\10931\profileid\10936\uniquenick\\lt\0Iu3UxDvykv29tCQfg963n__\id\1\final\
+sending: \lc\1\challenge\AvcS7N2fd0\id\1\final\
+sending: \lc\2\sesskey\1779059397\proof\69f21dc4fae29fb40dc01858f73b8ff8\userid\10931\profileid\10936\uniquenick\\lt\4X7NWD4gRuWM6xv6fmUiRe__\id\1\final\
+sending: \bdy\0\list\\final\
+found unknown packet 50(80) packet len: 27, 9 remaining, exiting
+sending: \lc\1\challenge\wnaL5XFFwB\id\1\final\
+sending: \lc\2\sesskey\1668304912\proof\ece21788457d1b3fe5d230fd9d783b04\userid\10886\profileid\10891\uniquenick\\lt\UC8WU04iXExPTzGGk7MzFG__\id\1\final\
+found unknown packet 6D(109) packet len: 54, 27 remaining, exiting
+found unknown packet 74(116) packet len: 63, 27 remaining, exiting
+found unknown packet 74(116) packet len: 81, 45 remaining, exiting
+sending: \lc\1\challenge\ALSMst6q0s\id\1\final\
+sending: \lc\2\sesskey\1472253434\proof\d740f9542429b0084f08d757455b7323\userid\11290\profileid\11295\uniquenick\\lt\TUBVUkhySq6CNsGPP6p4sz__\id\1\final\
+sending: \lc\1\challenge\bVGyjn0tGM\id\1\final\
+sending: \error\\err\260\fatal\\errmsg\The password provided is incorrect.\id\1\final\
+sending: \lc\1\challenge\x9hUklcusV\id\1\final\
+sending: \error\\err\260\fatal\\errmsg\The password provided is incorrect.\id\1\final\
+sending: \lc\1\challenge\pAVbI2pzqX\id\1\final\
+sending: \lc\2\sesskey\1465365875\proof\cef55937f685f95fb1cfc15e8ed6bfc4\userid\10931\profileid\10936\uniquenick\\lt\WRzM3S5OvzHiMA3GVCcCtR__\id\1\final\
+sending: \lc\1\challenge\IR2NoJTftY\id\1\final\
+sending: \lc\2\sesskey\1614441874\proof\6fb62b9f31e59a8904be81176e12de04\userid\10931\profileid\10936\uniquenick\\lt\4MRuyoKNorSGHpq3xUZeMp__\id\1\final\
+sending: \lc\1\challenge\YrHSvmpXHs\id\1\final\
+sending: \lc\2\sesskey\646449964\proof\44b5541daf637a2e2c1ff78f03fe44e3\userid\11290\profileid\11295\uniquenick\\lt\K20fb2jHa3MFrXMZBf2rVY__\id\1\final\
+sending: \lc\1\challenge\aIrqG9xI2N\id\1\final\
+sending: \lc\2\sesskey\1643035387\proof\d5458cc905a9bbc98577214b555fb7e3\userid\11234\profileid\11239\uniquenick\\lt\aanChNlZPT9bVukRsisu5S__\id\1\final\
+sending: \bdy\3\list\10178,10178,10178\final\
+sending: \bm\100\f\10178\msg\|s|0|ss|Offline\final\
+sending: \bm\100\f\10178\msg\|s|0|ss|Offline\final\
+sending: \bm\100\f\10178\msg\|s|0|ss|Offline\final\
+sending: \lc\1\challenge\gt710GUK0N\id\1\final\
+sending: \error\\err\260\fatal\\errmsg\The password provided is incorrect.\id\1\final\
+sending: \lc\1\challenge\lrMm5gEAtB\id\1\final\
+sending: \lc\2\sesskey\596033668\proof\a0baada13a5acb7b93e73ff26d98a946\userid\10886\profileid\10891\uniquenick\\lt\FYYQWfmD2KMENygS5l0F3m__\id\1\final\
+found unknown packet 38(56) packet len: 27, 9 remaining, exiting
+found unknown packet 6D(109) packet len: 36, 9 remaining, exiting
+sending: \lc\1\challenge\sGO18lCXUs\id\1\final\
+sending: \error\\err\260\fatal\\errmsg\The password provided is incorrect.\id\1\final\
+found unknown packet 6D(109) packet len: 36, 9 remaining, exiting
+sending: \lc\1\challenge\376ScRk99I\id\1\final\
+sending: \error\\err\260\fatal\\errmsg\The password provided is incorrect.\id\1\final\
+found unknown packet 6D(109) packet len: 36, 9 remaining, exiting
+found unknown packet 75(117) packet len: 27, 9 remaining, exiting
+found unknown packet 6D(109) packet len: 54, 27 remaining, exiting
+sending: \lc\1\challenge\nI0rcLYAfD\id\1\final\
+sending: \lc\2\sesskey\1965719666\proof\7a409f0c4d66c0852bf9bbebaa0d29a0\userid\10021\profileid\10023\uniquenick\\lt\RU0j9LBMJebVACbq3rYY0J__\id\1\final\
+sending: \lc\1\challenge\y8QKhbzs0R\id\1\final\
+sending: \lc\2\sesskey\1694150336\proof\0\id\1\final\
+sending: \getpdr\1\lid\0\pid\10023\mod\1327500547\length\12\data\\Rating\3000\final\
+sending: \getpdr\1\lid\0\pid\10023\length\0\data\\final\
+sending: \getpdr\1\lid\0\pid\10023\mod\1327500547\length\37\data\\HighScore\10228542\HighCombo\4695942\final\
+sending: \getpdr\1\lid\0\pid\10023\mod\1350158158\length\36\data\\HighScore\3510212\HighCombo\3444903\final\
+sending: \getpdr\1\lid\0\pid\10023\length\0\data\\final\
+sending: \getpdr\1\lid\0\pid\10023\mod\1350155714\length\32\data\\HighScore\25850\HighCombo\16356\final\
+sending: \getpdr\1\lid\0\pid\10023\length\0\data\\final\
+sending: \getpdr\1\lid\0\pid\10023\length\0\data\\final\
+sending: \getpdr\1\lid\0\pid\10023\mod\1350159418\length\36\data\\HighScore\2050382\HighCombo\2397040\final\
+sending: \getpdr\1\lid\0\pid\10023\length\0\data\\final\
+sending: \getpdr\1\lid\0\pid\10023\length\0\data\\final\
+sending: \getpdr\1\lid\0\pid\10023\length\0\data\\final\
+sending: \getpdr\1\lid\0\pid\10023\length\0\data\\final\
+sending: \lc\1\challenge\G5zXVa6EQW\id\1\final\
+sending: \error\\err\260\fatal\\errmsg\The password provided is incorrect.\id\1\final\
+found unknown packet 6D(109) packet len: 36, 9 remaining, exiting
+sending: \lc\1\challenge\OUL4KMQ5F7\id\1\final\
+sending: \nur\\userid\11294\profileid\11299\final\
+sending: \lc\1\challenge\GZlj4t36Dz\id\1\final\
+sending: \lc\2\sesskey\1792194632\proof\917f215d0f9737972e8ab807375485d4\userid\10931\profileid\10936\uniquenick\\lt\kEf952mUcN8gpctlF9Ml0a__\id\1\final\
+sending: \lc\1\challenge\wlvCiXKQf0\id\1\final\
+sending: \lc\2\sLost connection to MySQL server during query
+==20150== Thread 16:
+==20150== Invalid read of size 4
+==20150==    at 0x40CB601: ??? (in /usr/lib/libmysqlclient.so.16.0.0)
+==20150==    by 0x40CB986: my_net_read (in /usr/lib/libmysqlclient.so.16.0.0)
+==20150==    by 0x40C5323: cli_safe_read (in /usr/lib/libmysqlclient.so.16.0.0)
+==20150==    by 0x40C5AC4: ??? (in /usr/lib/libmysqlclient.so.16.0.0)
+==20150==    by 0x40C3BA5: mysql_real_query (in /usr/lib/libmysqlclient.so.16.0.0)
+==20150==    by 0x4094F74: mysql_query (in /usr/lib/libmysqlclient.so.16.0.0)
+==20150==    by 0x498FAAD: sendNicks(int, char*) (lookup.cpp:49)
+==20150==    by 0x4991521: processConnection(threadOptions*) (main.cpp:60)
+==20150==    by 0x403A7AF: start_thread (pthread_create.c:300)
+==20150==    by 0x444ACDD: clone (clone.S:130)
+==20150==  Address 0x88 is not stack'd, malloc'd or (recently) free'd
+==20150== 
+==20150== 
+==20150== Process terminating with default action of signal 11 (SIGSEGV)
+==20150==  Access not within mapped region at address 0x88
+==20150==    at 0x40CB601: ??? (in /usr/lib/libmysqlclient.so.16.0.0)
+==20150==    by 0x40CB986: my_net_read (in /usr/lib/libmysqlclient.so.16.0.0)
+==20150==    by 0x40C5323: cli_safe_read (in /usr/lib/libmysqlclient.so.16.0.0)
+==20150==    by 0x40C5AC4: ??? (in /usr/lib/libmysqlclient.so.16.0.0)
+==20150==    by 0x40C3BA5: mysql_real_query (in /usr/lib/libmysqlclient.so.16.0.0)
+==20150==    by 0x4094F74: mysql_query (in /usr/lib/libmysqlclient.so.16.0.0)
+==20150==    by 0x498FAAD: sendNicks(int, char*) (lookup.cpp:49)
+==20150==    by 0x4991521: processConnection(threadOptions*) (main.cpp:60)
+==20150==    by 0x403A7AF: start_thread (pthread_create.c:300)
+==20150==    by 0x444ACDD: clone (clone.S:130)
+==20150==  If you believe this happened as a result of a stack
+==20150==  overflow in your program's main thread (unlikely but
+==20150==  possible), you can try to increase the size of the
+==20150==  main thread stack using the --main-stacksize= flag.
+==20150==  The main thread stack size used in this run was 8388608.
+esskey\1514961763\proof\067c80146fe77cb122db40ff5fdff3b3\userid\10886\profileid\10891\uniquenick\\lt\MRUWuaAwtiRfFXJRJfP2FL__\id\1\final\
+sending: \lc\1\challenge\7UWj6H4xk0\id\1\final\
+sending: \lc\2\sesskey\1856081696\proof\1f0ecf2681761bf9d9961faafb423e81\userid\10173\profileid\10178\uniquenick\\lt\IfBXazP48UjBYH5N4Ld5Vl__\id\1\final\
+sending: \bm\100\f\11275\msg\|s|0|ss|Offline\final\
+sending: \lc\1\challenge\0ZDTKbGv06\id\1\final\
+sending: \lc\2\sesskey\353562933\proof\76eb028a62ada20adf4dd9fe5eeca824\userid\10173\profileid\10178\uniquenick\\lt\qNUmjOd1Mj3vU8e3mb8b88__\id\1\final\
+sending: \bm\100\f\11275\msg\|s|0|ss|Offline\final\
+sending: \lc\1\challenge\AzYhOwPRHd\id\1\final\
+sending: \lc\2\sesskey\382434719\proof\c63368c04cbb5ab7806b27accbe01994\userid\11213\profileid\11218\uniquenick\\lt\ygpe2Pb8VQHgjeEekNAtyI__\id\1\final\
+sending: \nr\\ndone\\final\
+==20150== 
+==20150== HEAP SUMMARY:
+==20150==     in use at exit: 1,429,185 bytes in 54,822 blocks
+==20150==   total heap usage: 1,456,277 allocs, 1,401,455 frees, 49,494,530 bytes allocated
+==20150== 
+==20150== LEAK SUMMARY:
+==20150==    definitely lost: 89,215 bytes in 8,144 blocks
+==20150==    indirectly lost: 346,621 bytes in 15,653 blocks
+==20150==      possibly lost: 67,844 bytes in 32 blocks
+==20150==    still reachable: 925,505 bytes in 30,993 blocks
+==20150==         suppressed: 0 bytes in 0 blocks
+==20150== Rerun with --leak-check=full to see details of leaked memory
+==20150== 
+==20150== For counts of detected and suppressed errors, rerun with: -v
+==20150== Use --track-origins=yes to see where uninitialised values come from
+==20150== ERROR SUMMARY: 8748 errors from 32 contexts (suppressed: 59 from 12)
