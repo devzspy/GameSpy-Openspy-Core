@@ -389,13 +389,14 @@ void Client::handleGetProfile(char *buff, int len) {
 		char signature[33];
 		strcat(sbuff,"\\pi\\");
 		addInt(sbuff,lenx,info.profileid,"\\profileid\\")
-		addInt(sbuff,lenx,info.userid,"\\userid\\")
 		addString(sbuff,lenx,info.nick,"\\nick\\")
-		addString(sbuff,lenx,info.uniquenick,"\\uniquenick\\")
+		addInt(sbuff,lenx,info.userid,"\\userid\\")	
 		if(publicmask & GP_MASK_EMAIL || info.profileid == getProfileID()) {
 			addString(sbuff,lenx,info.email,"\\email\\")
 		}
-		addString(sbuff,lenx,info.firstname,"\\firstname\\")
+		addString(sbuff,lenx,signature,"\\sig\\")
+		addString(sbuff,lenx,info.uniquenick,"\\uniquenick\\")
+/*		addString(sbuff,lenx,info.firstname,"\\firstname\\")
 		addString(sbuff,lenx,info.lastname,"\\lastname\\")
 		if(publicmask & GP_MASK_COUNTRYCODE || info.profileid == getProfileID()) {
 			addStringStack(sbuff,lenx,info.countrycode,"\\countrycode\\")
@@ -427,11 +428,10 @@ void Client::handleGetProfile(char *buff, int len) {
 			birthday |= info.birthyear;
 			addInt(sbuff,lenx,birthday,"\\birthday\\")
 		}
-		addFloat(sbuff,lenx,info.longitude,"\\lon\\")
+*/		addFloat(sbuff,lenx,info.longitude,"\\lon\\")
 		addFloat(sbuff,lenx,info.latitude,"\\lat\\")
-		addStringStackNull(sbuff,lenx,info.place,"\\loc\\")
+//		addStringStackNull(sbuff,lenx,info.place,"\\loc\\")
 		gs_login_proof_md5((unsigned char *)&sbuff,strlen(sbuff),(unsigned char *)&signature);
-		addString(sbuff,lenx,signature,"\\sig\\")
 		#define infoFree(x) if(x != NULL) free((void *)x);
 		formatSend(sd,true,0,"%s\\id\\%d",sbuff,id);
 		infoFree(info.nick)
@@ -663,9 +663,9 @@ void Client::handleUpdateProfile(char *buff, int len) {
 	setParam("uniquenick",info.uniquenick)
 	setParam("firstname",info.firstname)
 	setParam("lastname",info.lastname)
-	setParam("homepage",info.homepage)
-	setParam("aimname",info.aimname)
 	setParamStack("loc",info.place)
+/*	setParam("aimname",info.aimname)
+	setParam("homepage",info.homepage)
 	setParamStack("countrycode",info.countrycode)
 	setParamStack("zipcode",info.zipcode)
 	setParamInt("pic",info.pic)
@@ -678,9 +678,6 @@ void Client::handleUpdateProfile(char *buff, int len) {
 	setParamInt("o1",info.ownership1)
 	setParamInt("conn",info.conntypeid)
 	setParamInt("publicmask",info.publicmask)
-	setParamInt("icquin",info.icquin)
-	setParamFloat("lat",info.latitude)
-	setParamFloat("lon",info.longitude)
 	if(find_param("birthday",buff,tbuff,sizeof(tbuff))) { 
 		uint32_t birthday = atoi(tbuff);
 		setParamInt("birthday",birthday)
@@ -688,6 +685,9 @@ void Client::handleUpdateProfile(char *buff, int len) {
 		info.birthmonth = ((birthday >> 16) & 0xFF);
 		info.birthyear = (birthday & 0xFFFF);
 	}
+	setParamInt("icquin",info.icquin)
+*/	setParamFloat("lat",info.latitude)
+	setParamFloat("lon",info.longitude)
 	updateUserProfile(server.conn,(GPIInfoCache *)&info);
 	#define infoFree(x) if(x != NULL) free((void *)x);
 	infoFree(info.nick)
@@ -695,8 +695,8 @@ void Client::handleUpdateProfile(char *buff, int len) {
 	infoFree(info.email)
 	infoFree(info.firstname)
 	infoFree(info.lastname)
-	infoFree(info.homepage)
-	infoFree(info.aimname)
+//	infoFree(info.homepage)
+//	infoFree(info.aimname)
 	#undef infoFree
 	#undef setParamInt
 	#undef setParam

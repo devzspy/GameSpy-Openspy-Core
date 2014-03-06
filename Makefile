@@ -1,6 +1,6 @@
 start:
 	cd openspy && make && cd ..
-	cd qr && make && cd ..
+#	cd qr && make && cd ..
 	cd serverbrowsing && make && cd ..
 	cd legacyms && make && cd ..
 	cd peerchat && make && cd ..
@@ -12,7 +12,7 @@ start:
 	cd legacystatsprocessor && make && cd ..
 debug:
 	cd openspy && make debug && cd ..
-	cd qr && make debug && cd ..
+#	cd qr && make debug && cd ..
 	cd serverbrowsing && make debug && cd ..
 	cd legacyms && make debug && cd ..
 	cd peerchat && make debug && cd ..

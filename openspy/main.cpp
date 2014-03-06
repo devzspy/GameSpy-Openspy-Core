@@ -99,7 +99,7 @@ int main() {
 		fprintf(stderr, "%s\n", mysql_error(conn));
 		exit(1);
 	}
-	if (mysql_query(conn, "SELECT `id`,`gamename`,`secretkey`,`queryport`,`disabledservices`,`backendflags`,`keylist`,`keytypelist` FROM `Gamemaster`.`games`")) {
+	if (mysql_query(conn, "SELECT `id`,`gamename`,`secretkey`,`queryport`,`disabledservices`,`backendflags`,`keylist`,`keytypelist` FROM `GameTracker`.`games`")) {
 		fprintf(stderr, "%s\n", mysql_error(conn));
 		exit(1);
 	}

@@ -28,7 +28,7 @@
 #define stricmp strcasecmp
 #define sprintf_s snprintf
 #define strnicmp strncasecmp
-#define LEGACYMSPORT 28900
+#define LEGACYMSPORT 28910
 #define SB_TIMEOUT_TIME 120
 #include <openspy/structs.h>
 #include <common/helpers.h>

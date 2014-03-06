@@ -1,4 +1,4 @@
 start:
-	g++ *.cpp -lmysqlclient -Wno-write-strings -shared -o ../openspy/modules/legacyms.so -I.. ../common/*.cpp ../common/*.c -Os
+	g++ *.cpp -lmysqlclient -Wno-write-strings -fPIC -shared -o ../openspy/modules/legacyms.so -I.. ../common/*.cpp ../common/*.c -Os
 debug:
-	g++ *.cpp -lmysqlclient -Wno-write-strings -ggdb -shared -o ../openspy/modules/legacyms.so -I.. ../common/*.cpp ../common/*.c
+	g++ *.cpp -lmysqlclient -Wno-write-strings -ggdb -fPIC -shared -o ../openspy/modules/legacyms.so -I.. ../common/*.cpp ../common/*.c
