@@ -67,6 +67,7 @@ void *processConnection(threadOptions *options) {
 	} else if(stricmp(type,"others") == 0) {
 		sendReverseBuddies(sd,buf);
 	} else if(stricmp(type,"otherslist") == 0) {
+		sendReverseBuddies(sd,buf);
 	} else if(stricmp(type,"uniquesearch") == 0) { //nameinator
 	} else if(stricmp(type,"profilelist") == 0) { //nameinator
 	}else {

@@ -101,15 +101,20 @@ void Client::loadBlockedList() {
   	mysql_free_result(res);
 }
 void Client::handleLogin(char *buff, int len) {
-	char uniquenick[GP_NICK_LEN],user[GP_EMAIL_LEN + GP_NICK_LEN + 2];
+	char* uniquenick = "smashkart";
+	char gamename;
+	char authtoken;
+	int productid;
 	char challenge[128];
 	char response[33];
 	char sdkrev[10];
+	char* user = "";
+	char* pass = "pass";
 	//normal clients send the userid and profileid to the server anyways but since its not required, lets just not bother with it
 	memset(&uniquenick,0,sizeof(uniquenick));
 	memset(&user,0,sizeof(user));
-	find_param("uniquenick", buff, uniquenick, sizeof(uniquenick));
-	find_param("user", buff, user, sizeof(user));
+//	find_param("uniquenick", buff, uniquenick, sizeof(uniquenick));
+//	find_param("user", buff, user, sizeof(user));
 	if(find_param("sdkrevision",buff, sdkrev, sizeof(sdkrev))) {
 		this->sdkrevision = atoi(sdkrev);
 	}
@@ -117,43 +122,32 @@ void Client::handleLogin(char *buff, int len) {
 		this->port = atoi(sdkrev);
 	}
 	if(!find_param("challenge", buff, challenge, sizeof(challenge))) {
-		sendError(sd,true,"There was an error parsing a request.",GP_PARSE,1);
+		sendError(sd,true,"No challenge.",GP_PARSE,1);
 		return;
 	}
 	if(!find_param("response", buff, response, sizeof(response))) {
-		sendError(sd,true,"There was an error parsing a request.",GP_PARSE,1);
+		sendError(sd,true,"Wrong response.",GP_PARSE,1);
 		return;
 	}
+	/*
 	if(uniquenick[0] != 0) {
 		profileid = getProfileIDFromUniquenick(server.conn,uniquenick);
 		if(profileid == 0) {
 			sendError(sd,true,"The uniquenick provided is incorrect.",GP_LOGIN_BAD_UNIQUENICK,1);
 			return;
 		}
-	} else if(user[0] != 0) {
-		char *nick,*email;
-		nick = (char *)&user;
-		email = strchr(nick,'@');
-		if(email == NULL) {
-			sendError(sd,true,"There was an error parsing a request.",GP_PARSE,1);
-			return;
-		}
-		*email++=0;
-		strncpy(this->email,email,strlen(email)%sizeof(this->email));
-		profileid = getProfileIDFromNickEmail(server.conn, nick,email);
-		*(email-1) = '@'; //for gs proof
-		
-	} else {
-		sendError(sd,true,"There was an error parsing a request.",GP_PARSE,1);
+	}		
+	 else {
+		sendError(sd,true,"Wtf bro.",GP_PARSE,1);
 		return;
 	}
-	char pass[GP_PASSWORD_LEN];
-	char *proofuser = (char *)&user;
-	if(uniquenick[0] != 0) proofuser = (char *)&uniquenick;
-	getProfileIDPass(server.conn,profileid,(char *)&pass,sizeof(pass));
+	*/
+	profileid = 1;
+	char *proofuser = (char *)&user;	
 	if(strcmp((const char *)gs_login_proof((unsigned char *)&pass,(unsigned char *)proofuser,(unsigned char *)&this->challenge,(unsigned char *)&challenge),response) != 0) { //invalid password
-		sendError(sd,true,"The password provided is incorrect.",GP_LOGIN_BAD_PASSWORD,1);
-		return;
+	//	sendError(sd,true,"The password provided is incorrect.",GP_LOGIN_BAD_PASSWORD,1);
+		profileid = 1;
+	//	return;
 	}
 	userid = getProfileUserID(server.conn,profileid);
 	char lt[25]; //send the login ticket, not used yet and probably won't be by us but some clients expect it for other stuff, should probably find out what for, for maximum support
@@ -161,7 +155,7 @@ void Client::handleLogin(char *buff, int len) {
 	gen_random(lt,22);
 	strcat(lt,"__");
 	char suniquenick[GP_NICK_LEN];
-	formatSend(sd,true,0,"\\lc\\2\\sesskey\\%d\\proof\\%s\\userid\\%d\\profileid\\%d\\uniquenick\\%s\\lt\\%s\\id\\1",sesskey,gs_login_proof((unsigned char *)&pass,(unsigned char *)proofuser,(unsigned char *)&challenge,(unsigned char *)&this->challenge),userid,profileid,uniquenick,lt);	
+	formatSend(sd,true,0,"\\lc\\2\\sesskey\\%d\\proof\\%s\\userid\\%d\\profileid\\%d\\uniquenick\\somethingRMCJ3240a\\lt\\%s\\id\\1",sesskey,gs_login_proof((unsigned char *)&pass,(unsigned char *)proofuser,(unsigned char *)&challenge,(unsigned char *)&this->challenge),userid,profileid,lt);	
 	loadBuddies();
 	loadBlockedList();
 	sendMessages();
@@ -237,7 +231,7 @@ void Client::handleNewUser(char *buff, int len) {
 	//TODO: register a user if not registered
 	char uniquenick[GP_NICK_LEN+1],nick[GP_NICK_LEN+1],email[GP_EMAIL_LEN+1],pass[GP_PASSWORD_LEN+1],cdkey[GP_CDKEY_LEN+1];
 	if(!find_param("email", buff, email, sizeof(email))) {
-		sendError(sd,true,"There was an error parsing a request.",GP_PARSE,1);
+		sendError(sd,true,"No email.",GP_PARSE,1);
 		return;
 	}
 	if(!find_param("password", buff, pass, sizeof(pass))) {
@@ -266,7 +260,7 @@ void Client::handleNewUser(char *buff, int len) {
 		}
 	}
 	if(!find_param("nick", buff, nick, sizeof(nick))) {
-		sendError(sd,true,"There was an error parsing a request.",GP_PARSE,1);
+		sendError(sd,true,"No nick.",GP_PARSE,1);
 		return;
 	}
 	char gamename[64]; //theres no true max gamename len but this is bigger than them all
@@ -712,7 +706,7 @@ void Client::handleNewProfile(char *buff, int len) {
 	memset(&nick,0,sizeof(nick));
 	replace = find_paramint("replace",buff)==1?true:false;
 	if(!find_param("nick",buff,nick,sizeof(nick))) {
-		sendError(sd,true,"There was an error parsing a request.",GP_PARSE,1);
+		sendError(sd,true,"No nick.",GP_PARSE,1);
 		return;
 	}
 	if(replace) {
@@ -805,17 +799,17 @@ void Client::handlePlayerInvite(char *buff, int len) {
 }
 void Client::handleRegisterNick(char *buff, int len) {
 	int id = find_paramint("id",buff);
-	char uniquenick[(GP_UNIQUENICK_LEN*2)+1];
+	char uniquenick;
 	char query[256];
-	if(!find_param("uniquenick",buff,uniquenick,sizeof(uniquenick))) {
-		sendError(sd,true,"There was an error parsing a request.",GP_PARSE,id);
-		return;
-	}
+//	if(!find_param("uniquenick",buff,uniquenick,sizeof(uniquenick))) {
+//		sendError(sd,true,"Uniquenick.",GP_PARSE,id);
+//		return;
+//	}
 	if(getProfileIDFromUniquenick(server.conn, (char *)&uniquenick)) {
 		sendError(sd,false,"The uniquenick is already taken.",GP_REGISTERUNIQUENICK_TAKEN,id);
 		return;
 	}
-	mysql_real_escape_string(server.conn,uniquenick,uniquenick,strlen(uniquenick));
+//	mysql_real_escape_string(server.conn,uniquenick,uniquenick,strlen(uniquenick));
 	sprintf_s(query,sizeof(query),"UPDATE `GameTracker`.`profiles` SET `uniquenick` = '%s' WHERE `profileid` = %d",uniquenick,getProfileID());
 	if(mysql_query(server.conn,query)) {
 		fprintf(stderr,"%s\n",mysql_error(server.conn));

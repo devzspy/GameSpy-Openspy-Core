@@ -355,7 +355,7 @@ sprintf_s(query,len,"SELECT `GameTracker`.`profiles`.`profileid`,`uniquenick`,`e
 		return;
 	}
 	memset(query,0,len);
-	strcat(query,"\\others\\");
+	strcat(query,"\\otherslist\\");
 	res = mysql_store_result(conn);
 	while ((row = mysql_fetch_row(res)) != NULL) {
 		addVal(row[0],"o",1)
