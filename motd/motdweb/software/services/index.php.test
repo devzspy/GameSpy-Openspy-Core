@@ -1,0 +1,12 @@
+<?
+	$ch = curl_init("http://motd.gamespy.com/software/services/index.aspx?".$_SERVER['QUERY_STRING']); 
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+	curl_setopt($ch, CURLOPT_BINARYTRANSFER,1);
+	curl_setopt($ch, CURLOPT_HEADER, 0);
+	curl_setopt($ch, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']);
+	$data = curl_exec($ch);
+	header('content-disposition: blah; filename=info.txt');
+	header('Content-Type: text/plain; charset=Windows-1252');
+	header('Content-Length: '.strlen($data));
+	echo $data;
+?>

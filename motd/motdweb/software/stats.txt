@@ -1,0 +1,10 @@
+<validator>
+stat_totalplayers=1 Players Online
+stat_totalgames=2 Games in Progress
+redraw=1
+srvhilite=\color\2162496\ipstart\69.93.77.2\ipend\69.93.77.112
+stat_rc_hc=3FgUsppL!Es4uFbbhsoXmTek
+stat_rc_phc=pEmP3XmnbKedrtsc0ZnWlzyI
+stat_gotdata=1
+reselecthome=1
+</validator>
