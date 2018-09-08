@@ -12,9 +12,6 @@
 * natneg2.gamespy.com
 * natneg3.gamespy.com
 * chat.gamespynetwork.com
-* swbfrontpc.master.gamespy.com
-* swbfrontpc.available.gamespy.com 
-* swbfrontpc.ms4.gamespy.com
 * available.gamespy.com
 * gamespy.com
 * gamespyarcade.com
