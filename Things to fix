@@ -3,7 +3,7 @@ Things to fix
 
 * Chat Portraits for Subscribers
 
-POST /software/imglib/ppost.asp?pid=user_pid&uid=user_id&ppass=users_password&picnum=random_generated number HTTP/1.1
+POST /software/imglib/ppost.asp?pid=user_pid&uid=user_id&ppass=users_password&picnum=random_generated_number HTTP/1.1
 Host: www.gamespyarcade.com:28900
 
 The above call is performed by GameSpy Arcade to allow a subscribed user to upload a chat portrait. 
@@ -14,7 +14,7 @@ Other requirements: May need to create a new database / table that accepts the u
 
 * Chat Icons for Subscribers
 
-POST /software/imglib/ippost.asp?pid=user_pid&uid=user_id&ppass=users_password&picnum=random_generated number HTTP/1.1
+POST /software/imglib/ippost.asp?pid=user_pid&uid=user_id&ppass=users_password&picnum=random_generated_number HTTP/1.1
 Host: www.gamespyarcade.com:28900
 
 The above call is performed by GameSpy Arcade to allow a subscribed user to upload a chat portrait. 
@@ -27,11 +27,11 @@ Other requirements: May need to create a new database / table that accepts the u
 Further notes
 ================
 
-The above API end points that GameSpy Arcade may need to be combined under the `pic` column in `GameTracker`.`profiles` table. When a user logs into GameSpy Arcade the application automatically sends the following data:
+The above API end points that GameSpy Arcade utilizes may need to be combined under the `pic` column in `GameTracker`.`profiles` table. When a user logs into GameSpy Arcade the application automatically sends the following data:
 
 [19:00:13] #gsp!subhome FalconSpy-gs BCAST \b_reg60\1
 [19:00:13] #gsp!subhome FalconSpy-gs BCAST \b_look\720903,0
 
 The first line is the client performing a subscriber look up and then setting a flag that the user is infact subscribed.
 
-The second like containing "b_look" is the value of the portrait/icon. For example 720903 is a default image with GameSpy Arcade and the 0 means I do not have a chat icon uploaded. I am using the default that GameSpy Arcade gives me based on the coding of the application.
+The second line containing "b_look" is the value of the portrait/icon. For example 720903 is a default image with GameSpy Arcade and the 0 means I do not have a chat icon uploaded. I am using the default that GameSpy Arcade gives me based on the coding of the application.
