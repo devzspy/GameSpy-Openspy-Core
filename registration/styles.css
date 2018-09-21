@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+}
+
+#top {
+    background-image: linear-gradient(grey,white);
+    height: 150px;
+}
+
+#gslogo {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display:block;
+    margin:0 auto;
+}
+
+#middle {
+    width: 50%;
+    display: block;
+    margin:0 auto;
+    height: 100%;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px; 
+    width: 50%;
+    height: 100%;
+}
+
+#welcome {
+    text-align: center;
+}
+
+#bottom {
+    background-image: linear-gradient(white, grey);
+    height: 75px;
+}
