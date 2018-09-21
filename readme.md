@@ -23,11 +23,15 @@
 
 ## Peerchat Oper commands
 
-* /oper user email password (Gives you admin rights)
+* /oper user email password (Required to perform oper commands below. Gives you admin rights)
 * /raw join #channel x i  (Invisibly join channel as an oper'd user)
 * /raw join #channel i i (unhide yourself, may require leaving and rejoining)
 * /raw ATM username :?IMP INFO (GameSpy Arcade client /whois check)
 * /raw ATM #channel ATM :CHDEL word (Delete messages containing the specified word. Causes chat to scroll when line gets deleted)
+* /wallops (sends a global message in notice form to all users from SERVER)
+* /stats (shows a lot of stats such as messages per second etc)
+* /kill username (kills a user from the server)
+* /kline ip (klines {bans} an ip, also accepts ranges)
 
 ## Client Spoofing
 
@@ -38,5 +42,11 @@
 * /setckey #channel current_connected_username :\b_flags\ (Default status)
 * /setckey #channel current_connected_username :\b_flags\a (Away status)
 * /setckey #channel current_connected_username :\b_flags\s (Staging lobby status)
+* /setckey #channel current_connected_username :\b_flags\g (Launched game status)
+* 
 
+## Fun Stuff for Arcade. (Some may require admin in channels)
+
+* @@1 insert channel topic (makes a popup appear for that lobby. place in channel topic)
+* /notice #channel message (send blue text to channel via IRC client. color changes based on arcade skin)
 
