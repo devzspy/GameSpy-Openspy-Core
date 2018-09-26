@@ -43,10 +43,15 @@
 * /setckey #channel current_connected_username :\b_flags\a (Away status)
 * /setckey #channel current_connected_username :\b_flags\s (Staging lobby status)
 * /setckey #channel current_connected_username :\b_flags\g (Launched game status)
-* 
+* /getckey #channel User_logged_into_arcade-gs 000 0 :\b_look\ (Pulls that users portrait and icon)
 
 ## Fun Stuff for Arcade. (Some may require admin in channels)
 
 * @@1 insert channel topic (makes a popup appear for that lobby. place in channel topic)
 * /notice #channel message (send blue text to channel via IRC client. color changes based on arcade skin)
 
+## GameSpy Arcade images
+
+* Custom portraits go under /software/imglib/portraits/00000/00001.jpg. Database must reflect the number at end. Must be 96 pixels by 96 pixels
+* Custom icons go under /software/imglib/icons/00000/00001.jpg. Database must reflect the number at end. Must be 20 pixels by 16 pixels
+* Category sections (Admins, Helpers, Wizards, Staff, Speaking, Away) all go under /software/imglib/portraits/07100/(insert_category_name).jpg
