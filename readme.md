@@ -21,6 +21,11 @@
 * www.gamespyarcade.com
 * chat.master.gamespy.com
 
+## OS Build Recommendation
+* Debian 7
+* Ubuntu 12
+* Ubuntu 14
+
 ## Peerchat Oper commands
 
 * /oper user email password (Required to perform oper commands below. Gives you admin rights)
