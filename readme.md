@@ -21,9 +21,9 @@
 * www.gamespyarcade.com
 * chat.master.gamespy.com
 
-## OS Build Recommendation
+## OS Server Build Recommendations
 * Debian 7
-* Ubuntu 12
+* Ubuntu 12 (Currently using this for my services)
 * Ubuntu 14
 
 ## Peerchat Oper commands
@@ -34,6 +34,8 @@
 * /raw ATM username :?IMP INFO (GameSpy Arcade client /whois check)
 * /raw ATM #channel ATM :CHDEL word (Delete messages containing the specified word. Causes chat to scroll when line gets deleted)
 * /wallops (sends a global message in notice form to all users from SERVER)
+* /listusers (Shows all connected users)
+* /listopers (shows all connected opers)
 * /stats (shows a lot of stats such as messages per second etc)
 * /kill username (kills a user from the server)
 * /kline ip (klines {bans} an ip, also accepts ranges)
