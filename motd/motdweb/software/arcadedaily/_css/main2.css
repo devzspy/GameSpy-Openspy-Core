@@ -1,0 +1,84 @@
+/* MAIN */
+body {
+	background-color:#005500;
+	color:#000000;
+	font-size:11px;
+	font-family:verdana,arial,helvetica,sans-serif;
+	margin:0px;
+	margin-top:0px;
+	margin-left:0px;
+	}
+a:link { color:#006900; text-decoration:none; }
+a:visited { color:#006900; text-decoration:none; }
+a:hover { color:#009900; text-decoration:underline; }
+
+td {
+	font-size:11px;
+	font-family:verdana,arial,helvetica,sans-serif;
+}
+
+/* OBJECTS */
+
+#mainLayout {
+	width:730px;
+	border-width:1px;
+	border-style:solid;
+	border-color:#000000;
+	background-color:#FFFFFF;
+	padding:0px;
+	text-align:left;
+	}	
+
+#contentPad { padding-right:17px; padding-left:13px; }
+
+img.imgBorder { border-width:1px; border-color:#000000; border-style:solid; }
+
+
+/* FORMS */
+
+form.formNoMargin { margin:0px; padding:0px; }
+
+input.searchBox {
+	margin-top:1px;
+	width:222px;
+	height:15px;
+	border-width:1px;
+	border-color:#888888;
+	border-style:solid;
+	}
+
+input.searchButton {
+	margin-top:2px;
+	width:22px;
+	height:19px;
+	border-width:1px;
+	border-style:solid;
+	border-color:#888888;
+	color:#444444;
+	background-color:#FFFFFF;
+	font-weight:bold;
+	padding:1px;
+	font-size:12px;
+	}
+
+/*
+     FILE ARCHIVED ON 22:10:17 Feb 26, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 04:24:23 Aug 27, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 177.094 (3)
+  esindex: 0.012
+  captures_list: 192.349
+  CDXLines.iter: 10.955 (3)
+  PetaboxLoader3.datanode: 172.054 (4)
+  exclusion.robots: 0.45
+  exclusion.robots.policy: 0.436
+  RedisCDXSource: 0.727
+  PetaboxLoader3.resolve: 150.095
+  load_resource: 162.413
+*/

@@ -1,0 +1,66 @@
+#overview {
+	height:200px;
+}
+
+#screenshots {
+	width:100%;
+	margin-top:8px;
+}
+
+#screenshots td {
+	text-align:center;
+}
+
+#screenshots img {
+	border:1px solid black;
+}
+
+#gameinfo {
+	padding-right:6px;
+}
+
+#requirements {
+	float:right;
+	clear:right;
+	margin-top:4px;
+	width:200px;
+	background:#EEEEEE;
+	padding:4px;
+	border:1px solid #999999;
+}
+
+#review {
+	text-align:center;
+	background:#EEEEEE;
+	padding:4px;
+	border:1px solid #999999;
+	margin-top:5px;
+}
+
+#score {
+	font-size:16px;
+	font-weight:bold;
+}
+
+
+/*
+     FILE ARCHIVED ON 18:27:35 Feb 03, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 04:18:54 Aug 27, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 168.349 (3)
+  esindex: 0.007
+  captures_list: 186.692
+  CDXLines.iter: 10.586 (3)
+  PetaboxLoader3.datanode: 172.703 (4)
+  exclusion.robots: 0.205
+  exclusion.robots.policy: 0.188
+  RedisCDXSource: 4.911
+  PetaboxLoader3.resolve: 117.959
+  load_resource: 147.276
+*/

@@ -1,0 +1,120 @@
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>GameSpy Arcade</title>
+<link rel="stylesheet" type="text/css" href="http://www.gamespyarcade.com/software/arcadedaily/_css/main2.css"/>
+<link rel="stylesheet" type="text/css" href="http://www.gamespyarcade.com/software/arcadedaily/_css/waystation2.css"/>
+</head>
+<body>
+
+<!-- CONTENT -->
+<div align="center">
+<div id="mainLayout">
+
+<!-- PADDING -->
+<div id="contentPad">
+<br/>
+<!-- GAME INFO & MUST HAVE -->
+<table border="0" cellpadding="0" cellspacing="0" width="700">
+<tr valign="top">
+<td width="310">
+<!-- GAME INFO -->
+<div align="center">
+<img src="http://www.gamespyarcade.com/software/arcadedaily/_img/dot.gif" width="310" height="5"/><br/><br/>
+<a href="arcadescript{gsalocal}:ChatClubDlg"><img src="http://www.gamespyarcade.com/software/arcadedaily/_img/partyroom/waystation_bigbutton_usr.jpg" width="307" height="65" border="0"/></a><br/>
+<br/><br/>
+<div class="waystationButton"><a href="arcadescript{gsalocal}:ChatClubDlg"><b>Create a User Room</b> -- Create your own party!</a></div>
+<div class="waystationButton"><a href="arcadescript{gsalocal}:ChatClubDisableTeaser(1)"><b>Don't want to see this page again? Click here!</a></div>
+
+</div>
+
+<!-- /GAME INFO -->
+</td>
+<td width="14"><img src="http://www.gamespyarcade.com/software/arcadedaily/_img/dot.gif" width="14" height="10" border="0"/></td>
+<td width="376">
+
+<script language="Javascript" src="http://www.gamespyarcade.com/software/waypages/_scr/chatclub.js"></script>
+<script language="Javascript">
+printChatClub();
+</script>
+
+</td>
+</tr>
+</table>
+<!-- /GAME INFO & MUST HAVE -->
+<br/>
+
+<!-- MORE ABOUT & COMMUNITY -->
+<table border="0" cellpadding="0" cellspacing="0" width="700">
+<tr valign="top">
+<td width="700"><img src="http://www.gamespyarcade.com/software/arcadedaily/_img/partyroom/moreaboutfeature.gif" width="348" height="15" border="0"/><br/></td>
+</tr>
+<tr valign="top">
+<td class="greybox">
+<b>WHAT ARE USER ROOMS?</b><br/>
+Think of them as your own VIP lounge or club house within the Arcade universe. User Rooms are <b>private, user-created chat rooms</b> where you and your friends, clan mates and complete strangers can <b>hang out</b> while you use GameSpy Arcade.   They include both a <b>chat lobby</b> and a <b>Web browser window</b>, so you can talk to your friends while checking out your clan's homepage -- or whatever else the room host has decided to display.<br/><br/>
+They're <b>persistent</b> too -- which means they'll be available to you whenever you log into Arcade, as long as the room's creator decides to keep it around. You can even protect them with <b>passwords</b> to secure them against intruders.
+
+<br/><br/>
+<b>HOW DO I JOIN ONE?</b><br/>
+<ul>
+<li>Open the User Room Browser (Ctrl + K)</li>
+<li>Search for a room to join using the search fields on the left-hand side of the menu</li>  
+<li>Highlight a room on the list you've generated</li>
+<li>Click the "Join Room" button</li></ul>
+
+<b>CAN I MAKE MY OWN USER ROOM?</b><br/>
+While all Arcade users can join a User Room, only <a href="http://www.gamespyarcade.com/subscribe?newtab">Game Tools and Founders Club subscribers</a> can create a User Room. <a href="http://www.gamespyarcade.com/subscribe?newtab">Join now</a> to carve out your own space inside Arcade.  <br/><br/>Once you're a subscriber, you create a User Room by following these steps:
+<ul>
+		<li>Open the User Room Browser (Ctrl + K)</li>
+		<li>Click on the "Create Room" button</li> 
+		<li>Enter your room's name, control access by adding a password, and choose a Web page to display in your room.</li>
+	</ul> 
+</td>
+</tr>
+</table>
+<!-- /MORE ABOUT & COMMUNITY -->
+<br/>
+
+<!-- BOTTOM BUTTONS -->
+<table border="0" cellpadding="0" cellspacing="0" width="700">
+<tr valign="top">
+<td width="348" align="center"><a href="http://www.gamespyarcade.com/support/chatclubs.shtml"><img src="/http://www.gamespyarcade.com/software/arcadedaily/_img/index/btn_techsupport.gif" width="326" height="28" border="0"/></a></td>
+<td width="4"><img src="http://www.gamespyarcade.com:80/_img/dot.gif" width="4" height="4"/></td>
+<td width="348" align="center"><a href="http://net.gamespyid.com/linktrack/redirect.aspx?i=6460&amp;t=http%3a%2f%2fwww.gamespyarcade.com%2fsubscribe"><img src="http://www.gamespyarcade.com/software/arcadedaily/_img/index/btn_subscribenow.gif" width="326" height="28" border="0"/></a></td>
+</tr>
+</table><br/>
+<!-- /BOTTOM BUTTONS -->
+
+</div>
+<!-- /PADDING-->
+<br/><br/><br/><br/>
+</div>
+</div>
+<!-- /CONTENT -->
+
+</body>
+</html><!--
+     FILE ARCHIVED ON 08:54:02 Apr 12, 2008 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 04:15:09 Aug 27, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  LoadShardBlock: 340.217 (3)
+  esindex: 0.006
+  captures_list: 362.098
+  CDXLines.iter: 16.38 (3)
+  PetaboxLoader3.datanode: 102.44 (4)
+  exclusion.robots: 0.207
+  exclusion.robots.policy: 0.193
+  RedisCDXSource: 1.091
+  PetaboxLoader3.resolve: 106.891
+  load_resource: 120.873
+-->

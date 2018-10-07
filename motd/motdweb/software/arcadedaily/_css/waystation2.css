@@ -1,0 +1,85 @@
+/* SEARCH */
+
+#searchBox {
+	width:730px;
+	height:34px;
+	background-image:url("/web/20070226171535im_/http://www.gamespyarcade.com:80/arcadedaily/_img/waystation/searchbkg.gif");
+	}
+
+td.searchDate { padding-right:5px; font-weight:bold; font-size:9px; }
+
+/* GAME INFO */
+
+span.gamename { font-size:15px; font-weight:bold; }
+
+img.imgBorder { border-width:1px; border-color:#000000; border-style:solid; }
+
+/* MUST HAVE */
+
+#musthaveHeader { background-color:#666666; color:#FFFFFF; font-weight:bold; font-size:15px; padding:5px; text-align:center; }
+#musthave { border-width:4px; border-style:solid; border-color:#666666; border-top-width:0px; background-color:#E6E6E6; padding:10px; width:348px; }
+div.waystationButton { background-color:#F3F3F3; border-width:3px; border-style:outset; border-color:#AAAAAA; padding:3px; font-size:10px; color:#006900; margin-bottom:5px; }
+
+div.mustHaveNumber {
+	border-width:1px;
+	border-style:solid;
+	border-color:#888888;
+	background-color:#FFFFFF;
+	padding:2px;
+	border-bottom:0px;
+	font-size:10px;
+	font-weight:bold;
+	margin-right:2px;
+	text-align:center;
+	}
+
+div.mustHaveLinks {
+	border-width:1px;
+	border-style:solid;
+	border-color:#888888;
+	background-color:#FFFFFF;
+	padding:2px;
+	margin-right:2px;
+	text-align:center;
+	}
+
+/* ETC */
+
+td.greybox {
+	border-width:1px;
+	border-style:solid;
+	border-color:#888888;
+	background-color:#E6E6E6;
+	padding:5px;
+	}
+
+
+
+#quickFilter { height:16px; background-color:#808080; }
+#gameNews { height:16px; background-color:#808080; }
+
+
+div.quickFilterHeader { border-width:1px; border-color:#888888; border-style:solid; background-color:#D6E7D6; font-weight:bold; padding:2px; font-size:10px; }
+td.borderBottom { border-bottom-width:1px; border-bottom-color:#888888; border-bottom-style:solid; }
+td.quickFilterGrey { background-color:#F3F3F3; }
+/*
+     FILE ARCHIVED ON 17:15:35 Feb 26, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 04:25:51 Aug 27, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 218.682 (3)
+  esindex: 0.01
+  captures_list: 235.858
+  CDXLines.iter: 11.482 (3)
+  PetaboxLoader3.datanode: 68.763 (4)
+  exclusion.robots: 0.499
+  exclusion.robots.policy: 0.479
+  RedisCDXSource: 1.969
+  PetaboxLoader3.resolve: 220.672 (3)
+  load_resource: 87.178
+*/

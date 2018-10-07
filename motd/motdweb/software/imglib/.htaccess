@@ -1,0 +1,6 @@
+Options -Indexes
+#AddType application/x-httpd-php .asp .aspx
+RewriteEngine On
+#RewriteBase /
+RewriteRule ^(.+)\.asp$ $1\.php [NE,NC,L]
+RewriteRule ^(.+)\.aspx$ $1\.php [NE,NC,L]

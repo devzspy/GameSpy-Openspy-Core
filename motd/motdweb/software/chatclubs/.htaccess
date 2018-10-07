@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^(.*)/(.*)/(.*)$ clubs.php?pid=$1&passmd5=$2&cmd=$3&title=$4 [NC,L]
+RewriteRule ^(.+)\.asp$ $1\.php [NC,L]
+RewriteRule ^(.+)\.aspx$ $1\.php [NC,L]
