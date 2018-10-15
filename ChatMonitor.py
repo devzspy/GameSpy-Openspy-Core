@@ -4,13 +4,11 @@ import socket
 import string
 import re
 import codecs
-import urlmarker
 import time
 import thread
 import random
 import pickle
 from time import sleep
-import MySQLdb
 import datetime
 
 reload(sys)
@@ -83,6 +81,8 @@ def partChannel(admin, channel, CURRENTCHANNELS):
     Main Function
 '''
 def main(NETWORK, NICK, CHAN, PORT):
+    flag = True
+    readbuffer = ""
     MAXCHANNELS = 20
     CURRENTCHANNELS = 0
     global CONNECTED
@@ -125,7 +125,7 @@ def main(NETWORK, NICK, CHAN, PORT):
                 '''
                     On connect
                 '''
-                if ("MODE" in line and NICK in line and "+i" in line):
+                if ("372" in line and "Welcome" in line and "GameSpy" in line):
                     CONNECTED = True
                     operArcade(OPER_NAME, OPER_EMAIL, OPER_PASSWORD)
                     sleep(5)
