@@ -89,6 +89,8 @@ def main(NETWORK, NICK, CHAN, PORT):
     global DISABLE_COMMANDS
     global USER_LIST
 
+    banned_words = ['nigger', 'spic', 'chink', 'faggot', 'crack', 'gameranger', 'voobly', 'xfire', 'gook']
+
     s.connect((NETWORK, PORT))
     s.send("NICK %s\r\n" % NICK)
     s.send("USER %s %s bla :%s\r\n" % (IDENTD, NETWORK, REALNAME))
@@ -131,6 +133,20 @@ def main(NETWORK, NICK, CHAN, PORT):
                     sleep(5)
                     CURRENTCHANNELS = loadStartChannels(CHAN, CURRENTCHANNELS)
 
+                if("PRIVMSG" in line and line[2] == NICK):
+                    user = line[0].split("!", 1)
+                    user = user[0]
+                    s.send("PRIVMSG %s :I'm a bot. I'm here to enforce chat standards. You can read them here: http://www.gamespyarcade.com/support/chatrules.shtml" % user)
+
+                if any(word in [x.lower() for x in line] for word in banned_words):
+                    channel = line[2]
+                    for bword in banned_words:
+                        if bword in [x.lower() for x in line]:
+                            new_line = [x.lower() for x in line]
+                            word = new_line.index(bword)
+                            s.send("ATM %s ATM :CHDEL %s\r\n" % (channel, line[word]))
+                            #Uncomment if you wish to "Gag" a user from talking for 24 hours. Requires extra formatting that I don't care about for now. Below is a mIRC script codeblock
+                            #s.send("setusermode X \hostmask\ $+  $mid($wildsite,5) $+ \modeflags\g\expiressec\86400\comment\User used offensive word - Gag period 1 day")
             except:
                 continue
 
