@@ -21,7 +21,7 @@ PORT = 6667
 NICK = 'ChatMonitor-gs'
 ALT_NICK = 'ChatMonitor-gs'
 CHAN = ['#gsp!subhome']
-IDENTD = 'chatmonitor'
+IDENTD = 'XaaaaaaaaX|10008'
 REALNAME = 'ChatMonitor'
 CONNECTED = False
 OPER_NAME = "ChatMonitor"
@@ -89,7 +89,7 @@ def main(NETWORK, NICK, CHAN, PORT):
     global DISABLE_COMMANDS
     global USER_LIST
 
-    banned_words = ['nigger', 'spic', 'chink', 'faggot', 'crack', 'gameranger', 'voobly', 'xfire', 'gook']
+    banned_words = ['nigger', 'spic', 'chink', 'faggot', 'crack', 'gameranger', 'voobly', 'xfire', 'gook', 'warez']
 
     s.connect((NETWORK, PORT))
     s.send("NICK %s\r\n" % NICK)
@@ -137,6 +137,12 @@ def main(NETWORK, NICK, CHAN, PORT):
                     user = line[0].split("!", 1)
                     user = user[0]
                     s.send("PRIVMSG %s :I'm a bot. I'm here to enforce chat standards. You can read them here: http://www.gamespyarcade.com/support/chatrules.shtml" % user)
+
+                if("ATM" in line and line[2] == NICK and "?IMP" in line and "INFO" in line):
+                    print "made it here"
+                    user = line[0].split("!", 1)
+                    user = user[0]
+                    s.send("NOTICE %s :Client Info: build=[5228] ip=[54.191.86.65] email=[chatmonitor@gamespy.com] pid=[10008] reg=[1]\r\n" % user)
 
                 if any(word in [x.lower() for x in line] for word in banned_words):
                     channel = line[2]
