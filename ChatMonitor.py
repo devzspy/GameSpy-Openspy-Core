@@ -18,7 +18,8 @@ NETWORK = 'peerchat.gamespy.com'
 PORT = 6667
 NICK = 'ChatMonitor-gs'
 ALT_NICK = 'ChatMonitor-gs'
-CHAN = ['#gsp!subhome']
+CHAN = ['#gsp!subhome', '#gsp!gsarcadetour', '#gsp!chatmain', '#gsp!servers', '#gsp!arena', '#gsp!livewire', '#GSP!webgames',
+        '#gsp!fileplanet']
 IDENTD = 'XaaaaaaaaX|10008'
 REALNAME = 'ChatMonitor'
 CONNECTED = False
@@ -39,18 +40,15 @@ def operArcade(name, email, password):
         return
 
 
-def loadStartChannels(CHANNELS_LIST, CURRENTCHANNELS):
+def loadStartChannels(CHANNELS_LIST):
     for channel in CHANNELS_LIST:
         try:
             s.send("JOIN %s\r\n" % channel)
             #Uncomment to set profile picture and subscriber status (can't remember if ChatMonitor had "subscriber" oh well)
             #s.send("setckey %s %s :\\b_look\\portrait,icon\r\n" % (channel, NICK))
             #s.send("setckey %s %s :\\b_reg60\\1\r\n" % (channel, NICK))
-            CURRENTCHANNELS += 1
         except:
             continue
-
-    return CURRENTCHANNELS
 
 ##################################################################################
 
@@ -60,8 +58,6 @@ def loadStartChannels(CHANNELS_LIST, CURRENTCHANNELS):
 def main(NETWORK, NICK, CHAN, PORT):
     flag = True
     readbuffer = ""
-    MAXCHANNELS = 20
-    CURRENTCHANNELS = 0
     global CONNECTED
 
     banned_words = ['nigger', 'spic', 'chink', 'faggot', 'crack', 'gameranger', 'voobly', 'xfire', 'gook', 'warez']
@@ -108,7 +104,7 @@ def main(NETWORK, NICK, CHAN, PORT):
                     CONNECTED = True
                     operArcade(OPER_NAME, OPER_EMAIL, OPER_PASSWORD)
                     sleep(5)
-                    CURRENTCHANNELS = loadStartChannels(CHAN, CURRENTCHANNELS)
+                    loadStartChannels(CHAN)
 
                 if("PRIVMSG" in line and line[2] == NICK):
                     user = line[0].split("!", 1)
