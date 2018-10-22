@@ -1,4 +1,4 @@
-#!/usr/bin
+#!/usr/bin/python
 import sys
 import socket
 import string
@@ -6,8 +6,6 @@ import re
 import codecs
 import time
 import thread
-import random
-import pickle
 from time import sleep
 import datetime
 
@@ -45,33 +43,12 @@ def loadStartChannels(CHANNELS_LIST, CURRENTCHANNELS):
     for channel in CHANNELS_LIST:
         try:
             s.send("JOIN %s\r\n" % channel)
+            #Uncomment to set profile picture and subscriber status (can't remember if ChatMonitor had "subscriber" oh well)
+            #s.send("setckey %s %s :\\b_look\\portrait,icon\r\n" % (channel, NICK))
+            #s.send("setckey %s %s :\\b_reg60\\1\r\n" % (channel, NICK))
             CURRENTCHANNELS += 1
         except:
             continue
-
-    return CURRENTCHANNELS
-
-
-def joinChannel(admin, channel, CURRENTCHANNELS, MAXCHANNELS):
-    if (CURRENTCHANNELS <= MAXCHANNELS):
-        try:
-            s.send("JOIN %s\r\n" % channel)
-            s.send("PRIVMSG %s :I joined %s\r\n" % (admin, channel))
-            CURRENTCHANNELS += 1
-        except:
-            return
-
-    return CURRENTCHANNELS
-
-
-def partChannel(admin, channel, CURRENTCHANNELS):
-    if (CURRENTCHANNELS >= 0):
-        try:
-            s.send("PART %s\r\n" % channel)
-            s.send("PRIVMSG %s :I left %s\r\n" % (admin, channel))
-            CURRENTCHANNELS -= 1
-        except:
-            return
 
     return CURRENTCHANNELS
 
@@ -86,8 +63,6 @@ def main(NETWORK, NICK, CHAN, PORT):
     MAXCHANNELS = 20
     CURRENTCHANNELS = 0
     global CONNECTED
-    global DISABLE_COMMANDS
-    global USER_LIST
 
     banned_words = ['nigger', 'spic', 'chink', 'faggot', 'crack', 'gameranger', 'voobly', 'xfire', 'gook', 'warez']
 
@@ -96,8 +71,10 @@ def main(NETWORK, NICK, CHAN, PORT):
     s.send("USER %s %s bla :%s\r\n" % (IDENTD, NETWORK, REALNAME))
 
     while (flag):
+        try:
         readbuffer = readbuffer + s.recv(4096)
 
+        #Uncomment for debugging
         # print readbuffer
 
         temp = string.split(readbuffer, "\n")
@@ -109,7 +86,8 @@ def main(NETWORK, NICK, CHAN, PORT):
             line = [re.sub("^:", "", rep) for rep in line]
             line = [x.decode('utf-8') for x in line]
 
-            print line
+            #Uncomment for debugging
+            #print line
 
             if ("PING" not in line and CONNECTED == True and "PRIVMSG" in line):
                 user = line[0].split("!", 1)
@@ -121,8 +99,7 @@ def main(NETWORK, NICK, CHAN, PORT):
             try:
                 if (line[0] == "PING"):
                     s.send("PONG %s\r\n" % line[1])
-                    # print "PONG :%s" % line[1]
-
+                    print "[OUT]PONG %s" % line[1]
             
                 '''
                     On connect
@@ -137,12 +114,13 @@ def main(NETWORK, NICK, CHAN, PORT):
                     user = line[0].split("!", 1)
                     user = user[0]
                     s.send("PRIVMSG %s :I'm a bot. I'm here to enforce chat standards. You can read them here: http://www.gamespyarcade.com/support/chatrules.shtml" % user)
+                    print "[OUT][%s]I'm a bot. I'm here to enforce chat standards. You can read them here: http://www.gamespyarcade.com/support/chatrules.shtml" % user
 
                 if("ATM" in line and line[2] == NICK and "?IMP" in line and "INFO" in line):
-                    print "made it here"
                     user = line[0].split("!", 1)
                     user = user[0]
                     s.send("NOTICE %s :Client Info: build=[5228] ip=[54.191.86.65] email=[chatmonitor@gamespy.com] pid=[10008] reg=[1]\r\n" % user)
+                    print "[OUT][%s]Client Info: build=[5228] ip=[54.191.86.65] email=[chatmonitor@gamespy.com] pid=[10008] reg=[1]" % user
 
                 if any(word in [x.lower() for x in line] for word in banned_words):
                     channel = line[2]
@@ -153,7 +131,10 @@ def main(NETWORK, NICK, CHAN, PORT):
                             s.send("ATM %s ATM :CHDEL %s\r\n" % (channel, line[word]))
                             #Uncomment if you wish to "Gag" a user from talking for 24 hours. Requires extra formatting that I don't care about for now. Below is a mIRC script codeblock
                             #s.send("setusermode X \hostmask\ $+  $mid($wildsite,5) $+ \modeflags\g\expiressec\86400\comment\User used offensive word - Gag period 1 day")
-            except:
+            except s.timeout:
+                global CONNECTED
+                CONNECTED = False
+                main(NETWORK, NICK, CHAN, PORT)
                 continue
 
 
