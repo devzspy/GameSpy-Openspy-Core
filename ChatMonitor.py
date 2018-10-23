@@ -67,7 +67,6 @@ def main(NETWORK, NICK, CHAN, PORT):
     s.send("USER %s %s bla :%s\r\n" % (IDENTD, NETWORK, REALNAME))
 
     while (flag):
-        try:
         readbuffer = readbuffer + s.recv(4096)
 
         #Uncomment for debugging
@@ -120,15 +119,16 @@ def main(NETWORK, NICK, CHAN, PORT):
 
                 if any(word in [x.lower() for x in line] for word in banned_words):
                     channel = line[2]
+                    userHostMask = line[0].split("@",1)
+                    userHostMask = userHostMask[1]
                     for bword in banned_words:
                         if bword in [x.lower() for x in line]:
                             new_line = [x.lower() for x in line]
                             word = new_line.index(bword)
                             s.send("ATM %s ATM :CHDEL %s\r\n" % (channel, line[word]))
-                            #Uncomment if you wish to "Gag" a user from talking for 24 hours. Requires extra formatting that I don't care about for now. Below is a mIRC script codeblock
-                            #s.send("setusermode X \hostmask\ $+  $mid($wildsite,5) $+ \modeflags\g\expiressec\86400\comment\User used offensive word - Gag period 1 day")
+                            #Uncomment if you wish to "Gag" a user from talking for 24 hours.
+                            #s.send("setusermode X \hostmask\%s\modeflags\g\expiressec\86400\comment\User used offensive word - Gag period 1 day" % userHostMask)
             except s.timeout:
-                global CONNECTED
                 CONNECTED = False
                 main(NETWORK, NICK, CHAN, PORT)
                 continue
