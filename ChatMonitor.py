@@ -93,6 +93,7 @@ def main(NETWORK, NICK, CHAN, PORT):
 
             try:
                 if (line[0] == "PING"):
+                    print "[IN]PING %s" %line[1]
                     s.send("PONG %s\r\n" % line[1])
                     print "[OUT]PONG %s" % line[1]
             
