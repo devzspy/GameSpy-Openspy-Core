@@ -35,7 +35,6 @@ s = socket.socket()
 def operArcade(name, email, password):
     try:
         s.send("OPER %s %s %s\r\n" % (name, email, password))
-        s.send("MODE %s +x\r\n" % NICK)
     except:
         return
 
