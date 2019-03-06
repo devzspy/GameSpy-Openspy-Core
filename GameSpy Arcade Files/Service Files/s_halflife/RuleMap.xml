@@ -1,0 +1,575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationMaps xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MapsData>
+    <TranslationMap>
+      <Name>-</Name>
+      <MapData>
+        <Translation>
+          <Name>max_queries_sec_global</Name>
+          <Title>Max Queries/sec</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_maxrate</Name>
+          <Title>Max Rate</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_minrate</Name>
+          <Title>Min Rate</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_logfile</Name>
+          <Title>Log File</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_allowupload</Name>
+          <Title>Allow Upload</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>hlg_sbsrv_version</Name>
+          <Title>HLGuard Sub Version</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_autocrosshair</Name>
+          <Title>Auto-Crosshair</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_accelerate</Name>
+          <Title>Accelerate</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_timelimit_max</Name>
+          <Title>Timelimit Max</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>player_speed</Name>
+          <Title>Player Speed</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_falldamage</Name>
+          <Title>Fall Damage</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>allow_spectators</Name>
+          <Title>Allow Spectators</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_airmove</Name>
+          <Title>Air Move</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>modwebsite</Name>
+          <Title>Mod Website</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>hlg_setting</Name>
+          <Title>HLGuard Setting</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>lm_query</Name>
+          <Title>Log Mod Query</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>deathmatch</Name>
+          <Title>Deathmatch</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_giveammo</Name>
+          <Title>Give Ammo</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_proxies</Name>
+          <Title>Proxies</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_respawn_breakables</Name>
+          <Title>Respawn Breakables</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_timelimit_min</Name>
+          <Title>Timelimit min</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_airaccelerate</Name>
+          <Title>Air Accelerate</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>admin_quiet</Name>
+          <Title>Admin Quiet</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>admin_highlander</Name>
+          <Title>Admin Highlander</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_fraglimit_max_value</Name>
+          <Title>Fraglimit Max Value</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>modsize</Name>
+          <Title>Mod size</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bunnyhop_enable</Name>
+          <Title>Bunnyhop Enable</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_weaponstay</Name>
+          <Title>Weapon Stay</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>fun_version</Name>
+          <Title>Fun Version</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>hlg_checkversion</Name>
+          <Title>HLGuard Check Version</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_consistency</Name>
+          <Title>Consistency</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>decalfrequency</Name>
+          <Title>Decal Frequency</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_timelimit_min_value</Name>
+          <Title>Timelimit Min Value</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>protocol</Name>
+          <Title>Protocol</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_teamplay</Name>
+          <Title>Teamplay</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>secure</Name>
+          <Title>Secure</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_giveweapons</Name>
+          <Title>Give Weapons</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>amx_language</Name>
+          <Title>AMX Language</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_timelimit_max_value</Name>
+          <Title>sTimelimit Max Value</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_teamlist</Name>
+          <Title>Team List</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_voiceenable</Name>
+          <Title>Voice Enable</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>lm_db</Name>
+          <Title>Log Mod DB</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_uploadmax</Name>
+          <Title>Upload Max</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>max_queries_window</Name>
+          <Title>Max Queries Window</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>modversion</Name>
+          <Title>Mod Version</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>serveros</Name>
+          <Title>Server OS</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_logblocks</Name>
+          <Title>Log Blocks</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>hlg_version</Name>
+          <Title>HLGuard Version</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_friction</Name>
+          <Title>Friction</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>lm_port</Name>
+          <Title>Log Mod Port</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>amx_version</Name>
+          <Title>AMX Version</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_maxspeed</Name>
+          <Title>Max Speed</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_timeleft</Name>
+          <Title>Timeleft</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_wateraccelerate</Name>
+          <Title>Water Accelerate</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>ami_sv_maxplayers</Name>
+          <Title>AMI Maxplayers</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_fraglimit_max</Name>
+          <Title>Fraglimit Max</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_stopspeed</Name>
+          <Title>Stop Speed</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_waterfriction</Name>
+          <Title>Water Friction</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_clipmode</Name>
+          <Title>Clip Mode</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>modclientdll</Name>
+          <Title>Mod Client DLL</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_alltalk</Name>
+          <Title>All Talk</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>public_slots_free</Name>
+          <Title>Public Slots</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_fraglimit</Name>
+          <Title>Frag Limit</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_fraglimit_min</Name>
+          <Title>Fraglimit Min</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_clienttrace</Name>
+          <Title>Client Trace</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>reserve_slots</Name>
+          <Title>Reserved Slots</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_aim</Name>
+          <Title>Aim</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_password</Name>
+          <Title>Password</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_forcerespawn</Name>
+          <Title>Force Respawn</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_timelimit</Name>
+          <Title>Timelimit</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_footsteps</Name>
+          <Title>Footsteps</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>admin_ignore_immunity</Name>
+          <Title>Admin Ignore Immunity</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_allowmonsters</Name>
+          <Title>Allow Monsters</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_fraglimit_min_value</Name>
+          <Title>Fraglimit Min Value</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_stepsize</Name>
+          <Title>Step Size</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>logmod_version</Name>
+          <Title>Log Mod Version</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_contact</Name>
+          <Title>Contact</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_chattime</Name>
+          <Title>Chattime</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>moddownload</Name>
+          <Title>Mod Download</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>edgefriction</Name>
+          <Title>Edge Friction</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_gravity</Name>
+          <Title>Gravity</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_cheats</Name>
+          <Title>Cheats</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>coop</Name>
+          <Title>Coopative</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>reserve_type</Name>
+          <Title>Reserve Type</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>gamename</Name>
+          <Title>Game Name</Title>
+          <Type>Lookup</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_fragsleft</Name>
+          <Title>Frags Left</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>amxmodx_version</Name>
+          <Title>AMX Mod Version</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_region</Name>
+          <Title>Region</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>amv_private_server</Name>
+          <Title>AMX Private Server</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>servertype</Name>
+          <Title>Server Type</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>lm_status</Name>
+          <Title>Log Mod Status</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>amx_timeleft</Name>
+          <Title>AMX Timeleft</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>admin_mod_version</Name>
+          <Title>Admin Mod Version</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>modserverside</Name>
+          <Title>Mod Server Side</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_friendlyfire</Name>
+          <Title>Friendly Fire</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mod</Name>
+          <Title>Mod</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>moddesc</Name>
+          <Title>Mod Description</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_bounce</Name>
+          <Title>Bounce</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>hlg_cfgversion</Name>
+          <Title>HLGuard Config Version</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_flashlight</Name>
+          <Title>Flashlight</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>metamod_version</Name>
+          <Title>Meta Mod Version</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>max_queries_sec</Name>
+          <Title>Max Queries/sec</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>default_access</Name>
+          <Title>Default Access</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>amx_nextmap</Name>
+          <Title>AMX Next Map</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>allow_client_exec</Name>
+          <Title>Allow Client Exec</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>pausable</Name>
+          <Title>Pausable</Title>
+          <Type>YesNo</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+    <TranslationMap>
+      <Name>gamename</Name>
+      <MapData>
+        <Translation>
+          <Name>SCXPM 17.0</Name>
+          <Title>Sven Co-op Experience Mod 17.0</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>XDM</Name>
+          <Title>Xtreme Deathmatch</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>Half-Life oztp</Name>
+          <Title>Oz Teamplay</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>AG Arcade</Name>
+          <Title>Adrenaline Gamer Arcade</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>XDM Teamplay</Name>
+          <Title>Xtreme Deathmatch Teamplay</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>Half-Life ozdm</Name>
+          <Title>Oz Deathmatch</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+  </MapsData>
+</TranslationMaps>

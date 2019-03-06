@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGameRule xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <GameRule>
+    <Name>-gamevariant</Name>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>balanceteams</Name>
+    <Control>Checkbox</Control>
+    <Value>0</Value>
+    <Compare>=</Compare>
+    <SelectedValue>0</SelectedValue>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>tournament</Name>
+    <Control>Checkbox</Control>
+    <Value>0</Value>
+    <Compare>=</Compare>
+    <SelectedValue>0</SelectedValue>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>timelimit</Name>
+    <Control>NumericUpDown</Control>
+    <Value>0</Value>
+    <Compare>&gt;</Compare>
+    <SelectedValue>0</SelectedValue>
+    <Children />
+  </GameRule>
+</ArrayOfGameRule>

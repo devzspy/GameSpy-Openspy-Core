@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGameRule xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+ <!-- Players on server with reserved slot calculation -->
+ <GameRule>
+    <Name>playercount</Name>
+    <Control>PlayerCount</Control>
+    <Compare>=</Compare>
+    <!-- The Formula needs to include all of the children values. -->
+    <Formula>(numplayers &gt;= #numplayers#) and (maxplayers &lt;= #maxplayers#) and (maxplayers - reservedslots - numplayers) &gt;= #openslots#</Formula>
+    <Children>
+      <GameRule>
+        <Name>numplayers</Name>
+        <Control>NumericUpDown</Control>
+        <Compare>&gt;=</Compare>
+        <SelectedValue>2</SelectedValue>
+      </GameRule>
+      <GameRule>
+        <Name>maxplayers</Name>
+        <Control>NumericUpDown</Control>
+        <Compare>&lt;=</Compare>
+        <SelectedValue>25</SelectedValue>
+      </GameRule>
+      <GameRule>
+        <Name>openslots</Name>
+        <Control>NumericUpDown</Control>
+        <Compare>&gt;=</Compare>
+        <SelectedValue>3</SelectedValue>
+      </GameRule>
+    </Children>
+  </GameRule>
+
+  <GameRule>
+    <Name>mapname</Name>
+    <Control>Listbox</Control>
+    <Value>*any*</Value>
+    <Compare>=</Compare>
+    <SelectedValue>*any*\Aberdeen\battle of the bulge\berlin\battle of britain\battleaxe\coral sea\el alamein\guadalcanal\gazala\invasion of the philippines\iwo jima\Kharkov\kursk\liberation of caen\market garden\midway\omaha beach\stalingrad\tobruk\Wake</SelectedValue>
+  </GameRule>
+
+  <!-- Remove the common Game variant (mod) -->
+  <GameRule>
+    <Name>-gamevariant</Name>
+    <Control>Listbox</Control>
+    <Value>*any*</Value>
+    <Compare>=</Compare>
+    <SelectedValue>*any*</SelectedValue>
+  </GameRule>
+
+  <!-- Add the BF1942 mod rule -->
+  <GameRule>
+    <Name>gameid</Name>
+    <Control>Listbox</Control>
+    <Value>*any*</Value>
+    <Compare>=</Compare>
+    <SelectedValue>*any*</SelectedValue>
+  </GameRule>
+
+  <!-- Auto Balance -->
+  <GameRule>
+    <Name>auto_balance_teams</Name>
+    <Control>Listbox</Control>
+    <Value>*any*</Value>
+    <Compare>=</Compare>
+    <SelectedValue>*any*</SelectedValue>
+  </GameRule>
+
+  <!-- Punk Buster -->
+  <GameRule>
+    <Name>sv_punkbuster</Name>
+    <Control>Checkbox</Control>
+    <Compare>=</Compare>
+    <SelectedValue>1</SelectedValue>
+  </GameRule>
+</ArrayOfGameRule>

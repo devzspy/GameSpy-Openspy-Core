@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationMaps xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MapsData>
+    <TranslationMap>
+      <Name>-</Name>
+      <MapData>
+        <Translation>
+          <Name>version</Name>
+          <Title>Version</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>hostport</Name>
+          <Title>Host Port</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>maptitle</Name>
+          <Title>Map Title</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>minnetver</Name>
+          <Title>Min Net Version</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>location</Name>
+          <Title>Location</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>gamemode</Name>
+          <Title>Game Mode</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>gamename</Name>
+          <Title>Game Name</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+  </MapsData>
+</TranslationMaps>

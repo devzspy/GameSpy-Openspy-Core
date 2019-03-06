@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationMaps xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MapsData>
+    <TranslationMap>
+      <Name>-</Name>
+      <MapData>
+        <Translation>
+          <Name>BW</Name>
+          <Title>Bandwidth</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>FF</Name>
+          <Title>FF</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>RenGuard</Name>
+          <Title>Ren Guard</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>DG</Name>
+          <Title>DG</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>CSVR</Name>
+          <Title>CSVR</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>DED</Name>
+          <Title>Dedicated</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>TC</Name>
+          <Title>TC</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>gamename</Name>
+          <Title>Game Name</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+  </MapsData>
+</TranslationMaps>

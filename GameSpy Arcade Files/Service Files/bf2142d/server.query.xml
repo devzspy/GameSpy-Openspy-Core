@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGameRule xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Players on server with reserved slot calculation -->
+ <GameRule>
+    <Name>playercount</Name>
+    <Control>PlayerCount</Control>
+    <Compare>=</Compare>
+    <!-- The Formula needs to include all of the children values. -->
+    <Formula>(numplayers &gt;= #numplayers#) and (maxplayers &lt;= #maxplayers#) and (maxplayers - bf2142_reservedslots - numplayers) &gt;= #openslots#</Formula>
+    <Children>
+      <GameRule>
+        <Name>numplayers</Name>
+        <Control>NumericUpDown</Control>
+        <Compare>&gt;=</Compare>
+        <SelectedValue>2</SelectedValue>
+      </GameRule>
+      <GameRule>
+        <Name>maxplayers</Name>
+        <Control>NumericUpDown</Control>
+        <Compare>&lt;=</Compare>
+        <SelectedValue>25</SelectedValue>
+      </GameRule>
+      <GameRule>
+        <Name>openslots</Name>
+        <Control>NumericUpDown</Control>
+        <Compare>&gt;=</Compare>
+        <SelectedValue>3</SelectedValue>
+      </GameRule>
+    </Children>
+  </GameRule>
+
+
+<!-- Ranked -->
+  <GameRule>
+    <Name>bf2142_ranked</Name>
+    <Control>Checkbox</Control>
+    <Compare>=</Compare>
+    <SelectedValue>1</SelectedValue>
+  </GameRule>
+
+
+<!-- PunkBuster -->
+  <GameRule>
+    <Name>bf2142_anticheat</Name>
+    <Control>Checkbox</Control>
+    <Compare>=</Compare>
+    <SelectedValue>1</SelectedValue>
+  </GameRule>
+
+
+<!-- Auto balance -->
+  <GameRule>
+    <Name>bf2142_autobalanced</Name>
+    <Control>Checkbox</Control>
+    <Compare>=</Compare>
+    <SelectedValue>1</SelectedValue>
+  </GameRule>
+
+
+<!-- Friendly Fire -->
+  <GameRule>
+    <Name>bf2142_friendlyfire</Name>
+    <Control>Checkbox</Control>
+    <Compare>=</Compare>
+    <SelectedValue>1</SelectedValue>
+  </GameRule>
+
+
+<!-- Everything unlocked -->
+  <GameRule>
+    <Name>bf2142_globalunlocks</Name>
+    <Control>Checkbox</Control>
+    <Compare>=</Compare>
+    <SelectedValue>0</SelectedValue>
+  </GameRule>
+</ArrayOfGameRule>

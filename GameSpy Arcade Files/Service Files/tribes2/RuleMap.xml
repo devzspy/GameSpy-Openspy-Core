@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationMaps xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MapsData>
+    <TranslationMap>
+      <Name>gamevariant</Name>
+      <MapData>
+        <Translation>
+          <Name>base</Name>
+          <Title>Base</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>War2003</Name>
+          <Title>War 2003</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>UltraXtreme</Name>
+          <Title>Ultra Xtreme</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>classic</Name>
+          <Title>Classic</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>devastation</Name>
+          <Title>Devastation</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>XtremeKills</Name>
+          <Title>Xtreme Kills</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>Meltdown2-R</Name>
+          <Title>Meltdown2 R</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>version2</Name>
+          <Title>Version 2</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>reborn</Name>
+          <Title>Reborn</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+    <TranslationMap>
+      <Name>-</Name>
+      <MapData>
+        <Translation>
+          <Name>x_ipport</Name>
+          <Title>IP Port</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>hostport</Name>
+          <Title>Host Port</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>cpu</Name>
+          <Title>Cpu</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>dedicated</Name>
+          <Title>Dedicated</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>noaliases</Name>
+          <Title>No Aliases</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>info</Name>
+          <Title>Info</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>version</Name>
+          <Title>Version</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>queryver</Name>
+          <Title>Query Version</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>linux</Name>
+          <Title>Linux</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>_status</Name>
+          <Title>Status</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>numbots</Name>
+          <Title>Number of Bots</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>tournament</Name>
+          <Title>Tournament</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>numteams</Name>
+          <Title>Number of Teams</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>protocol</Name>
+          <Title>Protocol</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>teamdamage</Name>
+          <Title>Team Damage</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>minprotocol</Name>
+          <Title>Minimum Protocol</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+  </MapsData>
+</TranslationMaps>

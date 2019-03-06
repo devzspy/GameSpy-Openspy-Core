@@ -1,0 +1,1050 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationMaps xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MapsData>
+    <TranslationMap>
+      <Name>-query</Name>
+      <MapData>
+        <Translation>
+          <Name>gamevariant</Name>
+          <Title>Game Types</Title>
+          <Type>Lookup</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+    <TranslationMap>
+      <Name>-</Name>
+      <MapData>
+        <Translation>
+          <Name>gamevariant</Name>
+          <Title>Game Type</Title>
+          <Type>Lookup</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_maxPing</Name>
+          <Title>Max Ping</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mod</Name>
+          <Title>Mod</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>shortversion</Name>
+          <Title>Short Version</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>pswrd</Name>
+          <Title>Password Protected</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>gamename</Name>
+          <Title>Game Name</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_antilag</Name>
+          <Title>Anti Lag</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_minPing</Name>
+          <Title>Min Ping</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_punkbuster</Name>
+          <Title>PunkBuster</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_allowAnonymous</Name>
+          <Title>Allow Anonymous</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_voice</Name>
+          <Title>Voice</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_floodProtect</Name>
+          <Title>Flood Protect</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_maxRate</Name>
+          <Title>Max Rate</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_privateClients</Name>
+          <Title>Reserved Slots</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>scr_friendlyfire</Name>
+          <Title>Friendly Fire</Title>
+          <Type>Lookup</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_pure</Name>
+          <Title>Pure Check</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>scr_killcam</Name>
+          <Title>How Killed</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>protocol</Name>
+          <Title>Protocol</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>fs_game</Name>
+          <Title>Game Folder</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+    <TranslationMap>
+      <Name>scr_friendlyfire</Name>
+      <MapData>
+        <Translation>
+          <Name>2</Name>
+          <Title>Reflect Damage</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>0</Name>
+          <Title>Off</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>1</Name>
+          <Title>On</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+    <TranslationMap>
+      <Name>gamevariant</Name>
+      <MapData>
+        <Translation>
+          <Name>lms</Name>
+          <Title>Last Man Standing</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>hq2</Name>
+          <Title>Headquarters 2</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sdr</Name>
+          <Title>Search &amp; Destory Respawn</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>lts</Name>
+          <Title>Last Team Standing</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>ctfb</Name>
+          <Title>CTF bring Back own Flag</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>dom</Name>
+          <Title>Domination</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>csd</Name>
+          <Title>Counterstrike S&amp;D</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>vip</Name>
+          <Title>VIP Escort</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>lib</Name>
+          <Title>Liberation</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>codjumper</Name>
+          <Title>CoD jumper</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>ehq</Name>
+          <Title>Enhanced Headquarters</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sd</Name>
+          <Title>Search &amp; Destroy</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>tdm</Name>
+          <Title>Team Deathmatch</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bt</Name>
+          <Title>Burning Toilet</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>esd</Name>
+          <Title>Enhanced Search &amp; Destory</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>czechjumper</Name>
+          <Title>Czech Jumper</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>dm</Name>
+          <Title>Deathmatch</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>obj</Name>
+          <Title>Objective</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>ft</Name>
+          <Title>Freeze_Tag</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>htf</Name>
+          <Title>Hold the Flag</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>re</Name>
+          <Title>Retrieval</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>hdm</Name>
+          <Title />
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>ctf</Name>
+          <Title>Capture The Flag</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>ctb</Name>
+          <Title>Capture the Bottle</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>hq</Name>
+          <Title>Headquarters</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>ihtf</Name>
+          <Title>Individual Hold the Flag</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>noz</Name>
+          <Title>Night of Zombies</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>chq</Name>
+          <Title>Classic Headquarters</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>zom</Name>
+          <Title>Zombies</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>strat</Name>
+          <Title>Strategy</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>cnq</Name>
+          <Title>Conquest</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+    <TranslationMap>
+      <Name>mapname</Name>
+      <MapData>
+        <Translation>
+          <Name>mp_water_depot</Name>
+          <Title>Water Depot</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_eatme2</Name>
+          <Title>Eat Me 2</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_tevy</Name>
+          <Title>Tevy</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_nb_trainmap</Name>
+          <Title>NB Train Map</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_bobo</Name>
+          <Title>Bobo</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_colditz</Name>
+          <Title>Colditz</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_neuville</Name>
+          <Title>Neuville</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_kairo</Name>
+          <Title>Kairo</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_pierkov_beta</Name>
+          <Title>Pierkov beta</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_breakout</Name>
+          <Title>Breakout</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_stuttgart</Name>
+          <Title>Stuttgart</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_chateau_le_castel</Name>
+          <Title>Chateau le Castel</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_matmatan_v2</Name>
+          <Title>Matmatan v.2</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_omaha</Name>
+          <Title>Omaha</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_maaloy_cod2f</Name>
+          <Title>Maaloy COD2f</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_storage_facility2</Name>
+          <Title>Storage Facility 2</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_villers2</Name>
+          <Title>Villers 2</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_simmerath</Name>
+          <Title>Simmerath</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_leningrad</Name>
+          <Title>Leningrad</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_brecourt</Name>
+          <Title>Brecourt</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_reckoning_day</Name>
+          <Title>Reckoning Day</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_valence</Name>
+          <Title>Valence</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_omaha_beach</Name>
+          <Title>Omaha Beach</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_libya</Name>
+          <Title>Libya</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_matmata</Name>
+          <Title>Matmata</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_ems_fromage</Name>
+          <Title>EMS Fromage</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sps_el_castillo</Name>
+          <Title>SPS El Castillo</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_el_mechili</Name>
+          <Title>El Mechili</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_anzio</Name>
+          <Title>Anzio</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_alcazaba</Name>
+          <Title>Alcazaba</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_draguignan</Name>
+          <Title>Draguignan</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_panimo2</Name>
+          <Title>Panimo 2</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_anema</Name>
+          <Title>Anema</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_borisovka</Name>
+          <Title>Borisovka</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_tanktown</Name>
+          <Title>Tanktown</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_catmouse</Name>
+          <Title>Catmouse</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_hel</Name>
+          <Title>Hel</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_buhlert</Name>
+          <Title>Buhlert</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_switchessnipe</Name>
+          <Title>Switches Snipe</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_hcity</Name>
+          <Title>H City</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_industry</Name>
+          <Title>Industry</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_wolfsquare_2</Name>
+          <Title>Wolfsquare 2</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_vallente</Name>
+          <Title>Vallente</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_montargis_v2</Name>
+          <Title>Montargis v.2</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_anais</Name>
+          <Title>Anais</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_thedingle</Name>
+          <Title>The Dingle</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_powcamp</Name>
+          <Title>POW Camp</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_toujane</Name>
+          <Title>Toujane</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_depot</Name>
+          <Title>Depot</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_chateau_zero</Name>
+          <Title>Chateau Zero</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_normandie_night_beta_2</Name>
+          <Title>Normandie Night b.2</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_churchmap</Name>
+          <Title>Church Map</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_destroyed_village</Name>
+          <Title>Destroyed Village</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sps_submarino_base</Name>
+          <Title>SPS Submarino Base</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>jm_castle_easy</Name>
+          <Title>JM Castle Easy</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_peaks</Name>
+          <Title>Peaks</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_hill24</Name>
+          <Title>Hill 24</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>waterfall</Name>
+          <Title>Waterfall</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_siegfriedline_final</Name>
+          <Title>Siegfriedline Final</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_belltown</Name>
+          <Title>Belltown</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_dark_forrest_v2</Name>
+          <Title>Dark Forrest v.2</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_toybox2</Name>
+          <Title>Toy Box 2</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_the_hill</Name>
+          <Title>The Hill</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_castle</Name>
+          <Title>Castle</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_post_v3</Name>
+          <Title>Post v.3</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_tobruk</Name>
+          <Title>Tobruk</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_montebourg</Name>
+          <Title>Montebourg</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_canal_final</Name>
+          <Title>Canal Final</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_chelm</Name>
+          <Title>Chelm</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_karkand</Name>
+          <Title>Karkand</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_tigertown_v2</Name>
+          <Title>Tigertown v.2</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_brest</Name>
+          <Title>Brest</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_scary_jumper</Name>
+          <Title>Scary Jumper</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_deathtrap</Name>
+          <Title>Deathtrap</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_no_name</Name>
+          <Title>No Name</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_hardtocross</Name>
+          <Title>Hard To Cross</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_the_garage</Name>
+          <Title>The Garage</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_dawnville</Name>
+          <Title>Dawnville</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_grimms_depot</Name>
+          <Title>Grimms Depot</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_rhine</Name>
+          <Title>Rhine</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_breslau</Name>
+          <Title>Breslau</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_deltaforcedocks_v2</Name>
+          <Title>Delta Force Docks v.2</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_eaglesquare</Name>
+          <Title>Eagle Square</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_nuenen</Name>
+          <Title>Nuenen</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_mareth</Name>
+          <Title>Mareth</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>deadly_bay_v2</Name>
+          <Title>Deadly Bay v.2</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_tank_depot</Name>
+          <Title>Tank Depot</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>druckkammern_beta</Name>
+          <Title>Druck Kammern Beta</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_decoy</Name>
+          <Title>Decoy</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_devils_den_beta2</Name>
+          <Title>Devil's Den Beta 2</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>islands</Name>
+          <Title>Islands</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_last_stand</Name>
+          <Title>Last Stand</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_algiers</Name>
+          <Title>Algiers</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_salerno_beachhead</Name>
+          <Title>Salerno Beachhead</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_sahara4</Name>
+          <Title>Sahara 4</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_cube</Name>
+          <Title>Cube</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_versuswarszone_v2</Name>
+          <Title>Versus Wars Zone v.2</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_lost</Name>
+          <Title>Lost</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_farmhouse</Name>
+          <Title>Farm House</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_fargo_midnight</Name>
+          <Title>Fargo Midnight</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_tripoli</Name>
+          <Title>Tripoli</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_stalemate_v1</Name>
+          <Title>Stalemate v.1</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>fsp_rats</Name>
+          <Title>FSP Rats</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_clervaux</Name>
+          <Title>Clervaux</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_cunisia</Name>
+          <Title>Cunisia</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_burgundy_bulls</Name>
+          <Title>Burgundy Bulls</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_eagleridge</Name>
+          <Title>Eagle Ridge</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_d-cow_v2</Name>
+          <Title>D-Cow v.2</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_the_dam</Name>
+          <Title>The Dam</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_omaha_v2a</Name>
+          <Title>Omaha v.2a</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_mancheville_v2</Name>
+          <Title>Mancheville v.2</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_romed</Name>
+          <Title>Romed</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sps_disney</Name>
+          <Title>SPS Disney</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_villageruins</Name>
+          <Title>Village Ruins</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_frozen_fortress_n_v2</Name>
+          <Title>Frozen Fortress n v.2</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_karkand_reboot</Name>
+          <Title>Karkland Reboot</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_trainstation</Name>
+          <Title>Train Station</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_junobeach</Name>
+          <Title>Juno Beach</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_river</Name>
+          <Title>River</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sps_snipers_toys</Name>
+          <Title>SPS Sniper Toys</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_greatescape</Name>
+          <Title>Great Escape</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_jump</Name>
+          <Title>Jump</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_coalminev2</Name>
+          <Title>Coal Mine v.2</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_tunis</Name>
+          <Title>Tunis</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_stalingrad</Name>
+          <Title>Stalingrad</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_pillbox</Name>
+          <Title>Pill Box</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>winter1944</Name>
+          <Title>Winter 1944</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>railyard_jump_light</Name>
+          <Title>Railyard Jump Light</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_chateau</Name>
+          <Title>Chateau</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_terror_dome_v1</Name>
+          <Title>Terror Dome v.1</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_harbor</Name>
+          <Title>Harbor</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_germanfarm</Name>
+          <Title>German Farm</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_mirage_ver4</Name>
+          <Title>Mirage v.4</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_argentan_france</Name>
+          <Title>Argentan France</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_stadtrand2</Name>
+          <Title>Stadtrand 2</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_townville</Name>
+          <Title>Townville</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_railyard</Name>
+          <Title>Railyard</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sniper_shootout</Name>
+          <Title>Sniper Shootout</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_castled_insurgents</Name>
+          <Title>Castled Insurgents</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_tobruk_lib</Name>
+          <Title>Tobruk Lib</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_carentan</Name>
+          <Title>Carentan</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_downtown</Name>
+          <Title>Downtown</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_stargate</Name>
+          <Title>Stargate</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_bridge2</Name>
+          <Title>Bridge 2</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_sfrance_final</Name>
+          <Title>Sfrance Final</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_pyramid</Name>
+          <Title>Pyramid</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_emmen</Name>
+          <Title>Emmen</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_port</Name>
+          <Title>Port</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_wind_tunnel</Name>
+          <Title>Wind Tunnel</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_tournieres</Name>
+          <Title>Tournieres</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+  </MapsData>
+</TranslationMaps>

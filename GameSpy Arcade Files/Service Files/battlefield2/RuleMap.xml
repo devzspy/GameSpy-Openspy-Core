@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationMaps xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MapsData>
+    <TranslationMap>
+      <Name>-</Name>
+      <MapData>
+        <Translation>
+          <Name>timelimit</Name>
+          <Title>Time Limit</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>hostname</Name>
+          <Title>Host Name</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2_team2</Name>
+          <Title>Team 2</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2_teamratio</Name>
+          <Title>Team Ratio</Title>
+          <Format>{0} %</Format>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2_autorec</Name>
+          <Title>Auto Record</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2_team1</Name>
+          <Title>Team 1</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2_pure</Name>
+          <Title>Pure</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2_mapsize</Name>
+          <Title>Map Size</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2_os</Name>
+          <Title>OS</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2_autobalanced</Name>
+          <Title>Auto Balanced</Title>
+          <CommonName>autobalance</CommonName>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2_spawntime</Name>
+          <Title>Spawn Time</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2_plasma</Name>
+          <Title>Plasma</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2_coopbotdiff</Name>
+          <Title>Coop Bot Difficulty</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2_sponsortext</Name>
+          <Title>Sponsor Text</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2_novehicles</Name>
+          <Title>No Vehicles</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2_reservedslots</Name>
+          <Title>Reserved Slots</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2_fps</Name>
+          <Title>FPS</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2_voip</Name>
+          <Title>Voip</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2_dedicated</Name>
+          <Title>Dedicated</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>hostport</Name>
+          <Title>Host Port</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2_globalunlocks</Name>
+          <Title>Global Unlocks</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2_scorelimit</Name>
+          <Title>Score Limit</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2_communitylogo_url</Name>
+          <Title>Community Logo URL</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>roundtime</Name>
+          <Title>Round Time</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2_ticketratio</Name>
+          <Title>Ticket Ratio</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2_d_dl</Name>
+          <Title>Demo Download URL</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2_startdelay</Name>
+          <Title>Start Delay</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2_bots</Name>
+          <Title>Bots</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2_anticheat</Name>
+          <Title>PunkBuster</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2_coopbotratio</Name>
+          <Title>Coop Bot Ratio</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2_coopbotcount</Name>
+          <Title>Coop Bot Count</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2_sponsorlogo_url</Name>
+          <Title>Sponsor Logo URL</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2_ranked</Name>
+          <Title>Ranked</Title>
+          <CommonName>ranked</CommonName>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>gamemode</Name>
+          <Title>Game Mode</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2_friendlyfire</Name>
+          <Title>Friendly Fire</Title>
+          <CommonName>friendlyfire</CommonName>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2_tkmode</Name>
+          <Title>TK Mode</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2_d_idx</Name>
+          <Title>Demo Index URL</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+  </MapsData>
+</TranslationMaps>

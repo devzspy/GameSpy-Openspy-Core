@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGameRule xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <GameRule>
+    <Name>playercount</Name>
+    <Control>PlayerCount</Control>
+    <Compare>=</Compare>
+    <Formula>(numplayers &gt;= #numplayers#) and (maxplayers &lt;= #maxplayers#) and (maxplayers - bf2142_reservedslots - numplayers) &gt;= #openslots#</Formula>
+    <Children>
+      <GameRule>
+        <Name>numplayers</Name>
+        <Control>NumericUpDown</Control>
+        <Compare>&gt;=</Compare>
+        <SelectedValue>2</SelectedValue>
+        <Children />
+      </GameRule>
+      <GameRule>
+        <Name>maxplayers</Name>
+        <Control>NumericUpDown</Control>
+        <Compare>&lt;=</Compare>
+        <SelectedValue>25</SelectedValue>
+        <Children />
+      </GameRule>
+      <GameRule>
+        <Name>openslots</Name>
+        <Control>NumericUpDown</Control>
+        <Compare>&gt;=</Compare>
+        <SelectedValue>3</SelectedValue>
+        <Children />
+      </GameRule>
+    </Children>
+  </GameRule>
+  <GameRule>
+    <Name>bf2142_ranked</Name>
+    <Control>Checkbox</Control>
+    <Compare>=</Compare>
+    <SelectedValue>1</SelectedValue>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>bf2142_anticheat</Name>
+    <Control>Checkbox</Control>
+    <Compare>=</Compare>
+    <SelectedValue>1</SelectedValue>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>bf2142_autobalanced</Name>
+    <Control>Checkbox</Control>
+    <Compare>=</Compare>
+    <SelectedValue>1</SelectedValue>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>bf2142_friendlyfire</Name>
+    <Control>Checkbox</Control>
+    <Compare>=</Compare>
+    <SelectedValue>1</SelectedValue>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>bf2142_voip</Name>
+    <Control>Checkbox</Control>
+    <Value>0</Value>
+    <Compare>=</Compare>
+    <SelectedValue>0</SelectedValue>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>gametype</Name>
+    <Control>Listbox</Control>
+    <Value>*any*\gpm_ti\gpm_cq\gpm_coop\gpm_sp</Value>
+    <Compare>=</Compare>
+    <SelectedValue>*any*\</SelectedValue>
+  </GameRule>
+  <GameRule>
+    <Name>mapname</Name>
+    <Control>Listbox</Control>
+    <Value>*any*</Value>
+    <Compare>=</Compare>
+    <SelectedValue>*any*\Belgrade\Cerbere_Landing\Fall_Of_Berlin\Minsk\Verdun\Camp_Gibraltar\Suez_Canal\Shuhia_Taiba\Sidi_Power_Plant\Tunis_Harbor\Operation_Shingle\Port_Bavaria\Bridge_at_Remagen\Liberation_of_Leipzig\Highway_Tampa\Wake_Island_2142</SelectedValue>
+  </GameRule>
+</ArrayOfGameRule>

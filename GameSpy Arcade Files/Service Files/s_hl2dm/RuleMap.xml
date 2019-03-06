@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationMaps xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MapsData>
+    <TranslationMap>
+      <Name>-query</Name>
+      <MapData>
+        <Translation>
+          <Name>deathmatch</Name>
+          <Title>Deathmatch Game</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>coop</Name>
+          <Title>Cooperative Game</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+    <TranslationMap>
+      <Name>-</Name>
+      <MapData>
+        <Translation>
+          <Name>sv_accelerate</Name>
+          <Title>Accelerate</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_report_client_settings</Name>
+          <Title>Report Client Settings</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_footsteps</Name>
+          <Title>Footsteps</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_friendlyfire</Name>
+          <Title>Friendly Fire</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>secure</Name>
+          <Title>Secure</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mani_reserve_slots</Name>
+          <Title>Reserve Slots</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_noclipspeed</Name>
+          <Title>No Clip Speed</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>r_AirboatViewDampenFreq</Name>
+          <Title>Airboat View Dampen Frequency</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>tv_relaypassword</Name>
+          <Title>Relay Password</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_hl2mp_weapon_respawn_time</Name>
+          <Title>Weapon Respawn Time</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_cheats</Name>
+          <Title>Cheats</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_rollspeed</Name>
+          <Title>Roll Speed</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>r_JeepViewDampenDamp</Name>
+          <Title>Jeep View Dampen Damp</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>r_JeepViewDampenFreq</Name>
+          <Title>Jeep View Dampen Frequency</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_noclipaccelerate</Name>
+          <Title>No Clip Accelerate</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_fraglimit</Name>
+          <Title>Fraglimit</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_footsteps</Name>
+          <Title>Footsteps</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_specaccelerate</Name>
+          <Title>Spec Accelerate</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_waterfriction</Name>
+          <Title>Water Friction</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>decalfrequency</Name>
+          <Title>Decal Frequency</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>servertype</Name>
+          <Title>Server Type</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mani_nextmap</Name>
+          <Title>Next Map</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_flashlight</Name>
+          <Title>Flashlight</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_friction</Name>
+          <Title>Friction</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_gravity</Name>
+          <Title>Gravity</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>deathmatch</Name>
+          <Title>Deathmatch</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_teamlist</Name>
+          <Title>Teamlist</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_autocrosshair</Name>
+          <Title>Auto Crosshair</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_specspeed</Name>
+          <Title>Spec Speed</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_forcerespawn</Name>
+          <Title>Force Respawn</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_bounce</Name>
+          <Title>Bounce</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>r_AirboatViewDampenDamp</Name>
+          <Title>Airboat View Dampen Damp</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_maxspeed</Name>
+          <Title>Max Speed</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_hl2mp_item_respawn_time</Name>
+          <Title>Item Respawn Time</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_alltalk</Name>
+          <Title>All Talk</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_stopspeed</Name>
+          <Title>Stop Speed</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_wateraccelerate</Name>
+          <Title>Water Accelerate</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>coop</Name>
+          <Title>Cooperative</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>appid</Name>
+          <Title>App ID</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_pausable</Name>
+          <Title>Pausable</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_password</Name>
+          <Title>Password</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>numbots</Name>
+          <Title>Number of Bots</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_timelimit</Name>
+          <Title>Timelimit</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>r_VehicleViewDampen</Name>
+          <Title>Vehicle View Dampen</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mani_tickrate</Name>
+          <Title>Tick Rate</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_airaccelerate</Name>
+          <Title>Air Accelerate</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_specnoclip</Name>
+          <Title>Spec No Clip</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_rollangle</Name>
+          <Title>Roll Angle</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mani_admin_plugin_version</Name>
+          <Title>Admin Plugin Version</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_weaponstay</Name>
+          <Title>Weapon Stay</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_allowNPCs</Name>
+          <Title>Allow NPCs</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>tv_password</Name>
+          <Title>Password</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>r_AirboatViewZHeight</Name>
+          <Title>Airboat View Z Height</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>serveros</Name>
+          <Title>Server OS</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>r_JeepViewZHeight</Name>
+          <Title>Jeep View Z Height</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_voiceenable</Name>
+          <Title>Voice Enable</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_stepsize</Name>
+          <Title>Step Size</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_teamplay</Name>
+          <Title>Teamplay</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>mp_falldamage</Name>
+          <Title>Fall Damage</Title>
+          <Type>OnOff</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+  </MapsData>
+</TranslationMaps>

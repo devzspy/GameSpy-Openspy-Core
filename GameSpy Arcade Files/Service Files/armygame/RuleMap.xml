@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationMaps xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MapsData>
+    <TranslationMap>
+      <Name>gametype</Name>
+      <MapData>
+        <Translation>
+          <Name>AAGP_GameTournament</Name>
+          <Title>AAGP Game Tournament</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>AAGP_GameTeamObjective</Name>
+          <Title>AAGP Game Team Objective</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>AAGP_GameTeam</Name>
+          <Title>AAGP Game Team</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+    <TranslationMap>
+      <Name>-</Name>
+      <MapData>
+        <Translation>
+          <Name>hostname</Name>
+          <Title>Host Name</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mission_time_remaining</Name>
+          <Title>Mission Time Remaining</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_punkbuster</Name>
+          <Title>PunkBuster</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>leased</Name>
+          <Title>Leased</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>tour</Name>
+          <Title>Tour</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>hostport</Name>
+          <Title>Host Port</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mission_time</Name>
+          <Title>Mission Time</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>rounds_per_match</Name>
+          <Title>Rounds Per Match</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>score_t0</Name>
+          <Title>Team1 Score</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>maxhonor</Name>
+          <Title>Maximum Honor</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>operating_system</Name>
+          <Title>Operating System</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>explore_the_army</Name>
+          <Title>Explore The Army</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>requires_authorization</Name>
+          <Title>Requires Authorization</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>tournament</Name>
+          <Title>Tournament</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>coop</Name>
+          <Title>Coop</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>locale</Name>
+          <Title>Locale</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>score_t1</Name>
+          <Title>Team2 Score</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>gametype</Name>
+          <Title>Game Type</Title>
+          <Type>Lookup</Type>
+        </Translation>
+        <Translation>
+          <Name>AdminEMail</Name>
+          <Title>Admin EMail</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>gamename</Name>
+          <Title>Game Name</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>numteams</Name>
+          <Title>Number of Teams</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>miles</Name>
+          <Title>Miles</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>thirdparty</Name>
+          <Title>Third Party</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>cheats</Name>
+          <Title>Cheats</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>nato</Name>
+          <Title>Nato</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>AdminName</Name>
+          <Title>Admin Name</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>groups</Name>
+          <Title>Groups</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>official</Name>
+          <Title>Ranked</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>average_player_ping</Name>
+          <Title>Average Player Ping</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>minhonor</Name>
+          <Title>Minimum Honor</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>gamemode</Name>
+          <Title>Game Mode</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>custom</Name>
+          <Title>Custom</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>current_round</Name>
+          <Title>Current Round</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>current_round_int</Name>
+          <Title>Current Round Interval</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>average_honor</Name>
+          <Title>Average Honor</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+  </MapsData>
+</TranslationMaps>

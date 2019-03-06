@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationMaps xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MapsData>
+    <TranslationMap>
+      <Name>-query</Name>
+      <MapData>
+        <Translation>
+          <Name>gamevariant</Name>
+          <Title>Game Types</Title>
+          <Type>Lookup</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+    <TranslationMap>
+      <Name>-</Name>
+      <MapData>
+        <Translation>
+          <Name>sv_maxPing</Name>
+          <Title>Max Ping</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mod</Name>
+          <Title>Mod</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>shortversion</Name>
+          <Title>Version</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>pswrd</Name>
+          <Title>Password</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>gamename</Name>
+          <Title>Game Name</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>scr_killcam</Name>
+          <Title>Kill Camera</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>fs_game</Name>
+          <Title>Server Folder</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_master3</Name>
+          <Title>Master3</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_minPing</Name>
+          <Title>Min Ping</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_punkbuster</Name>
+          <Title>PunkBuster</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_allowAnonymous</Name>
+          <Title>Allow Anonymous</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_master2</Name>
+          <Title>Master2</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_maxRate</Name>
+          <Title>Max Rate</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_timeoutsallowed</Name>
+          <Title>Timeouts Allowed</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>scr_friendlyfire</Name>
+          <Title>Friendly Fire</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_privateClients</Name>
+          <Title>Reserved Slots</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_pure</Name>
+          <Title>Pure</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>gamevariant</Name>
+          <Title>Game Type</Title>
+          <Type>Lookup</Type>
+        </Translation>
+        <Translation>
+          <Name>protocol</Name>
+          <Title>Protocol</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_floodProtect</Name>
+          <Title>Flood Protect</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_master5</Name>
+          <Title>Master5</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+    <TranslationMap>
+      <Name>gamevariant</Name>
+      <MapData>
+        <Translation>
+          <Name>mc_tdm</Name>
+          <Title>Merciless Team Deathmatch</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>b50_dm</Name>
+          <Title>Breaking 50 Deathmatch</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>actf</Name>
+          <Title>AWE Capture the Flag</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>dem</Name>
+          <Title>Demolition</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>ta</Name>
+          <Title>Team Arrest</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>re</Name>
+          <Title>Retrieval</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mc_dm</Name>
+          <Title>Merciless Deathmatch</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>tdm</Name>
+          <Title>Team Deathmatch</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>cti</Name>
+          <Title>Capture the Item</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sd</Name>
+          <Title>Search &amp; Destroy</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>rev_tdm</Name>
+          <Title>Revolt Team Deathmatch</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>money</Name>
+          <Title>Got Money?</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>ctf</Name>
+          <Title>Capture the Flag</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bel</Name>
+          <Title>Behinds Enemy Lines</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>dm</Name>
+          <Title>Deathmatch</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>oic</Name>
+          <Title>One Item Capture</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>b50_tdm</Name>
+          <Title>Breaking 50 Team Deathmatch</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>elm</Name>
+          <Title>Elimiation</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>hob</Name>
+          <Title>Heat of Battle</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sdm</Name>
+          <Title>Speed Deathmatch</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>hq</Name>
+          <Title>Headquarters</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>stdm</Name>
+          <Title>Speed Team Deathmatch</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+  </MapsData>
+</TranslationMaps>

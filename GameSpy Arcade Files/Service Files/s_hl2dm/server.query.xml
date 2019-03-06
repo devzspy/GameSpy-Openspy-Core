@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGameRule xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <GameRule>
+    <Name>-gamevariant</Name>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>-gametype</Name>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>-gamever</Name>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>playercount</Name>
+    <Control>PlayerCount</Control>
+    <Compare>=</Compare>
+    <Formula>(numplayers &gt;= #numplayers#) and (maxplayers &lt;= #maxplayers#) and (maxplayers - mani_reserve_slots - #openslots#)</Formula>
+    <Children>
+      <GameRule>
+        <Name>numplayers</Name>
+        <Control>NumericUpDown</Control>
+        <Compare>&gt;=</Compare>
+        <SelectedValue>2</SelectedValue>
+        <Children />
+      </GameRule>
+      <GameRule>
+        <Name>maxplayers</Name>
+        <Control>NumericUpDown</Control>
+        <Compare>&lt;=</Compare>
+        <SelectedValue>64</SelectedValue>
+        <Children />
+      </GameRule>
+      <GameRule>
+        <Name>openslots</Name>
+        <Control>NumericUpDown</Control>
+        <Compare>&gt;=</Compare>
+        <SelectedValue>3</SelectedValue>
+        <Children />
+      </GameRule>
+    </Children>
+  </GameRule>
+  <GameRule>
+    <Name>coop</Name>
+    <Control>Checkbox</Control>
+    <Compare>=</Compare>
+    <SelectedValue>0</SelectedValue>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>deathmatch</Name>
+    <Control>Checkbox</Control>
+    <Compare>=</Compare>
+    <SelectedValue>0</SelectedValue>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>mp_allowNPCs</Name>
+    <Control>Checkbox</Control>
+    <Compare>=</Compare>
+    <SelectedValue>0</SelectedValue>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>mp_friendlyfire</Name>
+    <Control>Checkbox</Control>
+    <Compare>=</Compare>
+    <SelectedValue>0</SelectedValue>
+    <Children />
+  </GameRule>
+</ArrayOfGameRule>

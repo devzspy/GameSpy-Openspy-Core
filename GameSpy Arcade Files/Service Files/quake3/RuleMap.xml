@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationMaps xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MapsData>
+    <TranslationMap>
+      <Name>gamevariant</Name>
+      <MapData>
+        <Translation>
+          <Name>3</Name>
+          <Title>Team Death Match</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>1v1</Name>
+          <Title>One vs One</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>1</Name>
+          <Title>Tourament Play</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>4</Name>
+          <Title>Capture the Flag</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>5</Name>
+          <Title>Hold the Flag</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>instaunlagged FFA</Name>
+          <Title>Instaunlagged Free For All</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>tdm</Name>
+          <Title>Team Death Match</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>0</Name>
+          <Title>Free For All</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+    <TranslationMap>
+      <Name>-</Name>
+      <MapData>
+        <Translation>
+          <Name>g_bombExplodeTime</Name>
+          <Title>Bomb Explode Time</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_allowvote</Name>
+          <Title>Allow Vote</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>be_noarmor</Name>
+          <Title>No Armor</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>g_survivorRoundTime</Name>
+          <Title>Survivor Round Time</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>ex_rocket</Name>
+          <Title>Rocket</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_author</Name>
+          <Title>Author</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_maxPing</Name>
+          <Title>Max Ping</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_enableBreath</Name>
+          <Title>Enable Breath</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_version</Name>
+          <Title>Version</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_captureScoreTime</Name>
+          <Title>Capture Score Time</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>timelimit</Name>
+          <Title>Time Limit</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>be_jumpvel</Name>
+          <Title>Jump Velocity</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_survivorRoundDelay</Name>
+          <Title>Survivor Round Delay</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_waveRespawns</Name>
+          <Title>Wave Respawns</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_maxRate</Name>
+          <Title>Max Rate</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>ex_instant</Name>
+          <Title>Instant</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>ex_plasma</Name>
+          <Title>Plasma</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>be_splashrgrenade</Name>
+          <Title>Grenade Splash</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>ex_spawn</Name>
+          <Title>Spawn</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>ex_quadfly</Name>
+          <Title>Quad Fly</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>Score_Time</Name>
+          <Title>Score Time</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>protocol</Name>
+          <Title>Protocol</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>ex_bfg</Name>
+          <Title>BFG</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>ex_hook</Name>
+          <Title>Hook</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>g_respawnDelay</Name>
+          <Title>Respawn Delay</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>be_limitspec</Name>
+          <Title>Spectator Limit</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_minPing</Name>
+          <Title>Min Ping</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>Score_Red</Name>
+          <Title>Score Red</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>server_promode</Name>
+          <Title>Pro Mode</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>g_followStrict</Name>
+          <Title>Follow Strict</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>dmflags</Name>
+          <Title>Death Match Flags</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_allowDownload</Name>
+          <Title>Allow Download</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_floodProtect</Name>
+          <Title>Flood Protect</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>be_nopowerups</Name>
+          <Title>No Powerups</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>be_offhandhook</Name>
+          <Title>Hand Hook</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>g_maxGameClients</Name>
+          <Title>Max Game Clients</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>server_freezetag</Name>
+          <Title>Freeze Tag</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>g_enablePrecip</Name>
+          <Title>Enable Precip</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>g_modversion</Name>
+          <Title>Mod Version</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_antilagvis</Name>
+          <Title>Anti  Lagvis</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>be_noholdables</Name>
+          <Title>No Holdables</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>g_gear</Name>
+          <Title>Gear</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>be_splashrplasma</Name>
+          <Title>Plasma Splash</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_survivor</Name>
+          <Title>Survivor</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>be_splashrrocket</Name>
+          <Title>Rocket Splash</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_blueWaveRespawnDelay</Name>
+          <Title>Blue Wave RespawnDelay</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>server_ospauth</Name>
+          <Title>OSP Auth</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_allowAnonymous</Name>
+          <Title>Allow Anonymous</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>g_forcerespawn</Name>
+          <Title>Force Respawn</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_URL</Name>
+          <Title>URL</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>be_campprotect</Name>
+          <Title>Camp Protect</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_punkbuster</Name>
+          <Title>PunkBuster</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>be_firedelaygaunt</Name>
+          <Title>Fire Delay Gaunt</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>fraglimit</Name>
+          <Title>Frag Limit</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_redWaveRespawnDelay</Name>
+          <Title>Red Wave RespawnDelay</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_friendlyFire</Name>
+          <Title>Friendly Fire</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_skins</Name>
+          <Title>Skins</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>gamename</Name>
+          <Title>Game Name</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_allowVote</Name>
+          <Title>Allow Vote</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>Score_Blue</Name>
+          <Title>Score Blue</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>ex_gauntlet</Name>
+          <Title>Gauntlet</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>version</Name>
+          <Title>Version</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_swaproles</Name>
+          <Title>Swap Roles</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>ex_rail</Name>
+          <Title>Rail</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_JoinMessage</Name>
+          <Title>Join Message</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>be_splashrbfg</Name>
+          <Title>BFG Splash</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>ex_version</Name>
+          <Title>Version</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_deadchat</Name>
+          <Title>Dead Chat</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_maxrounds</Name>
+          <Title>Max Rounds</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_enableDust</Name>
+          <Title>Enable Dust</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_suddendeath</Name>
+          <Title>Sudden Death</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>ex_quadstart</Name>
+          <Title>Quad Start</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>g_maxping</Name>
+          <Title>Max Ping</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_surfacedefault</Name>
+          <Title>Surface Default</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>be_nohealth</Name>
+          <Title>No Health</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>g_survivorrule</Name>
+          <Title>Survivor Rule</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>capturelimit</Name>
+          <Title>Capture Limit</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>ex_lightning</Name>
+          <Title>Lightning</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_privateClients</Name>
+          <Title>Private Clients</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>ex_machinegun</Name>
+          <Title>Machine Gun</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>g_bombDefuseTime</Name>
+          <Title>Bomb Defuse Time</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>ex_grenade</Name>
+          <Title>Grenade</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>g_matchMode</Name>
+          <Title>Match Mode</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>ex_joust</Name>
+          <Title>Joust</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>ex_shotgun</Name>
+          <Title>Shot Gun</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>bot_minplayers</Name>
+          <Title>Bot Min Players</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>be_usecustomdamage</Name>
+          <Title>Use Custom Damage</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>g_warmup</Name>
+          <Title>Warmup</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+  </MapsData>
+</TranslationMaps>

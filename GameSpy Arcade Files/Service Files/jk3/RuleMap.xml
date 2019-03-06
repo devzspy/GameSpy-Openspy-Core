@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationMaps xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MapsData>
+    <TranslationMap>
+      <Name>gamevariant</Name>
+      <MapData>
+        <Translation>
+          <Name>2</Name>
+          <Title>Jedi Master</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>3</Name>
+          <Title>Duel</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>0</Name>
+          <Title>Free For All</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>1</Name>
+          <Title>Holocron</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>6</Name>
+          <Title>Team Free For All</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>7</Name>
+          <Title>Siege</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>4</Name>
+          <Title>Power Duel</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>5</Name>
+          <Title>Team Free For All</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>8</Name>
+          <Title>Capture the Flag</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>9</Name>
+          <Title>Capture the Ysalimiri</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+    <TranslationMap>
+      <Name>-</Name>
+      <MapData>
+        <Translation>
+          <Name>timelimit</Name>
+          <Title>Time Limit</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_allowAnonymous</Name>
+          <Title>Allow Anonymous</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>g_mNerfBacta</Name>
+          <Title>Nerf Bacta</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>.cpu</Name>
+          <Title>Cpu</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_allowNPC</Name>
+          <Title>Allow NPC</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>dc_modbackslash</Name>
+          <Title>Mod Backslash</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>g_mDebugCheats</Name>
+          <Title>Debug Cheats</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>g_showDuelHealths</Name>
+          <Title>Show Duel Healths</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>g_mBactaHP</Name>
+          <Title>Bacta HP</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>version</Name>
+          <Title>Version</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_forcepowerDisable</Name>
+          <Title>Force Power Disable</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>g_privateDuel</Name>
+          <Title>Private Duel</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_mMaxBots</Name>
+          <Title>Max Bots</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_stepSlideFix</Name>
+          <Title>Step Slide Fix</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>g_allownpc</Name>
+          <Title>Allow NPC</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>g_redTeam</Name>
+          <Title>Red Team</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_mAdminCommands</Name>
+          <Title>Admin Commands</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_showduelhealths</Name>
+          <Title>Show Duel Healths</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>g_ForceRegenTime</Name>
+          <Title>Force Regen Time</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bg_fighterAltControl</Name>
+          <Title>Fighter Alt Control</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>modversion</Name>
+          <Title>Version</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_forceRegenTime</Name>
+          <Title>Force RegenTime</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>duel_fraglimit</Name>
+          <Title>Duel Frag Limit</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_privateClients</Name>
+          <Title>Private Clients</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_noSpecMove</Name>
+          <Title>No Spec Move</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>g_maxHolocronCarry</Name>
+          <Title>Max Holocron Carry</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_saberWallDamageScale</Name>
+          <Title>Saber Wall Damage Scale</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_duelWeaponDisable</Name>
+          <Title>Duel Weapon Disable</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>dc_FFduel</Name>
+          <Title>Duel</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_mDebugTerminator</Name>
+          <Title>Debug Terminator</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_mAllowBotLimit</Name>
+          <Title>Allow Bot Limit</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_minPing</Name>
+          <Title>Min Ping</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>.host</Name>
+          <Title>Host</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_maxRate</Name>
+          <Title>Max Rate</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_debugMelee</Name>
+          <Title>Debug Melee</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>g_mEmotes</Name>
+          <Title>E Motes</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>capturelimit</Name>
+          <Title>Capture Limit</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_redteam</Name>
+          <Title>Red Team</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_jediVmerc</Name>
+          <Title>Jedi V Merc</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_siegeRespawn</Name>
+          <Title>Siege Respawn</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_allowDownload</Name>
+          <Title>Allow Download</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>g_siegeTeamSwitch</Name>
+          <Title>Siege Team Switch</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>ip_cinfo</Name>
+          <Title>c info</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>.Routing Type</Name>
+          <Title>Routing Type</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_maxGameClients</Name>
+          <Title>Max Game Clients</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_privateclients</Name>
+          <Title>Private Clients</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_blueteam</Name>
+          <Title>Blue Team</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>dc_sdac</Name>
+          <Title>SDAC</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>ip_highlander</Name>
+          <Title>Highlander</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_forcePowerDisable</Name>
+          <Title>Force Power Disable</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>dmflags</Name>
+          <Title>Death Match Flags</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bot_minplayers</Name>
+          <Title>Bot Minplayers</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>gamename</Name>
+          <Title>Game Name</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>.connection</Name>
+          <Title>Connection</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_forceBasedTeams</Name>
+          <Title>Force Based Teams</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>.location</Name>
+          <Title>Location</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_saberLocking</Name>
+          <Title>Saber Locking</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>g_mAllowAdminLogin</Name>
+          <Title>Allow Admin Login</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>g_maxForceRank</Name>
+          <Title>Max Force Rank</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_floodProtect</Name>
+          <Title>Flood Protect</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>protocol</Name>
+          <Title>Protocol</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_maxPing</Name>
+          <Title>Max Ping</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>ip_DuelAlpha</Name>
+          <Title>Duel Alpha</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_debugmelee</Name>
+          <Title>Debug Melee</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>fraglimit</Name>
+          <Title>Frag Limit</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_mKnightCommands</Name>
+          <Title>Knight Commands</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_siegeTeam2</Name>
+          <Title>Siege Team2</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_mAllowKnightLogin</Name>
+          <Title>Allow Knight Login</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>g_siegeTeam1</Name>
+          <Title>Siege Team1</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_mDebugEmpower</Name>
+          <Title>Debug Empower</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_weaponDisable</Name>
+          <Title>Weapon Disable</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>g_mMinHumans</Name>
+          <Title>Min Humans</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>g_blueTeam</Name>
+          <Title>Blue Team</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+  </MapsData>
+</TranslationMaps>

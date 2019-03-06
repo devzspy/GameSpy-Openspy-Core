@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGameRule xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <GameRule>
+    <Name>bf2_ranked</Name>
+    <Control>Checkbox</Control>
+    <SelectedValue>0</SelectedValue>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>bf2_anticheat</Name>
+    <Control>Checkbox</Control>
+    <Value>0</Value>
+    <Compare>=</Compare>
+    <SelectedValue>0</SelectedValue>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>bf2_autobalanced</Name>
+    <Control>Checkbox</Control>
+    <Value>0</Value>
+    <Compare>=</Compare>
+    <SelectedValue>0</SelectedValue>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>bf2_novehicles</Name>
+    <Control>Checkbox</Control>
+    <Value>0</Value>
+    <Compare>=</Compare>
+    <SelectedValue>0</SelectedValue>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>bf2_voip</Name>
+    <Control>Checkbox</Control>
+    <Value>0</Value>
+    <Compare>=</Compare>
+    <SelectedValue>0</SelectedValue>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>bf2_friendlyfire</Name>
+    <Control>Checkbox</Control>
+    <Value>0</Value>
+    <Compare>=</Compare>
+    <SelectedValue>0</SelectedValue>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>mapname</Name>
+    <Control>Listbox</Control>
+    <Value>*any*</Value>
+    <Compare>=</Compare>
+    <SelectedValue>*any*\dalian_plant\daqing_oilfields\dragon_valley\fushe_pass\gulf_of_oman\kubra_dam\Mashtuur City\operation_clean_sweep\sharqi_peninsula\Songhua Stalemate\Strike at Karkand\Zatar Wetlands</SelectedValue>
+  </GameRule>
+  <GameRule>
+    <Name>gametype</Name>
+    <Control>Listbox</Control>
+    <Value>*any*\gpm_coop\gpm_cq</Value>
+    <Compare>=</Compare>
+    <SelectedValue>*any*\</SelectedValue>
+  </GameRule>
+</ArrayOfGameRule>

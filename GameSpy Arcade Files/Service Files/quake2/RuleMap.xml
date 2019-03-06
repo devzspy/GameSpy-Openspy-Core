@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationMaps xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MapsData>
+    <TranslationMap>
+      <Name>-</Name>
+      <MapData>
+        <Translation>
+          <Name>protocol</Name>
+          <Title>Protocol</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>match_type</Name>
+          <Title>Match Type</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>Score_B</Name>
+          <Title>Score B</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>timelimit</Name>
+          <Title>Time Limit</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>version</Name>
+          <Title>Version</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>gamedate</Name>
+          <Title>Game date</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>time_remaining</Name>
+          <Title>Time Remaining</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>cheating</Name>
+          <Title>Cheating</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>Score_A</Name>
+          <Title>Score A</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>deathmatch</Name>
+          <Title>Death Match</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>dmflags</Name>
+          <Title>Death Match Flags</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>match_info</Name>
+          <Title>Match Info</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>fraglimit</Name>
+          <Title>Frag Limit</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>cheats</Name>
+          <Title>Cheats</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>gamename</Name>
+          <Title>Game Name</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>maxspectators</Name>
+          <Title>Max Spectators</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+  </MapsData>
+</TranslationMaps>

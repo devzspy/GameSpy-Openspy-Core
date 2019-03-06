@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGameRule xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <GameRule>
+    <Name>mp_autoteambalance</Name>
+    <Control>Checkbox</Control>
+    <Value>0</Value>
+    <Compare>=</Compare>
+    <SelectedValue>0</SelectedValue>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>-gamevariant</Name>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>-gametype</Name>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>mp_friendlyfire</Name>
+    <Control>Checkbox</Control>
+    <Value>0</Value>
+    <Compare>=</Compare>
+    <SelectedValue>0</SelectedValue>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>mp_falldamage</Name>
+    <Control>Checkbox</Control>
+    <Value>0</Value>
+    <Compare>=</Compare>
+    <SelectedValue>0</SelectedValue>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>mp_allowNPCs</Name>
+    <Control>Checkbox</Control>
+    <Value>0</Value>
+    <Compare>=</Compare>
+    <SelectedValue>0</SelectedValue>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>sv_cheats</Name>
+    <Control>Checkbox</Control>
+    <Value>0</Value>
+    <Compare>=</Compare>
+    <SelectedValue>0</SelectedValue>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>sv_voiceenable</Name>
+    <Control>Checkbox</Control>
+    <Value>0</Value>
+    <Compare>=</Compare>
+    <SelectedValue>0</SelectedValue>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>sv_pausable</Name>
+    <Control>Checkbox</Control>
+    <Value>0</Value>
+    <Compare>=</Compare>
+    <SelectedValue>0</SelectedValue>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>mp_timelimit</Name>
+    <Control>NumericUpDown</Control>
+    <Value>0</Value>
+    <Compare>&gt;</Compare>
+    <SelectedValue>0</SelectedValue>
+    <Children />
+  </GameRule>
+</ArrayOfGameRule>

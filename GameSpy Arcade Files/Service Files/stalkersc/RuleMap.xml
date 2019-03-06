@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationMaps xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MapsData>
+    <TranslationMap>
+      <Name>gametype</Name>
+      <MapData>
+        <Translation>
+          <Name>teamdeathmatch</Name>
+          <Title>Team Death Match</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>deathmatch</Name>
+          <Title>Death Match</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>artefacthunt</Name>
+          <Title>Artefact Hunt</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+    <TranslationMap>
+      <Name>-</Name>
+      <MapData>
+        <Translation>
+          <Name>timelimit</Name>
+          <Title>Time Limit</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>artefactstaytime</Name>
+          <Title>Artefact Stay Time</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>voting</Name>
+          <Title>Voting</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>spectatormodes</Name>
+          <Title>Spectator Modes</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>shieldedbases</Name>
+          <Title>Shielded Bases</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>artefactscount</Name>
+          <Title>Artefacts Count</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>warmuptime</Name>
+          <Title>Warmup Time</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>damageblocktime</Name>
+          <Title>Damage Block Time</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>autoteamswap</Name>
+          <Title>Auto Team Swap</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>maprotation</Name>
+          <Title>Map Rotation</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>gametypename</Name>
+          <Title>Game Type Name</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>friendlynames</Name>
+          <Title>Friendly Names</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>friendlyfire</Name>
+          <Title>Friendly Fire</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>anomaliestime</Name>
+          <Title>Anomalies Time</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bearercant_sprint</Name>
+          <Title>Bearer can't Sprint</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>artefactrespawntime</Name>
+          <Title>Artefact Respawn Time</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>hostport</Name>
+          <Title>Host Port</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>dedicated</Name>
+          <Title>Dedicated</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>autoteambalance</Name>
+          <Title>Auto Team Balance</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>x_ipport</Name>
+          <Title>IP Port</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>forcerespawn</Name>
+          <Title>Force Respawn</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>numteams</Name>
+          <Title>Number of Teams</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>reinforcement</Name>
+          <Title>Reinforcement</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>friendlyindicators</Name>
+          <Title>Friendly Indicators</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>damageblockindicator</Name>
+          <Title>Damage Block Indicator</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>fraglimit</Name>
+          <Title>Frag Limit</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>returnplayers</Name>
+          <Title>Return Players</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>anomalies</Name>
+          <Title>Anomalies</Title>
+          <Type>OnOff</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+  </MapsData>
+</TranslationMaps>

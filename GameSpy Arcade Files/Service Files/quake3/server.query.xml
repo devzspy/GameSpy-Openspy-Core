@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGameRule xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <GameRule>
+    <Name>sv_allowDownload</Name>
+    <Control>Checkbox</Control>
+    <Value>0</Value>
+    <Compare>=</Compare>
+    <SelectedValue>0</SelectedValue>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>capturelimit</Name>
+    <Control>NumericUpDown</Control>
+    <Value>0</Value>
+    <Compare>&gt;</Compare>
+    <SelectedValue>0</SelectedValue>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>timelimit</Name>
+    <Control>NumericUpDown</Control>
+    <Value>0</Value>
+    <Compare>&gt;</Compare>
+    <SelectedValue>0</SelectedValue>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>playercount</Name>
+    <Control>PlayerCount</Control>
+    <Compare>=</Compare>
+    <Formula>(numplayers &gt;= #numplayers#) and (maxplayers &lt;= #maxplayers#) and (maxplayers - sv_privateClients - numplayers) &gt;= #openslots#</Formula>
+    <Children>
+      <GameRule>
+        <Name>numplayers</Name>
+        <Control>NumericUpDown</Control>
+        <Compare>&gt;=</Compare>
+        <SelectedValue>2</SelectedValue>
+        <Children />
+      </GameRule>
+      <GameRule>
+        <Name>maxplayers</Name>
+        <Control>NumericUpDown</Control>
+        <Compare>&lt;=</Compare>
+        <SelectedValue>25</SelectedValue>
+        <Children />
+      </GameRule>
+      <GameRule>
+        <Name>openslots</Name>
+        <Control>NumericUpDown</Control>
+        <Compare>&gt;=</Compare>
+        <SelectedValue>3</SelectedValue>
+        <Children />
+      </GameRule>
+    </Children>
+  </GameRule>
+</ArrayOfGameRule>

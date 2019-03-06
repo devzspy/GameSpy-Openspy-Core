@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationMaps xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MapsData>
+    <TranslationMap>
+      <Name>gametype</Name>
+      <MapData>
+        <Translation>
+          <Name>gpm_coop</Name>
+          <Title>Cooperative</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>gpm_sp</Name>
+          <Title>Single Player</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>gpm_cq</Name>
+          <Title>Conquest</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>gpm_ti</Name>
+          <Title>Titan Mode</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>gpm_sl</Name>
+          <Title>Conquest Assault Lines</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+    <TranslationMap>
+      <Name>-query</Name>
+      <MapData>
+        <Translation>
+          <Name>gamevariant</Name>
+          <Title>Game Mod</Title>
+          <Type>Lookup</Type>
+        </Translation>
+        <Translation>
+          <Name>mapname</Name>
+          <Title>Maps</Title>
+          <Type>Lookup</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+    <TranslationMap>
+      <Name>-</Name>
+      <MapData>
+        <Translation>
+          <Name>bf2142_autobalanced</Name>
+          <Title>Auto-balanced</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2142_teamratio</Name>
+          <Title>Team Ratio</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2142_ranked</Name>
+          <Title>Ranked</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2142_d_idx</Name>
+          <Title>Demo Download Index</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2142_type</Name>
+          <Title>Type</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2142_globalunlocks</Name>
+          <Title>Global Unlocks</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2142_friendlyfire</Name>
+          <Title>Friendly Fire</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>mapname</Name>
+          <Title>Map Name</Title>
+          <Type>Lookup</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2142_anticheat</Name>
+          <Title>PunkBuster</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2142_provider</Name>
+          <Title>Provider</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>timelimit</Name>
+          <Title>Time Limit</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2142_pure</Name>
+          <Title>Pure</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2142_tkmode</Name>
+          <Title>Team Kill Mode</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>gamevariant</Name>
+          <Title>Game Mod</Title>
+          <Type>Lookup</Type>
+        </Translation>
+        <Translation>
+          <Name>hostport</Name>
+          <Title>Hostport</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2142_averageping</Name>
+          <Title>Average Ping</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2142_team1</Name>
+          <Title>Team 1</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2142_autorec</Name>
+          <Title>Auto Record</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2142_team2</Name>
+          <Title>Team 2</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2142_spawntime</Name>
+          <Title>Spawn Time</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2142_maxrank</Name>
+          <Title>Max Rank</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2142_reservedslots</Name>
+          <Title>Reserved Slots</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2142_ticketratio</Name>
+          <Title>Ticket Ratio</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>roundtime</Name>
+          <Title>Round Time</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2142_region</Name>
+          <Title>Region</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2142_sponsorlogo_url</Name>
+          <Title>Sponsor Logo URL</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2142_allow_spectators</Name>
+          <Title>Allow Spectators</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>gamename</Name>
+          <Title>Game Name</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2142_ranked_tournament</Name>
+          <Title>Ranked Tournament</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2142_voip</Name>
+          <Title>Voice</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2142_scorelimit</Name>
+          <Title>Score Limit</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2142_startdelay</Name>
+          <Title>Start Delay</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2142_mapsize</Name>
+          <Title>Map Size</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2142_sponsortext</Name>
+          <Title>Sponsor Text</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2142_d_dl</Name>
+          <Title>Demo Download URL</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2142_communitylogo_url</Name>
+          <Title>Community Logo URL</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2142_custom_map_url</Name>
+          <Title>Custom Map URL</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>gamemode</Name>
+          <Title>Game Mode</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+    <TranslationMap>
+      <Name>gamevariant</Name>
+      <MapData>
+        <Translation>
+          <Name>nspro</Name>
+          <Title>Northern Strike Competition Mod</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sbx2142</Name>
+          <Title>Sandbox 2142</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2142</Name>
+          <Title>Base Game</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mercs2143</Name>
+          <Title>Mercenaries 2143</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>2142_sp</Name>
+          <Title>Single Player</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>clanmod</Name>
+          <Title>Clan Mod</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>rally</Name>
+          <Title>Rally Racing</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>22cw</Name>
+          <Title>22nd Century Warfare</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf2142pro</Name>
+          <Title>2142 Pro - DE</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>cf2142</Name>
+          <Title>Conflict 2142</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>2142pro</Name>
+          <Title>2142 Competion Mod</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+    <TranslationMap>
+      <Name>mapname</Name>
+      <MapData>
+        <Translation>
+          <Name>Port_Bavaria</Name>
+          <Title>Port Bavaria</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>walker_battle</Name>
+          <Title>Walker Battle</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>Sidi_Power_Plant</Name>
+          <Title>Sidi Power Plant</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>Camp_Gibraltar</Name>
+          <Title>Camp Gibraltar</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>Tunis_Harbor</Name>
+          <Title>Tunis Harbor</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>Fall_of_Berlin</Name>
+          <Title>Fall of Berlin</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>Cerbere_Landing</Name>
+          <Title>Cerbere Landing</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>Shuhia_Taiba</Name>
+          <Title>Shuhia Taiba</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>Suez_Canal_0a</Name>
+          <Title>Suez Canal 0a</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>Camp_Schultz</Name>
+          <Title>Camp Schultz</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>Liberation_of_Leipzig</Name>
+          <Title>Liberation of Leipzig</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>The_Hell</Name>
+          <Title>The Hell</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>Suez_Canal</Name>
+          <Title>Suez Canal</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>2142af_frontline_forest</Name>
+          <Title>Frontline Forest</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>Bridge_at_Remagen</Name>
+          <Title>Bride at Remagen</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+  </MapsData>
+</TranslationMaps>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGameRule xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <GameRule>
+    <Name>timelimit</Name>
+    <Control>NumericUpDown</Control>
+    <Compare>&gt;</Compare>
+    <SelectedValue>0</SelectedValue>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>rankedserver</Name>
+    <Control>Checkbox</Control>
+    <SelectedValue>0</SelectedValue>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>-gamevariant</Name>
+    <Children />
+  </GameRule>
+</ArrayOfGameRule>

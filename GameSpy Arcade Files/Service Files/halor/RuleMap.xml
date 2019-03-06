@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationMaps xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MapsData>
+    <TranslationMap>
+      <Name>-</Name>
+      <MapData>
+        <Translation>
+          <Name>dedicated</Name>
+          <Title>Dedicated</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>team_t0</Name>
+          <Title>Team 1</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>teamplay</Name>
+          <Title>Team Play</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>player_flags</Name>
+          <Title>Player Flags</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>game_flags</Name>
+          <Title>Game Flags</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>score_t1</Name>
+          <Title>Score Team 2</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>score_t0</Name>
+          <Title>Score Team 1</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>gamemode</Name>
+          <Title>Game Mode</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>game_classic</Name>
+          <Title>Game Classic</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>fraglimit</Name>
+          <Title>Frag Limit</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>team_t1</Name>
+          <Title>Team 2</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mapname</Name>
+          <Title>Maps</Title>
+          <Type>Lookup</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+    <TranslationMap>
+      <Name>mapname</Name>
+      <MapData>
+        <Translation>
+          <Name>HANGEMHIGH</Name>
+          <Title>Hange Mhigh</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>BLOODGULCH</Name>
+          <Title>Blood Gulch</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>timberland</Name>
+          <Title>Timberland</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>HangEmHigh</Name>
+          <Title>Hang Em High</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>icefields</Name>
+          <Title>Ice Fields</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>Sidewinder</Name>
+          <Title>Side Winder</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>DangerCanyon</Name>
+          <Title>Danger Canyon</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>ratrace</Name>
+          <Title>Ratrace</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>chillout</Name>
+          <Title>Chillout</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>carousel</Name>
+          <Title>Carousel</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>BloodGulch</Name>
+          <Title>Blood Gulch</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>wizard</Name>
+          <Title>Wizard</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>infinity</Name>
+          <Title>Infinity</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>hangemhigh</Name>
+          <Title>Hange Mhigh</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>deathisland</Name>
+          <Title>Death Island</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>gephyrophobia</Name>
+          <Title>Gephyrophobia</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>dangercanyon</Name>
+          <Title>Danger Canyon</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sidewinder</Name>
+          <Title>Side Winder</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>Dangercanyon</Name>
+          <Title>Danger canyon</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>prisoner</Name>
+          <Title>Prisoner</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>damnation</Name>
+          <Title>Damnation</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>putput</Name>
+          <Title>Putput</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>longest</Name>
+          <Title>Longest</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>beavercreek</Name>
+          <Title>Beaver Creek</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bloodgulch</Name>
+          <Title>Blood Gulch</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>boardingaction</Name>
+          <Title>Boarding Action</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+  </MapsData>
+</TranslationMaps>

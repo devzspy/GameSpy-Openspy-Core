@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationMaps xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MapsData>
+    <TranslationMap>
+      <Name>gametype</Name>
+      <MapData>
+        <Translation>
+          <Name>coop</Name>
+          <Title>Co-Op</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+    <TranslationMap>
+      <Name>-query</Name>
+      <MapData>
+        <Translation>
+          <Name>gameid</Name>
+          <Title>Game Mods</Title>
+          <Type>Lookup</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+    <TranslationMap>
+      <Name>-</Name>
+      <MapData>
+        <Translation>
+          <Name>averageFPS</Name>
+          <Title>Average FPS</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>number_of_rounds</Name>
+          <Title>Number of Rounds</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>soldier_friendly_fire</Name>
+          <Title>Soldier Friendly Fire</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>unpure_mods</Name>
+          <Title>Unpure Mods</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>vehicle_friendly_fire_on_splash</Name>
+          <Title>Vehicle Friendly Fire on Splash</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>kickback</Name>
+          <Title>Kickback</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_punkbuster</Name>
+          <Title>PunkBuster</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>ticket_ratio</Name>
+          <Title>Ticket Ratio</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>spawn_wave_time</Name>
+          <Title>Spawn Wave Time</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>axis_team_ratio</Name>
+          <Title>Axis Team Ratio</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>dedicated</Name>
+          <Title>Dedicated</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bandwidth_choke_limit</Name>
+          <Title>Bandwidth Choke Limit</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>vehicle_friendly_fire</Name>
+          <Title>Vehicle Friendly Fire</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>external_view</Name>
+          <Title>External View</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>roundTimeRemain</Name>
+          <Title>Round Time Remain</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>name_tag_distance_scope</Name>
+          <Title>Nametag Distance Scope</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>status</Name>
+          <Title>Status</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>soldier_friendly_fire_on_splash</Name>
+          <Title>Soldier Friendly Fire on Splash</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>auto_balance_teams</Name>
+          <Title>Auto Balance</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>roundTime</Name>
+          <Title>Round Time</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>content_check</Name>
+          <Title>Content Check</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>free_camera</Name>
+          <Title>Free Camera</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>gameid</Name>
+          <Title>Game Mod</Title>
+          <Type>Lookup</Type>
+        </Translation>
+        <Translation>
+          <Name>reservedslots</Name>
+          <Title>Reserved Slots</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>allied_team_ratio</Name>
+          <Title>Allied Team Ratio</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>spawn_delay</Name>
+          <Title>Spawn Delay</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>kickback_on_splash</Name>
+          <Title>Kickback on Splash</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>name_tag_distance</Name>
+          <Title>Nametag Distance</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>gamever</Name>
+          <Title>Gamever</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>gamename</Name>
+          <Title>Gamename</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>allow_nose_cam</Name>
+          <Title>Allow Nose Camera</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>active_mods</Name>
+          <Title>Active Mods</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>tk_mode</Name>
+          <Title>Team Kill Mode</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>cpu</Name>
+          <Title>CPU</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>mapId</Name>
+          <Title>Map ID</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>tickets1</Name>
+          <Title>Tickets1</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>tickets2</Name>
+          <Title>Tickets2</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>time_limit</Name>
+          <Title>Time Limit</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>game_start_delay</Name>
+          <Title>Game Start Delay</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>hit_indicator</Name>
+          <Title>Hit Indicator</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+    <TranslationMap>
+      <Name>gameid</Name>
+      <MapData>
+        <Translation>
+          <Name>interstate</Name>
+          <Title>Interstate 1982</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>pirates</Name>
+          <Title>Pirates</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>norwegianres</Name>
+          <Title>Norwegian Resistance</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bfhd</Name>
+          <Title>High Definition</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>inusaba</Name>
+          <Title>Inusaba</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>eod</Name>
+          <Title>Eve of Destruction</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>xpack1</Name>
+          <Title>Road to Rome</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>dcfx</Name>
+          <Title>Desert Combat Final Xtended</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>gcmod</Name>
+          <Title>Galactic Conquest</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf1942</Name>
+          <Title>Base Game</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>FH</Name>
+          <Title>Forgotten Hope</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>dc_highpower</Name>
+          <Title>Desert Combat Highpower</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bf1918</Name>
+          <Title>Battlefield 1918</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>fhsw</Name>
+          <Title>Forgotten Hope Secret Weapon</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>fht6</Name>
+          <Title>Forgotten Hope Tournament 6</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>fhw</Name>
+          <Title>Forgotten Hope Warzone</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>DC_Final</Name>
+          <Title>Desert Combat Final</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>siege</Name>
+          <Title>Siege</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>battlegroup42</Name>
+          <Title>Battlegroup42</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>DCFX_public</Name>
+          <Title>Desert Combat Final Xtended Public</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>infantry</Name>
+          <Title>Infantry</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>silentheroes</Name>
+          <Title>Silent Heroes</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>xpack2</Name>
+          <Title>Secret Weapons of WWII</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>fh</Name>
+          <Title>Forgotten Hope</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>finnwars</Name>
+          <Title>Finland Wars</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>enhanced_dc</Name>
+          <Title>Enhanced Desert Combat</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>desertcombat</Name>
+          <Title>Desert Combat</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>dc_extended</Name>
+          <Title>Desert Combat Extended</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>transformers</Name>
+          <Title>Transformers</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+  </MapsData>
+</TranslationMaps>

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationMaps xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MapsData>
+    <TranslationMap>
+      <Name>-</Name>
+      <MapData>
+        <Translation>
+          <Name>anticheat</Name>
+          <Title>Anti Cheat</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>friendlyfire</Name>
+          <Title>Friendly Fire</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>timelimit</Name>
+          <Title>Time Limit</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>gamever</Name>
+          <Title>Game Version</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>x_ipport</Name>
+          <Title>IP and Port</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>gamepadsonly</Name>
+          <Title>Game Pads Only</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>dedicated</Name>
+          <Title>Dedicated</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>dx10</Name>
+          <Title>Dx 10</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>official</Name>
+          <Title>Official</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>timeleft</Name>
+          <Title>Time Left</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>gamemode</Name>
+          <Title>Game Mode</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>voicecomm</Name>
+          <Title>Voice Enabled</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>country</Name>
+          <Title>Country</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>numplayers</Name>
+          <Title>Number of Players</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>hostport</Name>
+          <Title>Host Port</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>hostname</Name>
+          <Title>Host Name</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+  </MapsData>
+</TranslationMaps>

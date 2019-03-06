@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationMaps xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MapsData>
+    <TranslationMap>
+      <Name>-</Name>
+      <MapData>
+        <Translation>
+          <Name>team1reinforcements</Name>
+          <Title>Team 1 Reinforcements</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>x_ipport</Name>
+          <Title>IP Port</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>heroteam</Name>
+          <Title>Hero Team</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>herorespawnval</Name>
+          <Title>Hero Respawn Value</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>prevsession</Name>
+          <Title>Previous Session</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>session</Name>
+          <Title>Session</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>teamplay</Name>
+          <Title>Team Play</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>autoaim</Name>
+          <Title>Auto Aim</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>herounlockval</Name>
+          <Title>Hero Unlock Value</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>numai</Name>
+          <Title>Numai</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>numteams</Name>
+          <Title>Number of Teams</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>timelimit</Name>
+          <Title>Time Limit</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>herorespawn</Name>
+          <Title>Hero Respawn</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>aidifficulty</Name>
+          <Title>AI Difficulty</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>gamemode</Name>
+          <Title>Game Mode</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>invincibilitytime</Name>
+          <Title>Invincibility Time</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>showplayernames</Name>
+          <Title>Show Player Names</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>heroes</Name>
+          <Title>Heroes</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>autoteam</Name>
+          <Title>Auto Team</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>heroplayer</Name>
+          <Title>Hero Player</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>team2reinforcements</Name>
+          <Title>Team 2 Reinforcements</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>fraglimit</Name>
+          <Title>Frag Limit</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>swbregion</Name>
+          <Title>SWB Region</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>teamdamage</Name>
+          <Title>Team Damage</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>servertype</Name>
+          <Title>Server Type</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>herounlock</Name>
+          <Title>Hero Unlock</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+  </MapsData>
+</TranslationMaps>

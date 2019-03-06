@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGameRule xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <GameRule>
+    <Name>playercount</Name>
+    <Control>PlayerCount</Control>
+    <Compare>=</Compare>
+    <Formula>(numplayers &gt;= #numplayers#) and (maxplayers &lt;= #maxplayers#) and (maxplayers - sv_privateclients - numplayers) &gt;= #openslots#</Formula>
+    <Children>
+      <GameRule>
+        <Name>numplayers</Name>
+        <Control>NumericUpDown</Control>
+        <Compare>&gt;=</Compare>
+        <SelectedValue>2</SelectedValue>
+        <Children />
+      </GameRule>
+      <GameRule>
+        <Name>maxplayers</Name>
+        <Control>NumericUpDown</Control>
+        <Compare>&lt;=</Compare>
+        <SelectedValue>25</SelectedValue>
+        <Children />
+      </GameRule>
+      <GameRule>
+        <Name>openslots</Name>
+        <Control>NumericUpDown</Control>
+        <Compare>&gt;=</Compare>
+        <SelectedValue>3</SelectedValue>
+        <Children />
+      </GameRule>
+    </Children>
+  </GameRule>
+  <GameRule>
+    <Name>-password</Name>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>pswrd</Name>
+    <Control>Checkbox</Control>
+    <Value>0</Value>
+    <Compare>=</Compare>
+    <SelectedValue>0</SelectedValue>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>scr_friendlyfire</Name>
+    <Control>Checkbox</Control>
+    <Compare>=</Compare>
+    <SelectedValue>1</SelectedValue>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>sv_punkbuster</Name>
+    <Control>Checkbox</Control>
+    <Compare>=</Compare>
+    <SelectedValue>1</SelectedValue>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>-gametype</Name>
+    <Children />
+  </GameRule>
+  <GameRule>
+    <Name>-gamever</Name>
+    <Children />
+  </GameRule>
+</ArrayOfGameRule>

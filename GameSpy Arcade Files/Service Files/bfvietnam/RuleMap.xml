@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationMaps xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MapsData>
+    <TranslationMap>
+      <Name>gametype</Name>
+      <MapData>
+        <Translation>
+          <Name>customcombat</Name>
+          <Title>Custom Combat</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>coop</Name>
+          <Title>Cooperative</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+    <TranslationMap>
+      <Name>-query</Name>
+      <MapData>
+        <Translation>
+          <Name>game_id</Name>
+          <Title>Game Mods</Title>
+          <Type>Lookup</Type>
+        </Translation>
+        <Translation>
+          <Name>auto_balance_teams</Name>
+          <Title>Auto Balance Teams</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+    <TranslationMap>
+      <Name>-</Name>
+      <MapData>
+        <Translation>
+          <Name>timelimit</Name>
+          <Title>Time Limit</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>number_of_rounds</Name>
+          <Title>Number of Rounds</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>soldier_friendly_fire</Name>
+          <Title>Friendly Fire</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>vehicle_friendly_fire_on_splash</Name>
+          <Title>Vehicle Friendly Fire on Splash</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>kickback</Name>
+          <Title>Kickback</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>sv_punkbuster</Name>
+          <Title>PunkBuster</Title>
+          <Type>OnOff</Type>
+        </Translation>
+        <Translation>
+          <Name>ticket_ratio</Name>
+          <Title>Ticket Ratio</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>spawn_wave_time</Name>
+          <Title>Spawn Wave Time</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bandwidth_choke_limit</Name>
+          <Title>Bandwidth Choke Limit</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>vehicle_friendly_fire</Name>
+          <Title>Vehicle Friendly Fire</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>external_view</Name>
+          <Title>External View</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>game_id_name</Name>
+          <Title>Game ID Name</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>us_team_ratio</Name>
+          <Title>US Team Ratio</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>hostport</Name>
+          <Title>Hostport</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>name_tag_distance_scope</Name>
+          <Title>Nametag Distance Scope</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>status</Name>
+          <Title>Status</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>soldier_friendly_fire_on_splash</Name>
+          <Title>Friendly Fire on Splash</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>auto_balance_teams</Name>
+          <Title>Auto Balance</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>all_active_mods</Name>
+          <Title>All Active Mods</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bot_skill</Name>
+          <Title>Bot Skill</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>free_camera</Name>
+          <Title>Free Camera</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>spawn_delay</Name>
+          <Title>Spawn Delay</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>reservedslots</Name>
+          <Title>Reserved Slots</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>dedicated</Name>
+          <Title>Dedicated</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>nva_team_ratio</Name>
+          <Title>NVA Team Ratio</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>kickback_on_splash</Name>
+          <Title>Kickback on Splash</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>name_tag_distance</Name>
+          <Title>Nametag Distance</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>allow_nose_cam</Name>
+          <Title>Allow Nose Camera</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>active_mods</Name>
+          <Title>Active Mods</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>cpu</Name>
+          <Title>CPU</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>spectatorvoting</Name>
+          <Title>Spectator Voting</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>game_id</Name>
+          <Title>Game Mod</Title>
+          <Type>Lookup</Type>
+        </Translation>
+        <Translation>
+          <Name>map_id</Name>
+          <Title>Map ID</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>spectatorsallowed</Name>
+          <Title>Spectators Allowed</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>gamemode</Name>
+          <Title>Game Mode</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>game_start_delay</Name>
+          <Title>Game Start Delay</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>spectatorswitchtime</Name>
+          <Title>Spectator Switch Time</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+    <TranslationMap>
+      <Name>game_id</Name>
+      <MapData>
+        <Translation>
+          <Name>gof</Name>
+          <Title>Group of Friends</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>poe</Name>
+          <Title>Point of Existence</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bfvietnam</Name>
+          <Title>Base Game</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>eod</Name>
+          <Title>Eve of Destruction</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bfv_ww2mod_x</Name>
+          <Title>World War II Extended</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>dicecity_v</Name>
+          <Title>Dice City</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>bfv_ww2mod</Name>
+          <Title>World War II</Title>
+          <Type>None</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+  </MapsData>
+</TranslationMaps>

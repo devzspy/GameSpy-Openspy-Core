@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationMaps xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MapsData>
+    <TranslationMap>
+      <Name>-</Name>
+      <MapData>
+        <Translation>
+          <Name>groupid</Name>
+          <Title>Group Id</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>onepartyonly</Name>
+          <Title>One Party Only</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>itemrestrict</Name>
+          <Title>Item Restrict</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>expansions</Name>
+          <Title>Expansions</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>build</Name>
+          <Title>Build</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>legalchars</Name>
+          <Title>Legal Chars</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>details</Name>
+          <Title>Details</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>levelrnghigh</Name>
+          <Title>Level Range High</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>gamemode</Name>
+          <Title>Game Mode</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>levelrnglow</Name>
+          <Title>Level Range Low</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>location</Name>
+          <Title>Location</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>localvault</Name>
+          <Title>Local Vault</Title>
+          <Type>None</Type>
+        </Translation>
+        <Translation>
+          <Name>playerpause</Name>
+          <Title>Player Pause</Title>
+          <Type>YesNo</Type>
+        </Translation>
+        <Translation>
+          <Name>language</Name>
+          <Title>Language</Title>
+          <Type>OnOff</Type>
+        </Translation>
+      </MapData>
+    </TranslationMap>
+  </MapsData>
+</TranslationMaps>
