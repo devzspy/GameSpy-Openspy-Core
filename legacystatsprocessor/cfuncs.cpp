@@ -33,7 +33,7 @@ int GetSSString(lua_State *L) {
 }
 int GetPlayerIntValue(lua_State *L) {
 	int gameid = lua_tonumber(L, 1);
-	persisttype_t type = (persisttype_t )lua_tonumber(L, 2);
+	persisttype_t type = (persisttype_t )(int)lua_tonumber(L, 2);
 	int index = lua_tonumber(L, 3);
 	int profileid = lua_tonumber(L, 4);
 	const char *name = lua_tostring(L, 5);
@@ -44,7 +44,7 @@ int GetPlayerIntValue(lua_State *L) {
 int GetPlayerStringValue(lua_State *L) {
 	char data[256];
 	int gameid = lua_tonumber(L, 1);
-	persisttype_t type = (persisttype_t )lua_tonumber(L, 2);
+	persisttype_t type = (persisttype_t )(int)lua_tonumber(L, 2);
 	int index = lua_tonumber(L, 3);
 	int profileid = lua_tonumber(L, 4);
 	const char *name = lua_tostring(L, 5);
@@ -54,7 +54,7 @@ int GetPlayerStringValue(lua_State *L) {
 }
 int SetPlayerIntValue(lua_State *L) {
 	int gameid = lua_tonumber(L, 1);
-	persisttype_t type = (persisttype_t )lua_tonumber(L, 2);
+	persisttype_t type = (persisttype_t )(int)lua_tonumber(L, 2);
 	int index = lua_tonumber(L, 3);
 	int profileid = lua_tonumber(L, 4);
 	const char *name = lua_tostring(L, 5);
@@ -64,7 +64,7 @@ int SetPlayerIntValue(lua_State *L) {
 }
 int SetPlayerStringValue(lua_State *L) {
 	int gameid = lua_tonumber(L, 1);
-	persisttype_t type = (persisttype_t )lua_tonumber(L, 2);
+	persisttype_t type = (persisttype_t )(int)lua_tonumber(L, 2);
 	int index = lua_tonumber(L, 3);
 	int profileid = lua_tonumber(L, 4);
 	const char *name = lua_tostring(L, 5);

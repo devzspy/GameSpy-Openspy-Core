@@ -1,4 +1,10 @@
 #include "config.h"
+
+#ifdef _WIN32
+#include <WinSock2.h>
+#include <WS2tcpip.h>
+#endif
+
 Config::Config(char *name) {
 	fd = fopen(name,"rb");
 	filepos = 0;

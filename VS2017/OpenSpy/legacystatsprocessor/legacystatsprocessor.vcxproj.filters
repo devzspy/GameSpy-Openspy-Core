@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\legacystatsprocessor\statsmanage.cpp" />
+    <ClCompile Include="..\..\..\openspy\config.cpp" />
+    <ClCompile Include="..\..\..\legacystatsprocessor\handler.cpp" />
+    <ClCompile Include="..\..\..\legacystatsprocessor\main.cpp" />
+    <ClCompile Include="..\..\..\legacystatsprocessor\cfuncs.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\legacystatsprocessor\cfuncs.h" />
+    <ClInclude Include="..\..\..\openspy\config.h" />
+    <ClInclude Include="..\..\..\legacystatsprocessor\handler.h" />
+    <ClInclude Include="..\..\..\legacystatsprocessor\main.h" />
+    <ClInclude Include="..\..\..\legacystatsprocessor\statsmanage.h" />
+    <ClInclude Include="..\..\..\legacystatsprocessor\structs.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="legacystatsprocessor.def" />
+  </ItemGroup>
+</Project>

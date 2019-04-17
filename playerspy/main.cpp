@@ -47,7 +47,7 @@ int getnfds(fd_set *rset) {
 void *openspy_mod_run(modLoadOptions *options) {
 #ifdef WIN32
 	WSADATA ws;
-	WSAStartup(MAKEWORD(1,0),&ws);
+	WSAStartup(MAKEWORD(2,2),&ws);
 #endif
 	int on=1,sda;
 #ifdef WIN32

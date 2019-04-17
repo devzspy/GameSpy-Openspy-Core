@@ -5,8 +5,9 @@
 #include <stdlib.h>
 #include <string.h>
 #ifdef _WIN32
+	#define WIN32_LEAN_AND_MEAN
 	#include <Windows.h>
-	#include <WinSock.h>
+	#include <WinSock2.h>
 	typedef int ssize_t;
 	typedef int socklen_t;
 #else 
@@ -44,7 +45,7 @@
 #endif
 class Client;
 class Channel;
-#define _CRT_SECURE_NO_WARNINGS
+//#define _CRT_SECURE_NO_WARNINGS //Define them in the project rather than here
 #pragma warning(disable:4996)
 #pragma warning(disable:4018)
 bool do_db_check();

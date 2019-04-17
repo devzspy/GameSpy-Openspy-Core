@@ -1,12 +1,17 @@
 #ifndef _OPENSPY_CONFIG_INC
 #define _OPENSPY_CONFIG_INC
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
 #include <string.h>
 #include <string>
 #include <list>
+
+#ifndef _WIN32
 #include <arpa/inet.h>
+#endif
+
 enum ConfigType {CTYPE_INT, CTYPE_BOOL, CTYPE_STR, CTYPE_ARRAY};
 typedef struct  _configVar {
 	char *name;

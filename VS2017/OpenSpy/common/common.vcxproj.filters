@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\..\..\common\buffreader.h" />
+    <ClInclude Include="..\..\..\common\buffwriter.h" />
+    <ClInclude Include="..\..\..\common\chc_endian.h" />
+    <ClInclude Include="..\..\..\common\enctype_shared.h" />
+    <ClInclude Include="..\..\..\common\enctype1_decoder.h" />
+    <ClInclude Include="..\..\..\common\enctypex_decoder.h" />
+    <ClInclude Include="..\..\..\common\gs_chrep_num.h" />
+    <ClInclude Include="..\..\..\common\gs_login_proof.h" />
+    <ClInclude Include="..\..\..\common\gs_peerchat.h" />
+    <ClInclude Include="..\..\..\common\gs_sesskey.h" />
+    <ClInclude Include="..\..\..\common\gsmsalg.h" />
+    <ClInclude Include="..\..\..\common\helpers.h" />
+    <ClInclude Include="..\..\..\common\md5.h" />
+    <ClInclude Include="..\..\..\common\mysql_helpers.h" />
+    <ClInclude Include="..\..\..\common\peerchat_ip.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\common\buffreader.cpp" />
+    <ClCompile Include="..\..\..\common\buffwriter.cpp" />
+    <ClCompile Include="..\..\..\common\chc_endian.cpp" />
+    <ClCompile Include="..\..\..\common\enctype_shared.cpp" />
+    <ClCompile Include="..\..\..\common\enctype1_decoder.cpp" />
+    <ClCompile Include="..\..\..\common\enctypex_decoder.cpp" />
+    <ClCompile Include="..\..\..\common\gs_chrep_num.cpp" />
+    <ClCompile Include="..\..\..\common\gs_login_proof.cpp" />
+    <ClCompile Include="..\..\..\common\gs_peerchat.cpp" />
+    <ClCompile Include="..\..\..\common\gs_sesskey.cpp" />
+    <ClCompile Include="..\..\..\common\gsmsalg.cpp" />
+    <ClCompile Include="..\..\..\common\helpers.cpp" />
+    <ClCompile Include="..\..\..\common\md5.c" />
+    <ClCompile Include="..\..\..\common\mysql_helpers.cpp" />
+    <ClCompile Include="..\..\..\common\peerchat_ip.c" />
+  </ItemGroup>
+</Project>

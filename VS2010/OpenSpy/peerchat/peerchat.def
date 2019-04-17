@@ -1,5 +1,0 @@
-LIBRARY "peerchat"
-EXPORTS
-	openspy_mod_query @1
-	openspy_modInfo @2
-	openspy_mod_run @3

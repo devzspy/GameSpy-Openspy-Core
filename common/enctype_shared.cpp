@@ -83,6 +83,7 @@ unsigned char *encshare1(unsigned int *tbuff, unsigned char *datap, int len, uns
                     *s;
 
     p = keyptr;
+	s = NULL;
     if(p == NULL) {
        p = s = (unsigned char *)(tbuff + 309);
        encshare2(tbuff, (unsigned int *)p, 16);

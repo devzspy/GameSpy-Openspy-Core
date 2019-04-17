@@ -3,8 +3,9 @@
 #include <stdlib.h>
 #include <string.h>
 #ifdef _WIN32
+#define WIN32_LEAN_AND_MEAN
 #include <Windows.h>
-#include <WinSock.h>
+#include <WinSock2.h>
 #define snprintf sprintf_s
 #define close closesocket
 #else
