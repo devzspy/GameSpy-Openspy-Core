@@ -3,10 +3,12 @@
 #include <stdlib.h>
 #include <string.h>
 #ifdef _WIN32
+#define WIN32_LEAN_AND_MEAN
 #include <Windows.h>
-#include <WinSock.h>
+#include <WinSock2.h>
 #define snprintf sprintf_s
 #define close closesocket
+#define sleep Sleep
 #else
 #include <unistd.h>
 #include <sys/socket.h>
@@ -43,6 +45,17 @@ extern "C" {
 #include <lua.h>
 #include <lauxlib.h>
 #include <lualib.h>
+
+#ifdef LUA_VERSION_MINOR
+#ifndef luaL_reg
+#define luaL_reg luaL_Reg
+#endif
+
+#ifndef lua_open
+#define lua_open  luaL_newstate
+#endif
+
+#endif
 extern lua_State *l;
 #endif
 modInfo *openspy_modInfo();

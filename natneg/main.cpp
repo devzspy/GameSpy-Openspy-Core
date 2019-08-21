@@ -73,7 +73,7 @@ void *openspy_mod_run(modLoadOptions *options)
 {
 #ifdef _WIN32
 	WSADATA wsdata;
-	WSAStartup(MAKEWORD(1,0),&wsdata);
+	WSAStartup(MAKEWORD(2,2),&wsdata);
 #endif
   fd_set  rset;
   memcpy(&servoptions,options,sizeof(modLoadOptions));

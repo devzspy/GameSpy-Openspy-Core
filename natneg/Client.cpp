@@ -1,5 +1,10 @@
 #include "Client.h"
 #include "server.h"
+
+#ifdef _WIN32
+#define close closesocket
+#endif
+
 extern serverInfo server;
 extern modLoadOptions servoptions;
 Client::Client(int sd, struct sockaddr_in *peer, int instance) {
@@ -102,8 +107,13 @@ void Client::handleNatifyRequest(NatNegPacket *packet) {
 	SendERTReply(packet->Packet.Init.porttype,packet);
 }
 void Client::SendERTReply(char type,NatNegPacket *packet) {
+#ifndef _WIN32
 	int ertsocket;
 	int (*connectFunc)(int sockfd, const struct sockaddr *addr, socklen_t addrlen);
+#else
+	SOCKET ertsocket;
+	int(WINAPI* connectFunc)(SOCKET sockfd, const struct sockaddr *addr, socklen_t addrlen);
+#endif
 	connectFunc = bind; //default to bind(type 2)
 	packet->packettype = NN_ERTTEST;
 	if(type == 1) {

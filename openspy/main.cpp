@@ -78,7 +78,7 @@ void addPushKeys(gameInfo *game,char *keylist, char *keylisttype) {
 int main() {
 #ifdef _WIN32
 	WSADATA wsdata;
-	WSAStartup(MAKEWORD(1,0),&wsdata);
+	WSAStartup(MAKEWORD(2,2),&wsdata);
 #endif
 	MYSQL_RES *res;
 	MYSQL_ROW row;

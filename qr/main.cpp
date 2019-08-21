@@ -58,7 +58,7 @@ void *openspy_mod_run(modLoadOptions *options) {
   gi = GeoIP_new(GEOIP_STANDARD);
   #else
   WSADATA ws;
-  WSAStartup(MAKEWORD(1,0),&ws);
+  WSAStartup(MAKEWORD(2,2),&ws);
   #endif
   struct sockaddr si_other;
   memcpy(&servoptions,options,sizeof(modLoadOptions));

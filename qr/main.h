@@ -4,8 +4,9 @@
 #include <stdlib.h>
 #include <string.h>
 #ifdef _WIN32
+#define WIN32_LEAN_AND_MEAN
 #include <Windows.h>
-#include <WinSock.h>
+#include <WinSock2.h>
 typedef int socklen_t;
 #define strcasecmp stricmp
 #define strncasecmp strnicmp

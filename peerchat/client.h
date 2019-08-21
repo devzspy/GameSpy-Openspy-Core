@@ -3,7 +3,9 @@
 #include "main.h"
 #include "server.h"
 #include <common/gs_peerchat.h>
+#ifndef _WIN32
 #include <sys/time.h>
+#endif
 #include "structs.h"
 class Client;
 enum ECmdRegister {

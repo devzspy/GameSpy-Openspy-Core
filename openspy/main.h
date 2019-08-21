@@ -7,7 +7,7 @@
 #ifdef _WIN32
 #define MODULE_EXTENSION ".dll"
 #define sleep Sleep
-#include <WinSock.h>
+#include <WinSock2.h>
 #else
 #define MODULE_EXTENSION ".so"
 #include <dlfcn.h>

@@ -7,9 +7,9 @@
 #include <string.h>
 #include <ctype.h>
 #ifdef _WIN32
-#include <WinSock.h>
+#include <WinSock2.h>
 #define strcasecmp stricmp
-#define strncasecmp strnicmp
+#define strncasecmp _strnicmp
 #define snprintf sprintf_s
 #define MSG_NOSIGNAL 0
 #else

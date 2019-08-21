@@ -32,13 +32,13 @@ void registerCFuncs(lua_State *l) {
 	};
 	struct CFuncTable ctable[] =
 	{
-	   {"chctest",chctest},
-	   {"find_paramint", GetSSInt},
-	   {"find_param", GetSSString},
-	   {"GetPlayerStringValue", GetPlayerStringValue},
-	   {"GetPlayerIntValue", GetPlayerIntValue},
-	   {"SetPlayerStringValue", SetPlayerStringValue},
-	   {"SetPlayerIntValue", SetPlayerIntValue},
+	   {(char*)"chctest",chctest},
+	   {(char*)"find_paramint", GetSSInt},
+	   {(char*)"find_param", GetSSString},
+	   {(char*)"GetPlayerStringValue", GetPlayerStringValue},
+	   {(char*)"GetPlayerIntValue", GetPlayerIntValue},
+	   {(char*)"SetPlayerStringValue", SetPlayerStringValue},
+	   {(char*)"SetPlayerIntValue", SetPlayerIntValue},
 	   {NULL, NULL}
 	};
 	int i = 0;
@@ -73,13 +73,13 @@ void handleSnapshot(LSPSnapshotMsg *ssmsg) {
 		return;
 	}
 	Config *conf = new Config(fpath);
-	configVar *var = conf->getRootArray("process");
+	configVar *var = conf->getRootArray((char*)"process");
 	if(var == NULL) {
 		delete conf;
 		return;
 	}
 	lua_State *l;
-	int numfiles = conf->getArrayInt(var,"filecount");
+	int numfiles = conf->getArrayInt(var, (char*)"filecount");
 	char name[32];
 	for(int i=0;i<numfiles;i++) {
 		l = lua_open();
