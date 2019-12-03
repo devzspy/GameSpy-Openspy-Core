@@ -9,9 +9,22 @@ $password = $_REQUEST['ppass'];
 $picture = $_REQUEST['picnum'];
 
 /*
-10001 = /0/10/1/
-492845 = /0/492/845/
-85675663 = /85/675/663
+pid: 312 (3)                    #   Octets: 312             #   folder: /0/0/312/
+pid: 1002 (4)                   #   Octets: 1|002           #   folder: /0/1/2/
+pid: 10001 (5)                  #   Octets: 10|001          #   folder: /0/10/1/
+pid: 10001002 (8)               #   Octets: 10|001|002      #   folder: /10/1/2/
+pid: 492845 (6)                 #   Octets: 492|845         #   folder: /0/492/845/
+pid: 85675663 (8)               #   Octets: 85|675|663      #   folder: /85/675/663/
+pid: 2147483647 (10)            #   Octets: 2|147|483|647   #   folder: /2147/483/647/
+
+Observations from above:
+  * if a pid contains leading 0s in an octet of "3" the 0s are truncated
+      - pid of 10001 has a folder of /0/10/1/
+          + contains 2 leading 0s in "2nd" octet (001)
+      - pid of 10001002 has a folder of /10/1/2/.
+          + contains 2 leading 0s in the "2nd" (001) and "3rd" octet (002)
+  * A pid folder must contain 3 levels
+      - if a pid is not >= 7 long, pre-pends /0/ to front.
 */
 
 if(strlen($pid) <= 3) {
