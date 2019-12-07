@@ -108,4 +108,34 @@ if ($handle->uploaded) {
     echo 'error : ' . $handle->error;
   }
 }
+
+try 
+{
+  $database = "GameTracker";
+  $db_user = "openspy";
+  $db_pass = "P7LjdYy8HKY7CLtu";
+  $host = "localhost";
+  $connection = new PDO("mysql:host=$host; dbname=$database", $db_user, $db_pass);
+
+  $sql = "SELECT userid FROM users where userid = ? and password = ?";
+  $query = $connection->prepare($sql);
+  $query->execute([$uid, $password]);
+  if($query->fetch())
+  {
+    $sql = "SELECT pic FROM profiles where pid = ?";
+    $query = $connection->prepare($sql);
+    $query->execute([$pid]);
+    $temp = $query->fetch();
+    $temp = $temp + 1;
+    $sql = "UPDATE profiles SET 'pic' = ? WHERE profileid = ?";
+    $update = $connection->prepare($sql);
+    $update->execute([$temp, $pid]);
+  }
+  $connection = null;
+} 
+catch (PDOException $e)
+{
+  echo "Error: " . $e->getMessage() . "<br/>";
+  die();
+}
 ?>  
