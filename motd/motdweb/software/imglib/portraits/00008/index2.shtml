@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>GameSpy Arcade Player Portraits</title>
+
+<script language="JavaScript">
+
+function setbg(intColor) {
+	document.body.bgColor = intColor;
+}
+</script>
+<link rel="stylesheet" href="/ssi/stylesheets/arcadedaily.ssi" type="text/css">
+</head>
+
+<body bgcolor="#000000" leftmargin=0 topmargin=0>
+
+<table width="420" border="0" cellspacing="0" cellpadding="5" align="center">
+  <tr> 
+    <td bgcolor="#333333"><b>Choose Your Portrait</b></td>
+  </tr>
+  <tr><td align="center">
+
+
+<a href="../">back</a>
+
+
+<br><br>
+<img src="00017.jpg" border="0" alt="" onclick="window.defaultStatus=this.src">
+<img src="00018.jpg" border="0" alt="" onclick="window.defaultStatus=this.src">
+<img src="00019.jpg" border="0" alt="" onclick="window.defaultStatus=this.src">
+<img src="00020.jpg" border="0" alt="" onclick="window.defaultStatus=this.src">
+
+<br>
+
+<img src="00021.jpg" border="0" alt="" onclick="window.defaultStatus=this.src">
+<img src="00022.jpg" border="0" alt="" onclick="window.defaultStatus=this.src">
+<img src="00023.jpg" border="0" alt="" onclick="window.defaultStatus=this.src">
+<img src="00024.jpg" border="0" alt="" onclick="window.defaultStatus=this.src">
+
+<br>
+
+<img src="00025.jpg" border="0" alt="" onclick="window.defaultStatus=this.src">
+<img src="00026.jpg" border="0" alt="" onclick="window.defaultStatus=this.src">
+<img src="00000.jpg" border="0" alt="" onclick="window.defaultStatus=this.src">
+
+   </td>
+  </tr>
+ </table> 
+</body>
+</html>
